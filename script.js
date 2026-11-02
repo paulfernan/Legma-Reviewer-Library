@@ -1,12 +1,4 @@
-/* ------------------------------------------------------------------
-   HOW TO ADD CONTENT
-   Each subject has a "lessons" list. Each lesson has:
-     title   - the text on the lesson tab
-     content - the lesson itself, written as HTML inside backticks (` `)
-   Add or remove lessons by adding or removing { title, content } blocks.
-   Useful tags: <h3> heading, <p> paragraph, <ul><li> list,
-   <blockquote> for provisions or cases, <strong> for key terms.
-------------------------------------------------------------------- */
+
 const SUBJECTS = [
   {
     title: "Law on Business Transactions",
@@ -655,11 +647,365 @@ const SUBJECTS = [
     ]
   },
   {
-    title: "Law on Retail Trade",
-    sub: "Consumer Act and E-Commerce",
+    title: "Retail Trade Laws & Consumer Act with e-Commerce Law",
+    sub: "Consumer Act, Lemon Law, Price Act, Internet Transactions Act, Electronic Evidence",
     lessons: [
-      { title: "Lesson 1", content: `<h3>Lesson 1</h3><p>Content coming soon.</p>` },
-      { title: "Lesson 2", content: `<h3>Lesson 2</h3><p>Content coming soon.</p>` }
+      { title: "Rights and Safety", content: `<h3>I. Consumer Act of the Philippines (R.A. 7394)</h3>
+<p>The Consumer Act protects consumers, promotes their general welfare, and sets standards of conduct for business and industry. Its declared objectives: protection against health and safety hazards, deceptive and unfair sales practices, provision of information and education, adequate redress, and consumer participation in policy-making.</p>
+<h4>A. Important Consumer Rights</h4>
+<ol>
+<li>Protection against hazardous products and services;</li>
+<li>Protection against deceptive, unfair, and unconscionable sales practices;</li>
+<li>Protection against false or misleading advertising;</li>
+<li>Information necessary to make an intelligent choice;</li>
+<li>Fair and reasonable prices;</li>
+<li>Legal redress and compensation;</li>
+<li>Consumer education; and</li>
+<li>Representation in the formulation of consumer policies.</li>
+</ol>
+<p>These rights apply not only to completed sales but also to offers, advertisements, lease transactions, credit transactions, and other consumer transactions.</p>
+<h4>B. Hazardous Substances and Product Safety</h4>
+<p>The Act regulates products that may be hazardous to health, safety, or property. Manufacturers, importers, distributors, and sellers may be required to provide warnings, labels, handling instructions, and other safety information.</p>
+<p>A product may be considered <b>unsafe</b> when:</p>
+<ul>
+<li>It contains a defect that may injure consumers;</li>
+<li>It lacks adequate warnings or instructions;</li>
+<li>It is adulterated or contaminated;</li>
+<li>It does not conform to mandatory product standards; or</li>
+<li>Its packaging or labeling conceals a material danger.</li>
+</ul>
+<blockquote><b>Example:</b> A cleaning product contains a corrosive chemical but is sold without a warning that it can cause severe burns. Even if it performs its intended function, the failure to warn may be a consumer-protection violation.</blockquote>
+<blockquote><i>Department of Health v. Nestle Philippines, Inc.</i>: the agency found substantial evidence of a violation after a milk product was found to contain live insect larvae and to be unfit for human consumption.</blockquote>` },
+      { title: "Sales Practices", content: `<h3>II. Deceptive, Unfair and Unconscionable Sales Practices; Weights and Measures</h3>
+<h4>C. Deceptive Sales Acts or Practices</h4>
+<p>A sales act is deceptive when, before, during, or after a consumer transaction, the seller or supplier uses <b>concealment, false representation, or fraudulent manipulation</b> to induce the consumer to enter into the transaction.</p>
+<p>Examples: falsely representing that a product:</p>
+<ul>
+<li>Has a sponsorship, approval, performance, ingredient, accessory, use, or benefit that it does not have;</li>
+<li>Is of a particular quality, grade, style, or model when it is not;</li>
+<li>Is new, original, or unused when it is reconditioned or second-hand;</li>
+<li>Is available for a particular reason when that is false;</li>
+<li>Is offered at a special price advantage when no real price advantage exists;</li>
+<li>Requires repair or replacement when it does not; or</li>
+<li>Has a warranty or warranty limitation that it does not actually have.</li>
+</ul>
+<blockquote><b>Example:</b> A dealer sells a reconditioned vehicle described as "brand new." This is deceptive even if the buyer does not prove an express oral statement; the representation may arise from the seller's conduct, documents, display, or manner of sale. The Supreme Court recognized that representing a second-hand or altered product as brand new may authorize the DTI to order rescission and restitution, together with administrative sanctions.</blockquote>
+<h4>D. Unfair or Unconscionable Sales Practices</h4>
+<p>A transaction is unfair or unconscionable when the seller takes advantage of the consumer's:</p>
+<ul>
+<li>Physical or mental infirmity;</li>
+<li>Ignorance or illiteracy;</li>
+<li>Inability to understand the agreement;</li>
+<li>Lack of time; or</li>
+<li>Vulnerability arising from the surrounding circumstances.</li>
+</ul>
+<p>The resulting transaction must be <b>grossly inimical</b> to the consumer's interests or <b>grossly one-sided</b> in favor of the seller. Relevant circumstances:</p>
+<ul>
+<li>A price grossly higher than that of similar products;</li>
+<li>The consumer's inability to obtain a substantial benefit;</li>
+<li>The seller's knowledge that the consumer could not reasonably pay the obligation in full; and</li>
+<li>Excessive one-sidedness in favor of the seller.</li>
+</ul>
+<blockquote><b>Example:</b> A seller persuades an elderly consumer who cannot understand English to sign a long-term installment contract for a &#8369;5,000 product at a total payable of &#8369;100,000, without explaining the terms. This may be challenged as unconscionable.</blockquote>
+<blockquote><i>Aowa</i>: the Supreme Court recognized the DTI's authority to investigate and sanction continuing deceptive, unfair, or unconscionable sales practices even when some individual consumer complaints had been settled.</blockquote>
+<h4>E. Weights and Measures</h4>
+<p>Accurate and properly calibrated weighing and measuring instruments are required. Sellers must not:</p>
+<ul>
+<li>Use tampered weighing scales;</li>
+<li>Deliver less than the represented quantity;</li>
+<li>Manipulate measurements;</li>
+<li>Use false or misleading units; or</li>
+<li>Misrepresent net contents.</li>
+</ul>
+<blockquote><b>Example:</b> A retailer advertises one kilogram of rice but uses a tampered scale that delivers only 900 grams. This is a violation even if the price per kilogram is otherwise reasonable.</blockquote>
+<p><b>Key point:</b> It is not merely about whether the price is displayed. The quantity actually delivered must correspond to the quantity represented.</p>` },
+      { title: "Warranties and Liability", content: `<h3>III. Warranties and Liability for Defective Products</h3>
+<h4>F. Warranties</h4>
+<p>A warranty is an assurance regarding the quality, condition, performance, or utility of a product or service.</p>
+<ul>
+<li><b>Express warranty</b> arises from statements on labels or packaging; written warranties; advertisements; product descriptions; sales representations; or specific promises by the seller or manufacturer.</li>
+<li><b>Implied warranty</b> arises by operation of law: goods are reasonably fit for their ordinary purpose and correspond to their description. A seller cannot defeat consumer rights with a vague disclaimer that contradicts a specific product representation.</li>
+</ul>
+<h4>Remedies for defective goods (Art. 100, R.A. 7394)</h4>
+<p>Suppliers of durable or non-durable consumer products are <b>jointly liable</b> for imperfections that:</p>
+<ul>
+<li>Render the product unfit or inadequate for its intended use;</li>
+<li>Decrease its value; or</li>
+<li>Make it inconsistent with information on the container, packaging, labels, publicity, or advertisements.</li>
+</ul>
+<p>The consumer may first demand replacement of the imperfect parts. If the imperfection is <b>not corrected within 30 days</b>, the consumer may choose:</p>
+<ol>
+<li>Replacement of the product;</li>
+<li>Immediate reimbursement of the amount paid, with monetary updating, without prejudice to damages; or</li>
+<li>Proportionate price reduction.</li>
+</ol>
+<p>The parties may modify the correction period, but it must be <b>not less than 7 days nor more than 180 days</b>.</p>
+<blockquote><b>Example:</b> A new refrigerator repeatedly fails to cool and the supplier does not fix it within 30 days. The consumer may elect replacement, refund, or proportionate price reduction, subject to statutory conditions.</blockquote>
+<blockquote><i>Toyota Motors Phils. v. Aguilar et al.</i> (2021): suppliers and distributors may be solidarily liable for product imperfections covered by Art. 100.</blockquote>
+<h4>G. Liability for Defective Products and Services</h4>
+<p>Liability falls on manufacturers, producers, importers, distributors, suppliers, and service providers for defective or unsafe products and services, subject to statutory requirements and defenses. Potentially liable: the manufacturer; the importer; the distributor; the retailer or supplier; and the service provider.</p>
+<table>
+<tr><th>Defect category</th><th>Meaning</th></tr>
+<tr><td>Manufacturing defect</td><td>The particular product deviates from the intended design.</td></tr>
+<tr><td>Design defect</td><td>The design itself creates an unreasonable danger.</td></tr>
+<tr><td>Failure to warn</td><td>The product lacks sufficient safety instructions or warnings.</td></tr>
+</table>
+<blockquote><b>Example:</b> A pressure cooker explodes because of a design defect. The manufacturer and other entities in the distribution chain may face civil, administrative, or criminal liability depending on the facts.</blockquote>` },
+      { title: "Labels, Ads, Repair, Credit", content: `<h3>IV. Labeling, Advertising, Repair Firms and Consumer Credit</h3>
+<h4>H. Labeling and Fair Packaging</h4>
+<p>Labels and packaging must be accurate and sufficient. Depending on the product: product identity; net quantity; ingredients; manufacturer, distributor, or importer; country of origin; directions for use; warnings and precautions; expiration or durability information; applicable standards or registration information.</p>
+<p>Packaging must not mislead consumers about quantity, quality, composition, or origin.</p>
+<blockquote><b>Example:</b> A box looks full but holds only half the amount suggested. Even if the net weight is technically stated in small print, the overall presentation may be misleading.</blockquote>
+<h4>I. Advertising and Sales Promotion</h4>
+<p>Advertising must be truthful, substantiated, and not misleading. A business must not advertise:</p>
+<ul>
+<li>A false price reduction;</li>
+<li>A nonexistent limited supply;</li>
+<li>A product benefit it cannot support;</li>
+<li>A nonexistent endorsement;</li>
+<li>A warranty that is not honored; or</li>
+<li>A promotional prize or condition that is not actually available.</li>
+</ul>
+<p>Sales promotions may require permits and compliance with DTI rules. In <i>Aowa</i>, the DTI considered the absence of a required sales promotion permit and the continuing complaints against the business.</p>
+<blockquote><b>Example:</b> A store advertises "50% off" after raising the price just before the promotion. The ad may be deceptive if the discount is not a genuine price advantage.</blockquote>
+<h4>J. Regulation of Repair and Service Firms</h4>
+<p>Repair and service establishments must:</p>
+<ul>
+<li>State the nature and cost of the repair;</li>
+<li>Obtain consumer authorization for additional work;</li>
+<li>Provide an estimate when appropriate;</li>
+<li>Use suitable replacement parts;</li>
+<li>Avoid unnecessary repairs;</li>
+<li>Return replaced parts when requested or required; and</li>
+<li>Provide records, invoices, or receipts.</li>
+</ul>
+<p>A provider commits a deceptive act when it represents that a repair is necessary when it is not (<i>Autozentrum Alabang, Inc. v. Bernardo et al.</i>, 2016).</p>
+<blockquote><b>Example:</b> A shop says a transmission must be replaced when only an electrical connection is loose. The shop may be liable for deceptive conduct and for unauthorized charges.</blockquote>
+<h4>K. Consumer Credit Transactions</h4>
+<p>Credit granted primarily for personal, family, household, or agricultural purposes. The consumer should be informed of the material terms:</p>
+<ul>
+<li>Cash price;</li>
+<li>Down payment;</li>
+<li>Amount financed;</li>
+<li>Interest or finance charges;</li>
+<li>Installment amount;</li>
+<li>Number and schedule of payments;</li>
+<li>Penalties and other charges;</li>
+<li>Security or collateral; and</li>
+<li>Consequences of default.</li>
+</ul>
+<blockquote><b>Example:</b> A financing company advertises a phone for "&#8369;1,000 monthly" without disclosing 36 payments and a total of &#8369;36,000. This may be misleading if it conceals the total credit cost.</blockquote>` },
+      { title: "NCAC and Prescription", content: `<h3>V. National Consumer Affairs Council and Prescription</h3>
+<h4>L. National Consumer Affairs Council</h4>
+<p>The Council coordinates government and consumer efforts in implementing consumer policy. Functions:</p>
+<ul>
+<li>Coordination among government agencies;</li>
+<li>Consumer information and education;</li>
+<li>Consultation with consumer organizations;</li>
+<li>Assistance in policy formulation; and</li>
+<li>Promotion of effective consumer protection mechanisms.</li>
+</ul>
+<p>It differs from agencies that directly adjudicate or enforce specific complaints, such as the DTI, DOH, FDA, BSP, NTC, or other sectoral regulators.</p>
+<h4>M. Prescription</h4>
+<p>Prescription is the period within which an action, complaint, or prosecution must be commenced. It depends on:</p>
+<ul>
+<li>The nature of the violation;</li>
+<li>Whether the case is civil, administrative, or criminal;</li>
+<li>The specific provision invoked;</li>
+<li>The date of discovery or commission; and</li>
+<li>Any continuing or repeated violation.</li>
+</ul>
+<p>A business cannot automatically defeat an administrative complaint merely by asserting that some earlier complaints are prescribed. The nature of the charge and the existence of continuing violations must be examined.</p>
+<blockquote><i>Aowa</i>: the Supreme Court upheld the DTI's authority to act on evidence of continuing violations despite the respondent's argument that several complaints were already prescribed.</blockquote>` },
+      { title: "Lemon Law", content: `<h3>VI. Philippine Lemon Law (R.A. 10642)</h3>
+<p>Applies principally to <b>brand-new motor vehicles</b> purchased in the Philippines. The consumer must allow the manufacturer, distributor, or dealer a reasonable number of attempts to repair a nonconformity. If the vehicle still suffers from the same nonconformity despite the required repair opportunities, the consumer may invoke the statutory remedies, subject to the law's requirements and procedures.</p>
+<p>Possible remedies: replacement of the vehicle; refund of the purchase price, subject to statutory deductions; or other remedies provided by law.</p>
+<blockquote><b>Not the exclusive remedy.</b> <i>DTI v. Toyota Balintawak, Inc.</i>: consumers may also pursue remedies under R.A. 7394 or other applicable laws because the Lemon Law preserves rights available under other statutes.</blockquote>
+<h4>Motor Vehicle</h4>
+<p>A brand-new, self-propelled, four-wheeled road vehicle designed to carry passengers: sedans; coupes; station wagons; convertibles; pick-ups; vans; sports utility vehicles; and Asian Utility Vehicles.</p>
+<p><b>Excluded:</b> motorcycles, buses, dump trucks, delivery trucks, heavy equipment, tractors used exclusively for agricultural purposes, and other vehicles specifically excluded by the statute.</p>
+<h4>Four-Repair Rule</h4>
+<p>Lemon Law rights may be invoked only after:</p>
+<ul>
+<li>At least <b>four separate repair attempts</b>;</li>
+<li>By the <b>same</b> manufacturer, distributor, authorized dealer, or retailer; and</li>
+<li>Involving the <b>same complaint</b>.</li>
+</ul>
+<p>Four unrelated repairs for four different problems may not satisfy the requirement. <i>Example of four attempts, same complaint:</i> (1) transmission jerking; (2) transmission software reprogramming; (3) replacement of the transmission control module; (4) replacement of the transmission assembly. The consumer should document that all four visits concerned the same underlying defect.</p>
+<h4>Lemon Law Rights Period</h4>
+<p>Ends on the <b>earlier</b> of: (1) twelve months from the original delivery; or (2) the first 20,000 kilometers of operation after delivery. Whichever occurs first controls.</p>
+<blockquote><b>Example:</b> Delivered January 1, 2026. The twelve-month period ends January 1, 2027, but if the vehicle reaches 20,000 km on September 1, 2026, the rights period ends September 1, 2026. The consumer must report the nonconformity and pursue the remedy within the applicable period.</blockquote>
+<h4>Nonconformity</h4>
+<p>A defect or condition that: (1) substantially impairs the vehicle's use, value, or safety; (2) prevents the vehicle from conforming to the manufacturer's or distributor's standards or specifications; and (3) cannot be repaired.</p>
+<p>It must <b>not</b> have resulted from: the consumer's noncompliance with warranty obligations; unauthorized modifications; abuse or neglect; accident; or force majeure.</p>
+<h4>Written Notice of Availment</h4>
+<p>Before using the remedy, the consumer must give written notice to the manufacturer, distributor, authorized dealer, or retailer of (1) the unresolved complaint and (2) the intention to invoke Lemon Law rights. The notice must be made <b>within the rights period</b>. The warranty booklet must state the form and manner of valid notice and the consumer's responsibilities.</p>
+<h4>Remedies Under the Lemon Law</h4>
+<p>If the DTI finds a nonconformity, it may order the manufacturer, distributor, authorized dealer, or retailer to provide:</p>
+<table>
+<tr><th>Remedy</th><th>Content</th></tr>
+<tr><td>Replacement</td><td>A similar or comparable vehicle in specifications and value, subject to availability. If the consumer chooses a more expensive vehicle from the same source, the consumer pays the price difference.</td></tr>
+<tr><td>Return and refund</td><td>Return the defective vehicle and receive the purchase price plus collateral charges.</td></tr>
+<tr><td>Transportation allowance or service vehicle</td><td>During repair and availment: a reasonable daily transportation allowance; an amount equal to air-conditioned taxi fare supported by official receipts; an amount agreed upon by the parties; or a service vehicle, at the option of the manufacturer, distributor, dealer, or retailer. The DTI resolves disagreements.</td></tr>
+</table>
+<p>A reasonable allowance for use is deducted in determining the value of the vehicle in both replacement and repurchase cases.</p>` },
+      { title: "Price Act", content: `<h3>VII. The Price Act</h3>
+<h4>Definitions</h4>
+<ul>
+<li><b>Basic necessities:</b> goods indispensable to the needs of consumers for sustenance and existence, such as food, medicines, and other essential household items.</li>
+<li><b>Prime commodities:</b> goods not necessarily indispensable for basic subsistence but essential to consumers and the general public, including products that may substantially affect consumer welfare when their prices increase.</li>
+<li><b>Price ceiling:</b> the legally enforceable maximum price at which a covered commodity may be sold. Once validly imposed, a seller may not charge more, even if the seller believes its acquisition cost or desired profit justifies a higher price.</li>
+<li><b>Prevailing price:</b> generally the price immediately before the event or period triggering statutory price control. It is used to determine whether, and by how much, a seller has increased its price.</li>
+</ul>
+<h4>Prohibited Acts</h4>
+<p><b>a. Profiteering:</b> the sale or offer for sale of a basic necessity or prime commodity at a price grossly in excess of its true worth.</p>
+<p><i>Prima facie</i> evidence of profiteering when the product:</p>
+<ol>
+<li>Has no price tag;</li>
+<li>Is misrepresented as to weight or measurement;</li>
+<li>Is adulterated or diluted; or</li>
+<li>Is sold at a price increased by <b>more than 10%</b> over its price in the immediately preceding month.</li>
+</ol>
+<p>The 10% rule does <b>not</b> apply to agricultural crops, fresh fish, fresh marine products, and other seasonal products covered by the law, as determined by the implementing agency.</p>
+<blockquote><b>Note:</b> "Prima facie evidence" does not mean automatic final liability. It is sufficient, at the initial stage, to support a presumption or initial finding that profiteering may have occurred. The seller may still contest the finding and present evidence explaining the increase.</blockquote>
+<blockquote><i>Universal Robina Corp. v. DTI</i> (2023): the 10% benchmark is an objective anchor for determining possible profiteering, although the determination remains inconclusive and may require further assessment.</blockquote>
+<p><b>b. Cartelization:</b> a cartel is a combination or agreement between at least two persons or business enterprises involved in the production, manufacture, processing, storage, supply, distribution, marketing, sale, or disposition of a covered product, designed to artificially and unreasonably increase or manipulate its price. <i>Prima facie</i> evidence:</p>
+<ul>
+<li>Two or more competitors dealing in the same product perform uniform or complementary acts that tend to cause an artificial and unreasonable price increase; or</li>
+<li>Competing businesses simultaneously and unreasonably increase prices in a manner that lessens competition.</li>
+</ul>
+<p><b>c. Hoarding:</b> accumulating or withholding a basic necessity or prime commodity beyond reasonable inventory requirements, especially when the purpose or effect is to create artificial scarcity or increase prices. A large inventory alone is not hoarding.</p>
+<p><b>d. Refusal to sell or unjustified withholding:</b> refusing to sell, or deliberately withholding a covered commodity from the market, to take advantage of a shortage or emergency. Distinguish legitimate reasons:</p>
+<ul>
+<li>Lack of actual inventory;</li>
+<li>Damaged or spoiled goods;</li>
+<li>Reasonable allocation during a genuine shortage;</li>
+<li>Safety concerns;</li>
+<li>Lawful credit restrictions; or</li>
+<li>A temporary store closure.</li>
+</ul>
+<p>The factual circumstances and the seller's records are critical.</p>
+<p><b>e. Noncompliance with price-tag and labeling requirements:</b> retailers must display prices clearly and accurately. A missing or misleading price tag may expose the seller to regulatory action and may be <i>prima facie</i> evidence in a profiteering investigation.</p>` },
+      { title: "Internet Transactions Act", content: `<h3>VIII. Internet Transactions Act of 2023 (R.A. 11967)</h3>
+<p>Regulates business-to-consumer and other internet transactions. Applies to online merchants, e-retailers, e-marketplaces, digital platforms, and online consumers. It <b>complements</b>, not replaces, rights under the Consumer Act.</p>
+<h4>A. Transactions Covered</h4>
+<ul>
+<li>Business-to-business (B2B) transactions;</li>
+<li>Business-to-consumer (B2C) transactions;</li>
+<li>Sales or leases of digital or non-digital goods and services over the internet; and</li>
+<li>E-commerce activities within the mandate of the DTI.</li>
+</ul>
+<p>An <b>internet transaction</b> is the sale or lease of digital or non-digital goods and services over the internet.</p>
+<h4>B. Transactions Excluded</h4>
+<ol>
+<li>Online media content; and</li>
+<li>Consumer-to-consumer (C2C) transactions: transactions between end-users for personal, family, or household purposes and not in the ordinary course of business.</li>
+</ol>
+<h4>C. Definitions</h4>
+<ul>
+<li><b>Digital platform:</b> an ICT-enabled mechanism that connects and integrates producers and users in online environments where goods and services are requested, developed, and sold, and where data is generated and exchanged. Examples: e-marketplaces, mobile application platforms, online delivery platforms, social-media platforms, travel platforms.</li>
+<li><b>E-marketplace:</b> a digital platform whose business is to connect online consumers with online merchants; facilitate shipment or logistics; provide post-purchase support; and retain oversight over the consummation of the transaction. <i>Example:</i> a platform that lets multiple merchants list products, accepts orders, processes payments, arranges delivery, and manages complaints.</li>
+<li><b>E-retailer:</b> a natural or juridical person that sells goods or services directly to online consumers through its own website, webpage, or application.</li>
+<li><b>Online consumer:</b> a natural or juridical person who purchases, leases, receives, or subscribes to goods or services over the internet for a fee.</li>
+</ul>
+<h4>D. Online Consumer Remedies</h4>
+<p>In case of defect, malfunction, loss without the consumer's fault, failure to conform to a warranty, or other liability arising from the online contract, the consumer may pursue repair, replacement, refund, or other remedies under R.A. 7394 and other applicable laws.</p>
+<p>If the consumer chooses replacement or refund, the merchant may require return of the original goods. The return must be made without cost to the consumer within a reasonable period, unless otherwise agreed.</p>
+<h4>E. Obligations of Online Merchants and E-Retailers</h4>
+<p>Goods must be:</p>
+<ul>
+<li>Of the same condition, type, quantity, and quality as described;</li>
+<li>Consistent with the sample, image, or model shown;</li>
+<li>Fit for the particular purpose communicated to and accepted by the merchant;</li>
+<li>Delivered with advertised accessories and instructions;</li>
+<li>Accompanied by relevant information in Filipino or English; and</li>
+<li>Of the normal quality and performance expected of goods of the same type.</li>
+</ul>
+<p>For digital goods and services, also ensure appropriate functionality, compatibility, interoperability, accessibility, continuity, and security.</p>
+<blockquote><b>Example:</b> An online seller displays a laptop with 16 GB RAM but delivers 8 GB. The consumer may demand remedies under the Internet Transactions Act and the Consumer Act because the goods do not conform to the online description.</blockquote>
+<h4>F. Required Business Information</h4>
+<p>An e-retailer must publish on its homepage: corporate or trade name; physical business address; mobile or landline number; valid email address; and professional registration details when the service involves a regulated profession. It must also issue paper or electronic receipts and maintain an accessible and efficient complaint mechanism.</p>
+<h4>G. Data Privacy and Information Security</h4>
+<p>E-retailers and online merchants must protect consumer data in accordance with the Data Privacy Act of 2012 and National Privacy Commission issuances.</p>
+<blockquote><b>Example:</b> An online retailer collecting a customer's address and payment details must take reasonable precautions against unauthorized access, disclosure, or misuse.</blockquote>
+<h4>H. E-Marketplaces and Digital Platforms</h4>
+<p>E-marketplaces must help prevent unlawful sales and provide redress mechanisms. They must prohibit the sale of regulated goods unless the necessary permits and licensing information are available, and may be required to provide mechanisms for reporting unlawful listings or users.</p>
+<h4>I. Primary Liability of Online Merchants</h4>
+<p>The e-retailer or online merchant is <b>primarily liable</b> for indemnifying the online consumer in civil actions or administrative complaints arising from the internet transaction. The e-marketplace or digital platform may be treated as the same entity as the merchant if they are actually the same entity.</p>
+<blockquote><b>Example:</b> A seller under a registered online store name delivers a counterfeit product. The seller is primarily responsible to the consumer. The marketplace's separate liability depends on the facts and the statutory obligations applicable to it.</blockquote>` },
+      { title: "Comparison and Review", content: `<h3>IX. Consumer Act vs. Internet Transactions Act; Review</h3>
+<table>
+<tr><th>Topic</th><th>Consumer Act, R.A. 7394</th><th>Internet Transactions Act, R.A. 11967</th></tr>
+<tr><td>Main focus</td><td>General consumer protection</td><td>Internet and digital transactions</td></tr>
+<tr><td>Transactions covered</td><td>Sales, leases, services, credit, advertisements, and promotions</td><td>Online sales, digital goods, e-retailing, e-marketplaces, and digital platforms</td></tr>
+<tr><td>Defective goods</td><td>Repair, replacement, refund, or price reduction under applicable provisions</td><td>Repair, replacement, refund, and other remedies under R.A. 7394 and other laws</td></tr>
+<tr><td>Misrepresentation</td><td>Deceptive sales acts are prohibited</td><td>Online offers must conform to descriptions, images, samples, and specifications</td></tr>
+<tr><td>Business information</td><td>Product and transaction disclosures</td><td>Online business name, address, contact details, and receipts</td></tr>
+<tr><td>Data privacy</td><td>General consumer protection</td><td>Express online merchant obligation to protect consumer data</td></tr>
+<tr><td>Regulatory structure</td><td>DTI and other sectoral agencies</td><td>DTI, including the E-Commerce Bureau, together with sectoral agencies</td></tr>
+<tr><td>Liability</td><td>May extend to manufacturers, suppliers, distributors, and service providers</td><td>Primary liability rests on the online merchant or e-retailer, subject to statutory rules</td></tr>
+</table>
+<h4>Short-Answer Review Questions</h4>
+<ol>
+<li><b>What is a deceptive sales act?</b> A sales practice involving concealment, false representation, or fraudulent manipulation that induces a consumer to enter into a transaction.</li>
+<li><b>When is a sales practice unconscionable?</b> When the seller takes advantage of the consumer's vulnerability and induces a transaction that is grossly inimical to the consumer or grossly one-sided in favor of the seller.</li>
+<li><b>Principal remedies under Art. 100 after an imperfection is not corrected?</b> Replacement, refund with monetary updating, or proportionate price reduction.</li>
+<li><b>Statutory correction period under Art. 100?</b> Thirty days, subject to a valid agreed period of not less than seven days and not more than 180 days.</li>
+<li><b>Is the Lemon Law the consumer's exclusive remedy?</b> No. The consumer may also invoke the Consumer Act or another applicable law.</li>
+<li><b>What must an online merchant ensure regarding delivered goods?</b> They must conform to the stated description, image, model, sample, quality, quantity, functionality, and accepted particular purpose.</li>
+<li><b>Who is primarily liable in an online consumer complaint?</b> The online merchant or e-retailer, subject to statutory rules and defenses.</li>
+<li><b>Must an online merchant provide business information?</b> Yes: business name, physical address, contact details, and professional registration information when applicable.</li>
+<li><b>Can a seller charge for an unauthorized repair?</b> Generally, no, particularly when the additional work was not properly disclosed.</li>
+<li><b>Role of the National Consumer Affairs Council?</b> It coordinates consumer-protection efforts, promotes consumer education and representation, and assists in consumer policy development.</li>
+</ol>
+<h4>Examination Checklist</h4>
+<ol>
+<li>Who is the consumer?</li>
+<li>What is the transaction: sale, lease, service, credit, advertisement, promotion, or online transaction?</li>
+<li>What representation was made?</li>
+<li>Was it false, concealed, misleading, or fraudulent?</li>
+<li>Was the consumer vulnerable or unable to protect his or her interests?</li>
+<li>Was the product defective, hazardous, adulterated, or inconsistent with its description?</li>
+<li>Was the defect corrected within the applicable period?</li>
+<li>What remedy is available: repair, replacement, refund, rescission, price reduction, damages, or administrative relief?</li>
+<li>Which agency has jurisdiction?</li>
+<li>Is there a special law, such as the Lemon Law or Internet Transactions Act, that supplements the Consumer Act?</li>
+</ol>` },
+      { title: "Electronic Evidence", content: `<h3>X. Rules on Electronic Evidence</h3>
+<h4>A. Purpose and Policy</h4>
+<p>Information may be created, signed, stored, transmitted, and presented electronically. The Rules prevent the exclusion of evidence merely because it is digital rather than paper-based. They do <b>not</b> make every electronic file automatically admissible. The proponent must still establish:</p>
+<ol>
+<li>Relevance;</li>
+<li>Compliance with the Rules of Court and other applicable laws;</li>
+<li>Authenticity; and</li>
+<li>Sufficient integrity and reliability.</li>
+</ol>
+<p>An electronic document is admissible only if it complies with the ordinary rules on admissibility and is authenticated in the manner prescribed by the Rules.</p>
+<h4>B. Coverage</h4>
+<p>The Rules apply whenever an electronic document or electronic data message is offered or used in evidence, unless another rule specifically provides otherwise.</p>
+<h4>C. Important Limitation</h4>
+<p>Electronic form does not dispense with formal legal requirements. The Electronic Commerce Act preserves requirements imposed by other laws regarding formalities necessary for the validity of a transaction. Electronic evidence may <i>prove</i> a transaction, but it does not necessarily cure the absence of a formality required by substantive law.</p>
+<h4>D. Admissibility</h4>
+<p><b>D.1 Electronic form is not a ground for exclusion.</b> An electronic document cannot be rejected solely because it is electronic or not in standard paper form. The Electronic Commerce Act provides that an electronic data message or electronic document should not be denied admissibility on that sole ground.</p>
+<p><b>D.2 Basic admissibility requirements.</b> The proponent must still establish:</p>
+<ol>
+<li><b>Relevance:</b> the evidence tends to prove or disprove a fact in issue;</li>
+<li><b>Competence:</b> it is not excluded by the Constitution, statute, or the Rules of Court;</li>
+<li><b>Authenticity:</b> the document is what the proponent claims it to be;</li>
+<li><b>Integrity:</b> the data has not been improperly altered; and</li>
+<li><b>Reliability:</b> the method of creation, storage, transmission, or retrieval is sufficiently dependable.</li>
+</ol>
+<h4>E. Authentication Is Distinct from Admissibility</h4>
+<p>Authentication is not the same as proving the ultimate truth of the contents. Authenticating an e-mail may establish that:</p>
+<ul>
+<li>It came from a particular account;</li>
+<li>The account was controlled by a particular person;</li>
+<li>It was transmitted at a particular time; and</li>
+<li>It was not materially altered.</li>
+</ul>
+<p>Whether its statements are true is a separate issue governed by relevance, hearsay rules, personal knowledge, and other evidentiary principles.</p>
+<h4>F. Burden of Proving Authenticity</h4>
+<p>The person seeking to introduce an electronic document has the burden of proving its authenticity. The same rule applies to screenshots and social-media evidence. A screenshot is not self-authenticating merely because it appears on a computer or mobile phone screen; the proponent must show its authenticity and due execution.</p>` }
     ]
   },
   {
