@@ -1,12 +1,4 @@
-/* ------------------------------------------------------------------
-   HOW TO ADD CONTENT
-   Each subject has a "lessons" list. Each lesson has:
-     title   - the text on the lesson tab
-     content - the lesson itself, written as HTML inside backticks (` `)
-   Add or remove lessons by adding or removing { title, content } blocks.
-   Useful tags: <h3> heading, <p> paragraph, <ul><li> list,
-   <blockquote> for provisions or cases, <strong> for key terms.
-------------------------------------------------------------------- */
+
 const SUBJECTS = [
   {
     title: "Law on Business Transactions",
