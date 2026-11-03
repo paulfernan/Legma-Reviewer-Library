@@ -1,12 +1,4 @@
-/* ------------------------------------------------------------------
-   HOW TO ADD CONTENT
-   Each subject has a "lessons" list. Each lesson has:
-     title   - the text on the lesson tab
-     content - the lesson itself, written as HTML inside backticks (` `)
-   Add or remove lessons by adding or removing { title, content } blocks.
-   Useful tags: <h3> heading, <p> paragraph, <ul><li> list,
-   <blockquote> for provisions or cases, <strong> for key terms.
-------------------------------------------------------------------- */
+
 const SUBJECTS = [
   {
     title: "Law on Business Transactions",
@@ -263,10 +255,446 @@ const SUBJECTS = [
   },
   {
     title: "Income Taxation",
-    sub: "",
+    sub: "LIT 305 · Law on Income Taxation (organized review)",
     lessons: [
-      { title: "Lesson 1", content: `<h3>Lesson 1</h3><p>Content coming soon.</p>` },
-      { title: "Lesson 2", content: `<h3>Lesson 2</h3><p>Content coming soon.</p>` }
+      { title: "1. General Principles", content: `<h3>1. General Principles of Taxation</h3>
+<h4>1.1 Nature, Characteristics and Purposes</h4>
+<p><b>Taxation</b> is the inherent power of the State to demand enforced contributions from persons, property and rights within its jurisdiction for the support of the government and for public purposes. It exists without a constitutional grant; the Constitution only <i>limits</i> it.</p>
+<table>
+<tr><th>Characteristics (7)</th><th>Purposes (R-R-P-R-E-P)</th></tr>
+<tr><td>Forced charge (ad invitum); apportioned by a reasonable rule (ability to pay); pecuniary burden; imposed on persons, property or excises within the jurisdiction; levied by the legislature; for a public purpose; personal to the taxpayer.</td><td>Revenue; Regulatory; Promotion of general welfare; Reduction of inequality; Encourage economic growth; Protectionism.</td></tr>
+</table>
+<h4>1.2 Taxation vs. Police Power vs. Eminent Domain</h4>
+<table>
+<tr><th>Basis</th><th>Taxation</th><th>Police Power</th><th>Eminent Domain</th></tr>
+<tr><td>Purpose</td><td>Raise revenue</td><td>Promote general welfare</td><td>Take property for public use</td></tr>
+<tr><td>Amount</td><td>Generally unlimited</td><td>Cost of regulation</td><td>Just compensation</td></tr>
+<tr><td>Benefit received</td><td>Indirect (protection, services)</td><td>Indirect (general welfare)</td><td>Direct (just compensation)</td></tr>
+<tr><td>Non-impairment clause</td><td>Inferior to it</td><td>Superior to it</td><td>Inferior to it</td></tr>
+<tr><td>Transfer</td><td>Money becomes public funds</td><td>No transfer; property restrained</td><td>Property goes to the State</td></tr>
+</table>
+<blockquote><b>Manila Memorial Park v. DSWD (G.R. 175356, Dec. 3, 2013):</b> the 20% senior citizen discount (taken as a tax <i>deduction</i>, not a credit) is an exercise of <b>police power</b>, so no peso-for-peso reimbursement is required.</blockquote>
+<h4>1.3 Inherent Limitations (S-P-I-N-E)</h4>
+<table>
+<tr><th>Limitation</th><th>Meaning / authority</th></tr>
+<tr><td><b>S</b>itus / territoriality</td><td>Tax only within the State's jurisdiction (<i>Air Canada v. CIR</i>).</td></tr>
+<tr><td><b>P</b>ublic purpose</td><td>No tax for purely private benefit (<i>Pascual v. Sec. of Public Works</i>).</td></tr>
+<tr><td><b>I</b>nternational comity</td><td>A State may not tax a co-equal sovereign; treaties are respected (<i>Deutsche Bank v. CIR</i>: treaty relief is not defeated by a late BIR filing requirement).</td></tr>
+<tr><td><b>N</b>on-delegability</td><td>Only Congress taxes. Exceptions: LGUs, the President (tariffs), administrative agencies (subordinate rule-making).</td></tr>
+<tr><td><b>E</b>xemption of government</td><td>Government generally does not tax itself.</td></tr>
+</table>
+<h4>1.4 Constitutional Limitations</h4>
+<ul>
+<li><b>Due process</b> (not arbitrary or confiscatory); <b>equal protection</b> (reasonable classification; <i>Ormoc Sugar v. Treasurer</i>: a tax naming one company is class legislation); <b>uniformity and equity</b> (progressive system).</li>
+<li><b>Non-impairment</b> of contracts; <b>religious freedom</b> (no license tax on religious materials, <i>American Bible Society</i>); <b>freedom of the press</b> (general VAT valid, <i>Tolentino</i>).</li>
+<li><b>Exemption</b> of properties actually, directly and exclusively used for religious, charitable and educational purposes; <b>no imprisonment</b> for non-payment of a poll/community tax.</li>
+</ul>
+<h4>1.5 Requisites of a Valid Tax (U-J-I-P)</h4>
+<p><b>U</b>niform; within <b>J</b>urisdiction; not violating <b>I</b>nherent or constitutional limitations; for a <b>P</b>ublic purpose.</p>
+<h4>1.6 Tax vs. Other Exactions</h4>
+<table>
+<tr><th>Exaction</th><th>Distinguishing feature</th><th>Non-payment</th></tr>
+<tr><td>Tax</td><td>Revenue; unlimited in amount</td><td>Business stays legal; civil/administrative remedies</td></tr>
+<tr><td>License fee</td><td>Police power; limited to cost of regulation</td><td>Business becomes illegal</td></tr>
+<tr><td>Toll</td><td>Compensation for use of property</td><td>Civil action</td></tr>
+<tr><td>Special assessment</td><td>On land specially benefited by an improvement</td><td>Lien on the land</td></tr>
+<tr><td>Debt</td><td>Contractual; assignable; may be set off</td><td>No imprisonment (unless from a crime)</td></tr>
+</table>
+<h4>1.7 Doctrines</h4>
+<ul>
+<li><b>Lifeblood theory:</b> taxes are the lifeblood of government; exemptions are construed strictly; courts generally will not enjoin collection. But collection must follow the law (<i>CIR v. Algue</i>: proven, reasonable fees are deductible).</li>
+<li><b>Construction:</b> tax statutes are construed strictly against the government and liberally for the taxpayer. <i>Exception:</i> exemptions, exclusions, refunds and amnesties are strictly against the taxpayer (<i>strictissimi juris</i>).</li>
+<li><b>Double taxation:</b> <i>direct</i> (prohibited) needs <u>all six</u>: same property, same purpose, same authority, same jurisdiction, same period, same kind of tax. Otherwise it is <i>indirect</i> (allowed), e.g., 20% final tax and 5% GRT on bank interest; VAT (national) plus local business tax.</li>
+</ul>
+<table>
+<tr><th></th><th>Tax avoidance</th><th>Tax evasion</th></tr>
+<tr><td>Validity</td><td>Legal</td><td>Illegal</td></tr>
+<tr><td>Means</td><td>Lawful tax-saving device</td><td>Fraud, deceit, concealment</td></tr>
+<tr><td>Penalty</td><td>None</td><td>Criminal and civil fraud penalty</td></tr>
+</table>
+<p><b>Elements of evasion (CIR v. Estate of Toda):</b> (1) an end to pay less than what is legally due; (2) a bad-faith, willful state of mind; (3) an unlawful course of action. A sham two-step sale is evasion.</p>
+<h4>Solved Problems</h4>
+<p><b>Problem 1.1.</b> Distinguish a tax from a license fee.<br><b>Solution:</b> By <i>purpose</i> (revenue vs. regulation), <i>amount</i> (unlimited vs. limited to regulatory cost), and <i>effect of non-payment</i> (business stays legal vs. becomes illegal).</p>
+<p><b>Problem 1.2.</b> Mr. P donates half of his rental property to a tax-exempt school (donor's tax exempt), reducing his rental tax. Avoidance or evasion?<br><b>Solution:</b> <b>Tax avoidance.</b> The means is lawful, the donation is real and not a sham, and there is no fraud or concealment. The elements of evasion (bad faith and unlawful means) are absent.</p>` },
+      { title: "2. Income Tax Foundations", content: `<h3>2. Income Tax: Foundations</h3>
+<h4>2.1 Concept and System</h4>
+<p>Income tax is an <b>excise tax</b> on the privilege of earning income, not a tax on property. <b>Income</b> is the <i>flow</i> of wealth in a definite period; <b>capital</b> is the <i>fund</i> that produces it (<i>Madrigal v. Rafferty</i>: capital is the tree, income the fruit).</p>
+<table>
+<tr><th>System</th><th>Description</th></tr>
+<tr><td>Global</td><td>All income lumped together, one rate</td></tr>
+<tr><td>Schedular</td><td>Each category taxed at its own rate</td></tr>
+<tr><td><b>Semi-global (Philippines)</b></td><td>Combination: graduated rates on compensation/business/professional income, with schedular final taxes on passive income, capital gains, etc.</td></tr>
+</table>
+<h4>2.2 Three Tests for Taxability</h4>
+<ol><li><b>Existence</b> of income (gain, not return of capital).</li><li><b>Realization</b>: earning process complete and an exchange has occurred. Mere appreciation is not income (<i>CIR v. Filinvest</i>).</li><li><b>Recognition</b>: actual or constructive receipt; not exempt or excluded.</li></ol>
+<h4>2.3 Classification of Taxpayers (Sec. 23)</h4>
+<p><b>Rule:</b> classify the taxpayer first. It tells you (1) what income is taxable, (2) whether the base is net or gross, (3) the rate.</p>
+<table>
+<tr><th>Taxpayer</th><th>Income within PH</th><th>Income outside PH</th><th>Base</th><th>Rate</th></tr>
+<tr><td>Resident citizen (RC)</td><td>Taxed</td><td>Taxed</td><td>Net</td><td>0-35%</td></tr>
+<tr><td>Non-resident citizen (NRC), OFW, seaman</td><td>Taxed</td><td>Not taxed</td><td>Net</td><td>0-35%</td></tr>
+<tr><td>Resident alien (RA)</td><td>Taxed</td><td>Not taxed</td><td>Net</td><td>0-35%</td></tr>
+<tr><td>NRA engaged in trade/business (NRA-ETB): more than 180 days</td><td>Taxed</td><td>Not taxed</td><td>Net</td><td>0-35%</td></tr>
+<tr><td>NRA not engaged (NRA-NETB): 180 days or less</td><td>Taxed</td><td>Not taxed</td><td>Gross</td><td>25% final</td></tr>
+<tr><td>Domestic corporation (DC)</td><td>Taxed</td><td>Taxed</td><td>Net</td><td>25% (20% if small)</td></tr>
+<tr><td>Resident foreign corporation (RFC)</td><td>Taxed</td><td>Not taxed</td><td>Net</td><td>25%</td></tr>
+<tr><td>Non-resident foreign corporation (NRFC)</td><td>Taxed</td><td>Not taxed</td><td>Gross</td><td>25% final</td></tr>
+</table>
+<blockquote><b>Worldwide income rule:</b> only <u>resident citizens and domestic corporations</u> are taxed on income from within and without. All others: Philippine-source only.</blockquote>
+<blockquote><b>Air Canada v. CIR:</b> an offline carrier selling tickets through a local agent is a resident foreign corporation taxed on Philippine-source income (subject to treaty), not on Gross Philippine Billings.</blockquote>
+<h4>2.4 Situs (Source) of Income (Sec. 42)</h4>
+<table>
+<tr><th>Income</th><th>Situs</th></tr>
+<tr><td>Compensation / services</td><td>Where performed</td></tr>
+<tr><td>Rent</td><td>Location of the property</td></tr>
+<tr><td>Royalties</td><td>Where the intangible is used</td></tr>
+<tr><td>Sale of personal property (merchandising)</td><td>Place of sale</td></tr>
+<tr><td>Gain on sale of real property</td><td>Location of the property</td></tr>
+<tr><td>Interest</td><td>Residence of the debtor</td></tr>
+<tr><td>Dividends from a domestic corporation</td><td>Within the Philippines</td></tr>
+<tr><td>Gain on sale of shares of a domestic corporation</td><td>Within the Philippines</td></tr>
+<tr><td>Goods produced abroad, sold in PH (or the reverse)</td><td>Partly within, partly without; allocate proportionately (Sec. 42(E))</td></tr>
+</table>
+<h4>Solved Problems</h4>
+<p><b>Problem 2.1.</b> A Japanese tourist stays 45 days and wins <b>&#8369;2,000,000</b> in a Philippine casino. Tax?<br><b>Solution:</b> (1) Classify: alien, 45 days (not more than 180), not in business = <b>NRA-NETB</b>. (2) Base and rate: gross PH-source income, <b>25% final</b>, no deductions. (3) Tax = &#8369;2,000,000 &times; 25% = <b>&#8369;500,000</b>, withheld at source.</p>
+<p><b>Problem 2.2.</b> A bought land in 1995 for &#8369;1,000,000; by 2024 it is worth &#8369;9,000,000. A received an offer but did not sell. Income in 2024?<br><b>Solution:</b> None. The &#8369;8,000,000 increase is unrealized appreciation; there was no closed transaction (<i>Madrigal; Filinvest</i>). Gain arises only on actual disposition.</p>
+<p><b>Problem 2.3.</b> Ms. B, a non-resident citizen, makes bags in Bulacan and sells in Manila. Separately, an alien makes bags in China and sells in Manila.<br><b>Solution:</b> (a) Produced and sold in PH: all PH-source, fully taxable. (b) Produced abroad, sold in PH: only the portion allocable to the PH sale is PH-source (Sec. 42(E)).</p>` },
+      { title: "3. Gross Income", content: `<h3>3. Gross Income and Its Components</h3>
+<h4>3.1 Concept (Sec. 32(A))</h4>
+<p><b>Gross income</b> is all income from whatever source derived: compensation, business/professional income, gains from dealings in property, interest, rents, royalties, dividends, annuities, prizes and winnings, pensions, and a partner's distributive share from a GPP. The list is not exclusive. Source (legal or illegal) does not matter; income received under a claim of right is taxable. <i>BIR v. First E-Bank Tower:</i> condominium dues held in trust are not income.</p>
+<h4>3.2 Compensation Income</h4>
+<p>All remuneration for services of an employee, unless excluded. Taxed at graduated rates with withholding. <b>Employer's convenience rule:</b> lodging, meals and uniforms furnished mainly for the employer's convenience are not income to the employee.</p>
+<h4>3.3 Fringe Benefits</h4>
+<table>
+<tr><th>Recipient</th><th>Treatment</th></tr>
+<tr><td>Rank-and-file</td><td>Part of compensation; taxed to the employee at graduated rates</td></tr>
+<tr><td>Managerial / supervisory</td><td>Fringe Benefit Tax (FBT), a <b>final tax paid by the employer</b></td></tr>
+</table>
+<table>
+<tr><th>Recipient</th><th>Divisor</th><th>FBT rate</th></tr>
+<tr><td>Citizen, resident alien, NRA-ETB</td><td>65%</td><td>35%</td></tr>
+<tr><td>NRA-NETB</td><td>75%</td><td>25%</td></tr>
+</table>
+<p style="background:var(--side);border-left:4px solid var(--gold);padding:8px 12px;margin:12px 0"><b>Formula:</b> GMV = Monetary value &divide; divisor &nbsp;|&nbsp; FBT = GMV &times; FBT rate &nbsp;|&nbsp; Employer's deductible expense = full GMV</p>
+<p><b>Exempt from FBT:</b> benefits to rank-and-file; de minimis; employer contributions to retirement, insurance and hospitalization plans; benefits required by the nature of, or necessary to, the business; benefits for the employer's convenience; those exempted by law.</p>
+<h4>3.4 Professional and Business Income</h4>
+<p><b>Professional income:</b> practice of a profession, no employer-employee relationship. <b>Business income:</b> merchandising, manufacturing, mining, farming.</p>
+<p style="background:var(--side);border-left:4px solid var(--gold);padding:8px 12px;margin:12px 0">Net sales = Gross sales &minus; returns &minus; discounts &minus; allowances &nbsp;|&nbsp; Gross income (trading) = Net sales &minus; Cost of goods sold</p>
+<h4>3.5 Dealings in Property</h4>
+<table>
+<tr><th>Asset</th><th>Definition</th><th>Examples</th></tr>
+<tr><td>Ordinary (S-O-U-R)</td><td>Stock-in-trade; held for sale in the <b>O</b>rdinary course; <b>U</b>sed in business (depreciable); <b>R</b>eal property used in business</td><td>Inventory, machinery, commercial building</td></tr>
+<tr><td>Capital</td><td>Everything not ordinary</td><td>Family home, personal car, jewelry, shares held by a non-dealer</td></tr>
+</table>
+<p><b>Rules on capital assets:</b> (1) capital losses are deductible only against capital gains; (2) <b>holding period</b>: held more than 12 months, only 50% of gain/loss is recognized, <u>individuals only</u>; (3) net capital loss carry-over (NCLCO) for individuals, to the next year only; (4) the holding period and NCLCO <u>do not apply</u> to real property or shares of stock.</p>
+<table>
+<tr><th>Transaction</th><th>Tax</th></tr>
+<tr><td>Shares of a domestic corporation <b>not</b> traded on the exchange</td><td>15% CGT on net capital gain</td></tr>
+<tr><td>Shares traded on the exchange</td><td>Stock transaction tax (a percentage tax, not income tax): <b>0.1%</b> of gross selling price since July 1, 2025 (R.A. 12214 / CMEPA; formerly 0.6%)</td></tr>
+<tr><td>Real property (capital asset) in PH</td><td>6% CGT on the <b>higher</b> of selling price, zonal value or assessor's FMV (gain is presumed)</td></tr>
+<tr><td>Real property sold to the government</td><td>Option: 6% CGT or graduated rates</td></tr>
+</table>
+<p style="background:var(--side);border-left:4px solid var(--gold);padding:8px 12px;margin:12px 0"><b>Formulas:</b> CGT (real property) = 6% &times; higher of (selling price, zonal value, FMV) &nbsp;|&nbsp; CGT (unlisted shares) = 15% &times; (selling price &minus; cost)</p>
+<h4>3.6 Interest, Dividends, Royalties</h4>
+<table>
+<tr><th>Item</th><th>Recipient</th><th>Treatment</th></tr>
+<tr><td>Interest on PH bank deposits / deposit substitutes</td><td>Individuals</td><td>20% final tax. (CMEPA standardized a single 20% rate on interest; the former exemption for long-term deposits of 5 years or more no longer applies. Verify with your professor's latest module.)</td></tr>
+<tr><td rowspan="5">Dividends from a domestic corporation</td><td>RC, RA</td><td>10% final</td></tr>
+<tr><td>NRA-ETB</td><td>20% final</td></tr>
+<tr><td>NRA-NETB</td><td>25% final</td></tr>
+<tr><td>Domestic corp / RFC</td><td>Exempt (inter-corporate dividend)</td></tr>
+<tr><td>NRFC</td><td>25%, or 15% under the <b>tax sparing rule</b></td></tr>
+<tr><td>Royalties</td><td>Individuals</td><td>10% final on books, literary works, musical compositions; 20% final on others</td></tr>
+</table>
+<blockquote><b>Fisher v. Trinidad:</b> stock dividends are not income when received (no flow of wealth; interest unchanged). <b>Tax sparing:</b> the reduced 15% applies if the NRFC's home country gives a deemed-paid credit for the difference or does not tax the dividend.</blockquote>
+<h4>3.7 Rent and Leasehold Improvements</h4>
+<p>Advance rentals are taxable on receipt. If the lessee's improvement passes to the lessor at lease-end, the lessor may use:</p>
+<table>
+<tr><th>Method</th><th>Income reported</th></tr>
+<tr><td>Outright</td><td>FMV of the improvement, in the year completed</td></tr>
+<tr><td>Spread-out</td><td>Book value at lease-end &divide; remaining lease term, each year</td></tr>
+</table>
+<h4>3.8 Prizes, Annuities, Pensions, Insurance</h4>
+<ul>
+<li><b>Prizes over &#8369;10,000</b> (in PH): 20% final tax. <b>&#8369;10,000 or less:</b> part of gross income, graduated rates.</li>
+<li><b>Exempt prizes:</b> for religious, charitable, scientific, educational, artistic, literary or civic achievement (no action to enter, no future service required); athletic prizes under national sports associations.</li>
+<li><b>Annuities:</b> return of premium is excluded; the earnings portion is taxable.</li>
+<li><b>Life insurance proceeds</b> on death: excluded. Interest on proceeds held by the insurer: taxable.</li>
+</ul>
+<h4>Solved Problems</h4>
+<p><b>Problem 3.1 (FBT).</b> A resident-citizen VP enjoys a company car; monetary value for the quarter is <b>&#8369;32,500</b>.<br><b>Solution:</b> GMV = 32,500 &divide; 0.65 = <b>&#8369;50,000</b>. FBT = 50,000 &times; 35% = <b>&#8369;17,500</b>, paid by the employer (not deducted from salary). Employer deducts &#8369;50,000.</p>
+<p><b>Problem 3.2 (FBT, NRA-NETB).</b> Housing benefit with monetary value &#8369;15,000 to a managerial NRA-NETB.<br><b>Solution:</b> GMV = 15,000 &divide; 0.75 = 20,000. FBT = 20,000 &times; 25% = <b>&#8369;5,000</b>.</p>
+<p><b>Problem 3.3 (gross income).</b> Gross sales &#8369;5,000,000; returns &#8369;200,000; discounts &#8369;100,000; COGS &#8369;2,700,000.<br><b>Solution:</b> Net sales = 5,000,000 &minus; 200,000 &minus; 100,000 = 4,700,000. Gross income = 4,700,000 &minus; 2,700,000 = <b>&#8369;2,000,000</b>.</p>
+<p><b>Problem 3.4 (CGT, real property).</b> Selling price &#8369;3,000,000; zonal value &#8369;3,500,000; assessor's FMV &#8369;2,800,000.<br><b>Solution:</b> Base = highest = 3,500,000. CGT = 3,500,000 &times; 6% = <b>&#8369;210,000</b>. Actual gain or loss is irrelevant.</p>
+<p><b>Problem 3.5 (unlisted shares).</b> Held 5 years; cost &#8369;1,000,000; sold outside the exchange for &#8369;1,800,000.<br><b>Solution:</b> Gain = 800,000. Holding period does <u>not</u> apply to shares. CGT = 800,000 &times; 15% = <b>&#8369;120,000</b>.</p>
+<p><b>Problem 3.6 (holding period).</b> An individual sells a capital asset (not real property or shares) at a &#8369;200,000 gain after 3 years, and another at a &#8369;60,000 loss after 4 months.<br><b>Solution:</b> Long-term gain recognized at 50% = 100,000. Short-term loss recognized at 100% = 60,000. Net capital gain = 100,000 &minus; 60,000 = <b>&#8369;40,000</b>, taxed at graduated rates.</p>
+<p><b>Problem 3.7 (leasehold, both methods).</b> 10-year lease; cash rent &#8369;600,000/yr; lessee builds a &#8369;6,000,000 building (life 30 years) that goes to the lessor at lease-end.<br><b>Solution (spread-out):</b> Depreciation = 6,000,000 &divide; 30 &times; 10 = 2,000,000; book value = 4,000,000; annual income = 4,000,000 &divide; 10 = 400,000; total yearly rental income = 400,000 + 600,000 = <b>&#8369;1,000,000</b>.<br><b>Solution (outright):</b> year of completion = 6,000,000 + 600,000 = <b>&#8369;6,600,000</b>; later years &#8369;600,000 only.</p>` },
+      { title: "4. Exclusions & Exempt Income", content: `<h3>4. Exclusions from Gross Income (Sec. 32(B))</h3>
+<p>Exclusions are never part of gross income: they are a return of capital, taxed elsewhere, or exempted by law. They are construed strictly against the taxpayer. <b>Exclusion</b> (never in gross income) differs from <b>deduction</b> (subtracted from gross income).</p>
+<table>
+<tr><th>Item</th><th>Rule</th></tr>
+<tr><td>Life insurance proceeds on death; return of premiums</td><td>Excluded. Interest on proceeds held by the insurer is taxable.</td></tr>
+<tr><td>Gifts, bequests, devises, inheritances</td><td>Excluded; <b>income from them is taxable</b></td></tr>
+<tr><td>Compensation for injuries or sickness</td><td>Excluded (damages for personal injury; not lost profits)</td></tr>
+<tr><td>Income exempt under treaty</td><td>Excluded</td></tr>
+<tr><td>Retirement benefits (R.A. 7641 or BIR-approved plans)</td><td>Excluded if the legal conditions are met</td></tr>
+<tr><td>Separation pay for causes beyond the employee's control (retrenchment, redundancy, illness, death)</td><td>Excluded. Voluntary resignation does not qualify.</td></tr>
+<tr><td>13th month pay and other benefits</td><td>Excluded up to <b>&#8369;90,000</b> total; excess is taxable</td></tr>
+<tr><td>De minimis benefits (rice, uniform, etc. within ceilings)</td><td>Excluded and <u>not</u> counted against the &#8369;90,000 ceiling</td></tr>
+<tr><td>GSIS, SSS, PhilHealth, Pag-IBIG contributions and benefits</td><td>Excluded</td></tr>
+<tr><td>Minimum wage earners (statutory minimum wage, holiday, overtime, night differential, hazard pay)</td><td>Exempt from income tax on those items</td></tr>
+</table>
+<p style="background:var(--side);border-left:4px solid var(--gold);padding:8px 12px;margin:12px 0"><b>Formula:</b> Taxable compensation = Basic salary + taxable allowances + (13th month and other benefits &minus; &#8369;90,000, if positive) &minus; mandatory contributions (SSS, PhilHealth, Pag-IBIG)</p>
+<h4>Solved Problems</h4>
+<p><b>Problem 4.1.</b> An employee, retrenched, receives &#8369;800,000 separation pay and &#8369;50,000 annuity interest.<br><b>Solution:</b> Separation pay for a cause beyond his control is excluded. Annuity earnings are taxable. Gross income = <b>&#8369;50,000</b>.</p>
+<p><b>Problem 4.2.</b> Ms. Navarro: basic salary &#8369;600,000; 13th month &#8369;50,000; Christmas bonus &#8369;30,000; de minimis rice and uniform allowances &#8369;24,000; taxable allowances &#8369;40,000. Employer withheld on &#8369;680,000. Correct taxable compensation and tax?<br><b>Solution:</b> 13th month + bonus = 80,000, within the 90,000 ceiling, so excluded. De minimis excluded. Taxable = 600,000 + 40,000 = <b>&#8369;640,000</b> (the employer overstated by 40,000). Tax = 22,500 + 20% &times; (640,000 &minus; 400,000) = 22,500 + 48,000 = <b>&#8369;70,500</b>.</p>` },
+      { title: "5. Deductions", content: `<h3>5. Deductions from Gross Income</h3>
+<h4>5.1 General Rules</h4>
+<p>Deductions are allowed only by law and strictly construed. An expense must be (a) <b>paid or incurred</b> in the taxable year, (b) <b>connected</b> with the trade, business or profession, (c) <b>substantiated</b> by adequate records, and (d) <b>not contrary to law or public policy</b>. Bribes, kickbacks and "facilitation fees" are never deductible (<i>3M Philippines v. CIR</i>). Brand-building advertising is a capital expenditure (<i>CIR v. General Foods</i>).</p>
+<blockquote><b>Withholding requirement repealed.</b> Sec. 34(K), which denied a deduction when the required withholding tax was not paid, was repealed by the Ease of Paying Taxes Act (R.A. 11976, effective Jan. 22, 2024). For taxable years from 2024, an expense is deductible even if no tax was withheld, provided it is ordinary, necessary, substantiated and related to the registered business.</blockquote>
+<h4>5.2 The Itemized Deductions (C-R-E-D3-I-T-L-P)</h4>
+<table>
+<tr><th>Item</th><th>Key rule / formula</th></tr>
+<tr><td><b>C</b>haritable contributions</td><td>Ceiling: <b>5%</b> (individual) or <b>10%</b> (corporation) of taxable income before the contribution. Fully deductible to accredited / priority donees.</td></tr>
+<tr><td><b>R</b>esearch and development</td><td>Deduct outright, or defer and amortize over at least 60 months</td></tr>
+<tr><td><b>E</b>xpenses (ordinary and necessary)</td><td>Ordinary, necessary, reasonable, substantiated, connected to business. Entertainment, amusement and recreation (EAR) is subject to a ceiling (below).</td></tr>
+<tr><td><b>D</b>epreciation</td><td>Reasonable allowance for wear and tear over useful life</td></tr>
+<tr><td><b>D</b>epletion</td><td>Mines, oil and gas wells</td></tr>
+<tr><td><b>D</b>ebts (bad debts)</td><td>Ascertained worthless in the year, charged off. Recovery is taxable (tax benefit rule).</td></tr>
+<tr><td><b>I</b>nterest</td><td>Reduced by <b>20% of interest income</b> subjected to final tax (tax arbitrage rule). Not deductible between related taxpayers (Sec. 36(B)).</td></tr>
+<tr><td><b>T</b>axes</td><td>Deductible except income tax, estate and donor's tax, VAT (input), special assessments, and foreign income tax if credited</td></tr>
+<tr><td><b>L</b>osses</td><td>Actually sustained, not compensated by insurance; casualty, theft, NOLCO</td></tr>
+<tr><td><b>P</b>ension trust</td><td>Current service cost plus past service cost amortized over 10 years</td></tr>
+</table>
+<h4>5.3 Formulas for the Computational Items</h4>
+<table>
+<tr><th>Item</th><th>Formula</th></tr>
+<tr><td>EAR ceiling (sale of goods)</td><td><b>0.5%</b> &times; net sales</td></tr>
+<tr><td>EAR ceiling (sale of services)</td><td><b>1%</b> &times; net revenues</td></tr>
+<tr><td>Allowed EAR</td><td>Lower of actual EAR and the ceiling</td></tr>
+<tr><td>Straight-line depreciation</td><td>(Cost &minus; salvage value) &divide; useful life</td></tr>
+<tr><td>Depletion</td><td>(Cost of the property &divide; estimated recoverable units) &times; units extracted</td></tr>
+<tr><td>Interest deduction</td><td>Interest expense &minus; (20% &times; interest income subjected to final tax)</td></tr>
+<tr><td>Charitable ceiling</td><td>5% or 10% &times; (taxable income before the contribution)</td></tr>
+<tr><td>Casualty loss</td><td>Loss sustained (cost or adjusted basis, as applicable) &minus; insurance or indemnity received</td></tr>
+<tr><td>Bad debt</td><td>Amount ascertained worthless and written off in the year (no reserve method)</td></tr>
+</table>
+<h4>5.4 Net Operating Loss Carry-Over (NOLCO)</h4>
+<ul>
+<li>A net operating loss of a <b>business</b> may be carried over as a deduction for the <b>next 3 consecutive taxable years</b> (5 years for losses of 2020 and 2021 under the Bayanihan laws).</li>
+<li>Requisites: the loss was not from a year the taxpayer was exempt; no substantial change in ownership (at least 75% of paid-up capital / outstanding shares held by the same persons).</li>
+<li>FIFO: the earliest loss is applied first. Not available to NRA-NETB or NRFC (taxed on gross).</li>
+</ul>
+<h4>5.5 Optional Standard Deduction (OSD)</h4>
+<table>
+<tr><th>Taxpayer</th><th>OSD</th></tr>
+<tr><td>Individual</td><td><b>40% of gross sales or gross receipts</b> (net of returns, allowances, discounts)</td></tr>
+<tr><td>Corporation</td><td><b>40% of gross income</b></td></tr>
+</table>
+<p>Elected in the first quarterly return; irrevocable for the year. No substantiation needed. Not available to NRA-NETB and NRFC (taxed on gross), or to GPPs as such (partners may avail on their distributive share) and compensation earners.</p>
+<h4>5.6 Non-Deductible Items</h4>
+<p>Personal, living or family expenses; capital expenditures (unless allowed through depreciation); premiums on life insurance where the taxpayer is directly or indirectly a beneficiary; losses and interest between related parties (Sec. 36(B)); bribes and kickbacks; income taxes, estate and donor's taxes; unsubstantiated items.</p>
+<h4>Solved Problems</h4>
+<p><b>Problem 5.1 (bribes).</b> ABC Corp. claims &#8369;6,000,000 expenses, including &#8369;300,000 "facilitation fees" for a permit.<br><b>Solution:</b> Facilitation fees are bribes (Sec. 34(A)(1)(c)), not deductible. Allowable = 6,000,000 &minus; 300,000 = <b>&#8369;5,700,000</b>.</p>
+<p><b>Problem 5.2 (individual charitable).</b> Net income before contribution &#8369;2,000,000; donated &#8369;150,000 to a non-accredited charity.<br><b>Solution:</b> Ceiling = 5% &times; 2,000,000 = 100,000. Deduction = lower of 150,000 and 100,000 = <b>&#8369;100,000</b>.</p>
+<p><b>Problem 5.3 (corporate charitable).</b> Net income before contribution &#8369;3,000,000; donation &#8369;500,000 to a non-accredited donee.<br><b>Solution:</b> Ceiling = 10% &times; 3,000,000 = 300,000. Deductible = <b>&#8369;300,000</b>.</p>
+<p><b>Problem 5.4 (EAR).</b> Service firm: net revenues &#8369;4,000,000; EAR incurred &#8369;65,000.<br><b>Solution:</b> Ceiling = 1% &times; 4,000,000 = 40,000. Deductible = <b>&#8369;40,000</b>; the &#8369;25,000 excess is disallowed.</p>
+<p><b>Problem 5.5 (interest arbitrage).</b> Hilaga Corp. paid &#8369;1,000,000 interest; it earned &#8369;200,000 bank interest subjected to 20% final tax.<br><b>Solution:</b> Reduction = 20% &times; 200,000 = 40,000. Deductible interest = 1,000,000 &minus; 40,000 = <b>&#8369;960,000</b>.</p>
+<p><b>Problem 5.6 (depreciation).</b> Machine cost &#8369;1,200,000; salvage &#8369;200,000; life 5 years.<br><b>Solution:</b> (1,200,000 &minus; 200,000) &divide; 5 = <b>&#8369;200,000 per year</b>.</p>
+<p><b>Problem 5.7 (depletion).</b> Mine cost &#8369;10,000,000; estimated 2,000,000 tons; 150,000 tons extracted this year.<br><b>Solution:</b> (10,000,000 &divide; 2,000,000) &times; 150,000 = 5 &times; 150,000 = <b>&#8369;750,000</b>.</p>
+<p><b>Problem 5.8 (NOLCO).</b> Tanglaw Corp. lost &#8369;3,000,000 in 2026. Income before NOLCO: 2027 &#8369;1,200,000; 2028 &#8369;800,000; 2029 &#8369;600,000.<br><b>Solution:</b></p>
+<table><tr><th>Year</th><th>Income before NOLCO</th><th>NOLCO applied</th><th>Unused balance</th></tr>
+<tr><td>2027</td><td>1,200,000</td><td>1,200,000</td><td>1,800,000</td></tr>
+<tr><td>2028</td><td>800,000</td><td>800,000</td><td>1,000,000</td></tr>
+<tr><td>2029</td><td>600,000</td><td>600,000</td><td>400,000 (expires)</td></tr></table>
+<p>Taxable income is zero in each year, and the unused &#8369;400,000 lapses after the third year.</p>
+<p><b>Problem 5.9 (OSD vs. itemized).</b> Atty. Cruz: gross receipts &#8369;4,000,000; documented expenses &#8369;1,200,000.<br><b>Solution:</b> Itemized: 4,000,000 &minus; 1,200,000 = 2,800,000. OSD: 40% &times; 4,000,000 = 1,600,000; taxable income = 2,400,000. OSD gives the lower taxable income, so <b>elect the OSD</b> (and avoid substantiation).</p>` },
+      { title: "6. Individuals", content: `<h3>6. Taxation of Individuals</h3>
+<h4>6.1 Graduated Rates (effective January 1, 2023)</h4>
+<table>
+<tr><th>Annual taxable income</th><th>Tax</th></tr>
+<tr><td>Not over &#8369;250,000</td><td>0%</td></tr>
+<tr><td>Over &#8369;250,000 to &#8369;400,000</td><td>15% of the excess over &#8369;250,000</td></tr>
+<tr><td>Over &#8369;400,000 to &#8369;800,000</td><td>&#8369;22,500 + 20% of the excess over &#8369;400,000</td></tr>
+<tr><td>Over &#8369;800,000 to &#8369;2,000,000</td><td>&#8369;102,500 + 25% of the excess over &#8369;800,000</td></tr>
+<tr><td>Over &#8369;2,000,000 to &#8369;8,000,000</td><td>&#8369;402,500 + 30% of the excess over &#8369;2,000,000</td></tr>
+<tr><td>Over &#8369;8,000,000</td><td>&#8369;2,202,500 + 35% of the excess over &#8369;8,000,000</td></tr>
+</table>
+<p style="background:var(--side);border-left:4px solid var(--gold);padding:8px 12px;margin:12px 0"><b>Taxable income:</b> Compensation earner = gross compensation &minus; exclusions &minus; mandatory contributions. Self-employed = gross income &minus; itemized deductions (or &minus; OSD). Mixed income = taxable compensation + net business/professional income.</p>
+<h4>6.2 The 8% Option (Sec. 24(A)(2)(b))</h4>
+<table>
+<tr><th>Point</th><th>Rule</th></tr>
+<tr><td>Who may elect</td><td>Self-employed individuals and professionals whose gross sales/receipts and other non-operating income <b>do not exceed &#8369;3,000,000</b> (the VAT threshold); not VAT-registered</td></tr>
+<tr><td>Who may not</td><td>Purely compensation earners; VAT-registered taxpayers; those whose receipts exceed &#8369;3,000,000; GPP partners (as to GPP income); NRA-NETB</td></tr>
+<tr><td>Effect</td><td>Replaces <b>both</b> the graduated income tax and the 3% percentage tax. No itemized deduction or OSD.</td></tr>
+<tr><td>Purely self-employed</td><td>8% &times; (gross receipts + other non-operating income &minus; <b>&#8369;250,000</b>)</td></tr>
+<tr><td>Mixed-income earner</td><td>Compensation: graduated rates on taxable compensation. Business: 8% &times; <b>gross</b> receipts, with <u>no</u> &#8369;250,000 deduction (it is already used by the compensation)</td></tr>
+<tr><td>Election</td><td>Declared in the first quarter return (or the initial quarterly percentage tax return); irrevocable for the year</td></tr>
+</table>
+<h4>6.3 Non-Resident Aliens</h4>
+<table>
+<tr><th>Category</th><th>Test</th><th>Tax</th></tr>
+<tr><td>NRA-ETB</td><td>Stays in PH <b>more than 180 days</b> in the calendar year</td><td>Graduated rates on net PH-source income</td></tr>
+<tr><td>NRA-NETB</td><td><b>180 days or less</b></td><td>25% final on gross PH-source income; no deductions</td></tr>
+<tr><td>Special aliens (RHQ/ROHQ, offshore banking units, petroleum service contractors)</td><td>Employed by those entities</td><td>Special rate on gross compensation (15% under the special laws; check the module)</td></tr>
+</table>
+<h4>6.4 Substituted Filing and Who Must File</h4>
+<p>An employee need not file an annual return if: (1) pure compensation income, (2) <b>one employer</b> for the year, (3) tax withheld equals tax due, and (4) the employer files BIR Form 1604-CF and issues Form 2316. <b>Two employers in the year defeat substituted filing.</b></p>
+<table>
+<tr><th>Must file</th><th>Need not file</th></tr>
+<tr><td>Compensation earners with two or more employers; self-employed; mixed-income earners; those with income not subject to final tax and not withheld on; employee whose employer under-withheld or over-withheld and who seeks a refund</td><td>Minimum wage earners; individuals whose income is wholly subject to final tax; NRC with only foreign-source income; single-employer compensation earner with correct withholding</td></tr>
+</table>
+<h4>Solved Problems</h4>
+<p><b>Problem 6.1 (graduated).</b> Resident-citizen employee, taxable income &#8369;900,000.<br><b>Solution:</b> Bracket &#8369;800,000 to 2,000,000: 102,500 + 25% &times; (900,000 &minus; 800,000) = 102,500 + 25,000 = <b>&#8369;127,500</b>.</p>
+<p><b>Problem 6.2 (mixed income, no 8%).</b> Ms. Lim: taxable compensation &#8369;700,000; net business income &#8369;1,300,000.<br><b>Solution:</b> Total = 2,000,000. Tax = 102,500 + 25% &times; 1,200,000 = 102,500 + 300,000 = <b>&#8369;402,500</b>.</p>
+<p><b>Problem 6.3 (8% vs. graduated).</b> Mr. Tan, designer, not VAT-registered: gross receipts &#8369;2,400,000; expenses &#8369;900,000.<br><b>Solution:</b> (a) 8% option: 8% &times; (2,400,000 &minus; 250,000) = <b>&#8369;172,000</b>. (b) Graduated: taxable income 1,500,000; tax = 102,500 + 25% &times; 700,000 = 277,500; plus 3% percentage tax = 72,000; total <b>&#8369;349,500</b>. <b>Elect the 8% option.</b></p>
+<p><b>Problem 6.4 (sari-sari store).</b> Gross sales &#8369;2,800,000; cost of sales &#8369;1,500,000; operating expenses &#8369;400,000; not VAT-registered.<br><b>Solution:</b> (a) Graduated: gross income 1,300,000; taxable income 900,000; tax 127,500; plus 3% percentage tax 84,000 = <b>&#8369;211,500</b>. (b) 8%: 8% &times; (2,800,000 &minus; 250,000) = <b>&#8369;204,000</b>. The 8% option is slightly lower and simpler. With high expenses the result can flip, so compute both.</p>
+<p><b>Problem 6.5 (mixed-income earner, 8%).</b> Taxable compensation &#8369;500,000; gross business receipts &#8369;1,200,000 (8% elected).<br><b>Solution:</b> Compensation tax = 22,500 + 20% &times; (500,000 &minus; 400,000) = 42,500. Business tax = 8% &times; 1,200,000 (no &#8369;250,000 deduction) = 96,000. Total = <b>&#8369;138,500</b>.</p>
+<p><b>Problem 6.6.</b> Who must file: (a) NRC with foreign income only; (b) employee with two employers; (c) minimum wage earner; (d) income wholly under final tax.<br><b>Solution:</b> Only <b>(b)</b> must file. (a) foreign income is outside the tax; (c) exempt; (d) final tax already paid.</p>` },
+      { title: "7. Corporations", content: `<h3>7. Taxation of Corporations</h3>
+<h4>7.1 What Is a Corporation for Tax Purposes</h4>
+<p>Includes joint-stock companies, partnerships (except <b>general professional partnerships</b>), joint accounts, associations, and insurance companies. A <b>joint venture or co-ownership</b> formed to undertake construction projects or to engage in petroleum or other energy operations under a consortium agreement with the government is not taxable as a corporation. A <b>co-ownership</b> merely to preserve and divide property is not a corporation; if it operates a business it is taxed as a partnership.</p>
+<h4>7.2 Rates on Domestic and Resident Foreign Corporations</h4>
+<table>
+<tr><th>Corporation</th><th>Base</th><th>Rate</th></tr>
+<tr><td>Domestic corporation (general)</td><td>Net taxable income (worldwide)</td><td><b>25%</b> NCIT, or MCIT if higher</td></tr>
+<tr><td>Small domestic corporation (net taxable income up to &#8369;5M <u>and</u> total assets up to &#8369;100M, excluding land)</td><td>Net taxable income</td><td><b>20%</b></td></tr>
+<tr><td>Proprietary educational institution; non-profit hospital</td><td>Net taxable income</td><td>10% (1% from July 2020 to June 2023); if unrelated income exceeds 50% of total gross income, regular 25% on <u>all</u> taxable income</td></tr>
+<tr><td>GOCCs, agencies, instrumentalities (incl. PCSO)</td><td>Net taxable income</td><td>25%</td></tr>
+<tr><td>Resident foreign corporation (RFC)</td><td>Net PH-source income</td><td>25%</td></tr>
+<tr><td>International carrier (resident foreign)</td><td>Gross Philippine Billings</td><td>2.5%</td></tr>
+<tr><td>Branch profit remittance (to head office)</td><td>Total profits applied or earmarked for remittance</td><td>15% (PEZA branches exempt)</td></tr>
+<tr><td>Domestic depositary banks (FCDU)</td><td>Interest income</td><td>10% final</td></tr>
+</table>
+<p><b>CREATE Act (R.A. 11534)</b> cut the regular rate from 30% to 25% (20% for small corporations) effective July 1, 2020, and repealed the 15% optional gross income tax and the 10% improperly accumulated earnings tax.</p>
+<h4>7.3 Non-Resident Foreign Corporations</h4>
+<table>
+<tr><th>Income</th><th>Rate (final, on gross PH-source)</th></tr>
+<tr><td>General PH-source income</td><td>25%</td></tr>
+<tr><td>Dividends from a domestic corporation</td><td>25%, or 15% under the tax sparing rule</td></tr>
+<tr><td>Non-resident cinematographic film owner, lessor or distributor</td><td>25%</td></tr>
+<tr><td>Lessor of machinery and equipment</td><td>7.5% of gross rentals or fees</td></tr>
+<tr><td>Lessor of vessels (charter)</td><td>4.5% of gross rentals, lease or charter fees</td></tr>
+</table>
+<h4>7.4 The Normal Corporate Income Tax (NCIT) Computation</h4>
+<p style="background:var(--side);border-left:4px solid var(--gold);padding:8px 12px;margin:12px 0">Gross income = Net sales (or gross receipts) &minus; cost of sales / direct costs<br>Taxable income = Gross income &minus; allowable deductions (itemized or 40% OSD of gross income) &minus; NOLCO<br>NCIT = 25% (or 20%) &times; taxable income</p>
+<h4>7.5 Minimum Corporate Income Tax (MCIT)</h4>
+<table>
+<tr><th>Point</th><th>Rule</th></tr>
+<tr><td>Rate and base</td><td><b>2% of gross income</b> (1% from July 2020 to June 2023)</td></tr>
+<tr><td>When it starts</td><td>Beginning the <b>4th taxable year</b> after the year of commencement of business</td></tr>
+<tr><td>Which is paid</td><td>The <b>higher</b> of NCIT and MCIT (when NCIT is lower, or there is a loss)</td></tr>
+<tr><td>Excess MCIT</td><td>Excess of MCIT over NCIT is credited against NCIT for the <b>3 immediately succeeding years</b></td></tr>
+<tr><td>Who is exempt</td><td>Non-profit and special corporations (education, hospitals, GOCCs), RFCs on certain bases, those under special laws</td></tr>
+<tr><td>Suspension</td><td>Prolonged labor dispute, force majeure, legitimate business reverses (with the Secretary of Finance's approval)</td></tr>
+</table>
+<p style="background:var(--side);border-left:4px solid var(--gold);padding:8px 12px;margin:12px 0"><b>Rule:</b> Tax due = higher of (25% &times; net taxable income) and (2% &times; gross income). Excess MCIT = MCIT &minus; NCIT, carried 3 years.</p>
+<h4>7.6 General Professional Partnerships and Co-ownerships</h4>
+<ul>
+<li>A <b>GPP</b> (partners exercising a common profession, income from the practice only) is <b>not</b> taxed; each partner is taxed on his distributive share, <u>whether or not distributed</u>, and may use itemized deductions or OSD on that share.</li>
+<li>A business <b>general partnership</b> is taxed as a corporation. Wrong vehicle = corporate tax plus a second tax on distributions.</li>
+</ul>
+<h4>Solved Problems</h4>
+<p><b>Problem 7.1 (NCIT vs. MCIT, 5th year).</b> DC (not small): gross income &#8369;10,000,000; net taxable income &#8369;600,000.<br><b>Solution:</b> NCIT = 25% &times; 600,000 = 150,000. MCIT = 2% &times; 10,000,000 = 200,000. Pay the higher: <b>&#8369;200,000</b>. Excess = 50,000, carried 3 years.</p>
+<p><b>Problem 7.2 (6th year).</b> Gross income &#8369;20,000,000; net taxable income &#8369;1,000,000.<br><b>Solution:</b> NCIT = 250,000; MCIT = 400,000. Tax due = <b>&#8369;400,000</b>; excess MCIT = <b>&#8369;150,000</b>, creditable against NCIT for 3 years.</p>
+<p><b>Problem 7.3 (unsupported expense).</b> XYZ Corp. (7th year): gross income &#8369;30,000,000; net taxable income &#8369;1,500,000, including &#8369;200,000 unsupported representation expense.<br><b>Solution:</b> Corrected taxable income = 1,500,000 + 200,000 = 1,700,000. NCIT = 425,000. MCIT = 2% &times; 30,000,000 = 600,000. Tax due = <b>&#8369;600,000</b>; excess MCIT = 175,000.</p>
+<p><b>Problem 7.4 (second year, NCIT).</b> DC (assets &#8369;150M): sales &#8369;12,000,000; COGS &#8369;7,000,000; operating expenses &#8369;3,000,000; bank interest &#8369;100,000 (20% FWT withheld).<br><b>Solution:</b> Gross income = 5,000,000. Taxable income = 5,000,000 &minus; 3,000,000 = 2,000,000. NCIT = 25% &times; 2,000,000 = <b>&#8369;500,000</b>. The interest is under final tax (&#8369;20,000) and excluded. MCIT does not yet apply (not yet the 4th year).</p>
+<p><b>Problem 7.5 (branch profit remittance).</b> A branch earned &#8369;20,000,000, paid regular tax, and earmarked &#8369;6,000,000 for remittance (not PEZA).<br><b>Solution:</b> 15% &times; 6,000,000 = <b>&#8369;900,000</b>.</p>
+<p><b>Problem 7.6 (predominance test).</b> A proprietary school has total gross income &#8369;10,000,000, of which &#8369;2,700,000 is from unrelated activity.<br><b>Solution:</b> 27% is not over 50%, so it keeps the <b>10%</b> rate. If unrelated income were &#8369;5,300,000 (53%), the whole taxable income would be taxed at 25%.</p>` },
+      { title: "8. Withholding & Filing", content: `<h3>8. Withholding Taxes and Filing</h3>
+<table>
+<tr><th>Type</th><th>Effect</th><th>Return needed?</th></tr>
+<tr><td><b>Creditable withholding tax (CWT / expanded)</b></td><td>Withheld and credited against the payee's annual income tax; it is a prepayment</td><td>Yes. The payee still files and reports the income.</td></tr>
+<tr><td><b>Final withholding tax (FWT)</b></td><td>Full and final payment of the tax on that income</td><td>No. The income is outside the graduated computation.</td></tr>
+<tr><td><b>Withholding on compensation</b></td><td>Tax withheld each pay period by the employer at graduated rates</td><td>Not if substituted filing applies</td></tr>
+</table>
+<h4>Common Final Taxes (Resident Citizen / Resident Alien unless stated)</h4>
+<table>
+<tr><th>Income</th><th>Rate</th></tr>
+<tr><td>Interest on bank deposits and deposit substitutes</td><td>20%</td></tr>
+<tr><td>Dividends from a domestic corporation</td><td>10%</td></tr>
+<tr><td>Royalties (books, literary, musical) / other royalties</td><td>10% / 20%</td></tr>
+<tr><td>Prizes over &#8369;10,000</td><td>20%</td></tr>
+<tr><td>Capital gains: unlisted shares / real property</td><td>15% / 6%</td></tr>
+<tr><td>Listed shares (stock transaction tax)</td><td>0.1% of gross selling price</td></tr>
+<tr><td>NRA-NETB (most PH-source income)</td><td>25%</td></tr>
+<tr><td>NRFC</td><td>25%</td></tr>
+</table>
+<h4>The Withholding Agent</h4>
+<ul>
+<li>The agent withholds, remits, and files returns; it is personally liable for tax not withheld and remitted, plus penalties.</li>
+<li>If the agent fails to withhold, the payee is <u>not</u> absolved: the Bureau may collect from either, but a payment by one discharges the other (<i>RCBC v. CIR</i>). A payee who notices he was not withheld upon should raise it.</li>
+<li>Since 2024, failure to withhold no longer by itself disallows the deduction (R.A. 11976, repealing Sec. 34(K)). Penalties on the agent still apply.</li>
+</ul>
+<h4>Solved Problem</h4>
+<p><b>Problem 8.1.</b> Mr. Reyes (resident citizen), 2026: salary &#8369;1,200,000 (one employer, correctly withheld); bank interest &#8369;50,000; sale of a residential lot (capital asset) at &#8369;5,000,000 (zonal value &#8369;5,200,000); cash dividends &#8369;80,000 from a domestic corporation. Treat each item; must he file?<br><b>Solution:</b> (i) Salary: tax = 102,500 + 25% &times; (1,200,000 &minus; 800,000) = <b>&#8369;202,500</b>, withheld. (ii) Interest: 20% FWT = <b>&#8369;10,000</b>. (iii) Lot: 6% &times; 5,200,000 (higher of the two) = <b>&#8369;312,000</b> CGT. (iv) Dividends: 10% final = <b>&#8369;8,000</b>. Everything is either withheld at the right amount (single employer) or under final tax, so he is <b>not required to file</b> an annual return.</p>` },
+      { title: "9. Formula Sheet", content: `<h3>9. Formula and Rate Cheat Sheet</h3>
+<h4>Quick Formulas</h4>
+<table>
+<tr><th>Topic</th><th>Formula</th></tr>
+<tr><td>Net sales</td><td>Gross sales &minus; returns &minus; discounts &minus; allowances</td></tr>
+<tr><td>Gross income (trade)</td><td>Net sales &minus; COGS</td></tr>
+<tr><td>Taxable income (itemized)</td><td>Gross income &minus; itemized deductions &minus; NOLCO</td></tr>
+<tr><td>Taxable income (OSD)</td><td>Gross sales/receipts (or gross income, for corporations) &times; 60%</td></tr>
+<tr><td>Grossed-up monetary value</td><td>Monetary value &divide; 65% (or 75% for NRA-NETB)</td></tr>
+<tr><td>Fringe benefit tax</td><td>GMV &times; 35% (or 25% for NRA-NETB)</td></tr>
+<tr><td>CGT on real property</td><td>6% &times; higher of selling price, zonal value, FMV</td></tr>
+<tr><td>CGT on unlisted shares</td><td>15% &times; net capital gain</td></tr>
+<tr><td>Stock transaction tax</td><td>0.1% &times; gross selling price</td></tr>
+<tr><td>8% option (purely self-employed)</td><td>8% &times; (gross receipts &minus; &#8369;250,000)</td></tr>
+<tr><td>8% option (mixed income)</td><td>8% &times; gross business receipts</td></tr>
+<tr><td>Percentage tax (if not 8%)</td><td>3% &times; gross sales/receipts</td></tr>
+<tr><td>NCIT</td><td>25% (20% if small) &times; taxable income</td></tr>
+<tr><td>MCIT</td><td>2% &times; gross income (4th year onward)</td></tr>
+<tr><td>Excess MCIT</td><td>MCIT &minus; NCIT; credit for 3 years</td></tr>
+<tr><td>Branch profit remittance tax</td><td>15% &times; profits applied or earmarked for remittance</td></tr>
+<tr><td>Straight-line depreciation</td><td>(Cost &minus; salvage) &divide; useful life</td></tr>
+<tr><td>Depletion</td><td>(Cost &divide; recoverable units) &times; units extracted</td></tr>
+<tr><td>Interest deduction</td><td>Interest expense &minus; 20% &times; interest income under final tax</td></tr>
+<tr><td>EAR ceiling</td><td>0.5% of net sales (goods); 1% of net revenues (services)</td></tr>
+<tr><td>Charitable ceiling</td><td>5% (individual) / 10% (corporation) of income before the contribution</td></tr>
+</table>
+<h4>Threshold Numbers</h4>
+<table>
+<tr><th>Number</th><th>Meaning</th></tr>
+<tr><td>&#8369;250,000</td><td>Zero-rate bracket; 8% option deduction (purely self-employed)</td></tr>
+<tr><td>&#8369;3,000,000</td><td>VAT threshold; ceiling for the 8% option</td></tr>
+<tr><td>&#8369;90,000</td><td>13th month and other benefits exclusion</td></tr>
+<tr><td>&#8369;10,000</td><td>Prize threshold (over: 20% final)</td></tr>
+<tr><td>180 days</td><td>NRA-ETB / NRA-NETB line</td></tr>
+<tr><td>12 months</td><td>Holding period (50% rule, individuals; not real property or shares)</td></tr>
+<tr><td>&#8369;5M / &#8369;100M</td><td>Small corporation: net taxable income / total assets (excluding land)</td></tr>
+<tr><td>3 years</td><td>NOLCO; excess MCIT carry-over</td></tr>
+<tr><td>4th year</td><td>MCIT begins</td></tr>
+<tr><td>50%</td><td>Predominance test for schools and non-profit hospitals</td></tr>
+</table>
+<h4>Solving Any Income Tax Problem (5 Steps)</h4>
+<ol>
+<li><b>Classify</b> the taxpayer (RC, NRC, RA, NRA-ETB, NRA-NETB, DC, RFC, NRFC).</li>
+<li><b>Source</b> the income (situs) and drop what is outside the taxpayer's reach.</li>
+<li><b>Separate</b> exclusions and final-tax items from regular income.</li>
+<li><b>Deduct</b> (itemized, OSD, or 8% for eligible individuals) and apply NOLCO.</li>
+<li><b>Apply the rate</b>, compare NCIT vs. MCIT or graduated vs. 8%, then credit withholding.</li>
+</ol>` },
+      { title: "10. Cases Digest Index", content: `<h3>10. Index of Cases</h3>
+<table>
+<tr><th>Case</th><th>Doctrine</th></tr>
+<tr><td>Caltex v. COA; Lutz v. Araneta</td><td>Taxation may serve a regulatory purpose; implement of police power</td></tr>
+<tr><td>Manila Memorial Park v. DSWD</td><td>Senior citizen discount is police power, not eminent domain</td></tr>
+<tr><td>Deutsche Bank v. CIR</td><td>Tax treaty relief prevails over a BIR administrative issuance</td></tr>
+<tr><td>Ormoc Sugar v. Treasurer of Ormoc</td><td>Equal protection; reasonable classification must cover future members</td></tr>
+<tr><td>CIR v. Algue</td><td>Lifeblood doctrine; substantiated expenses are deductible</td></tr>
+<tr><td>Nursery Care v. Acevedo; City of Manila v. Coca-Cola</td><td>Six-element test for direct double taxation</td></tr>
+<tr><td>CIR v. Estate of Toda</td><td>Elements of tax evasion; sham two-step sale</td></tr>
+<tr><td>Air Canada v. CIR</td><td>Offline carrier selling through a local agent is an RFC</td></tr>
+<tr><td>Madrigal v. Rafferty</td><td>Income vs. capital; realization</td></tr>
+<tr><td>CIR v. Filinvest</td><td>Mere appreciation is not realized gain</td></tr>
+<tr><td>BIR v. First E-Bank Tower</td><td>Condominium dues are not income</td></tr>
+<tr><td>Fisher v. Trinidad</td><td>Stock dividends are not income</td></tr>
+<tr><td>CIR v. General Foods</td><td>Brand-building advertising is a capital expenditure</td></tr>
+<tr><td>3M Philippines v. CIR</td><td>Illegal or against-public-policy payments are not deductible</td></tr>
+<tr><td>RCBC v. CIR</td><td>Withholding agent and payee liability; payment by one discharges the other</td></tr>
+</table>` }
     ]
   },
   {
