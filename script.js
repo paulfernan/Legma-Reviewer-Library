@@ -1470,6 +1470,10 @@ const SUBJECTS = [
     sub: "",
     lessons: [
       { title: "Lesson 1", content: `<h3>Lesson 1</h3><p>Content coming soon.</p>` },
+      { title: "List of Cases", content: `<h3>PCG 307: List of Cases (2026)</h3>
+<p>Updated list of cases for Introduction to Constitutional Law, with the 1987 Constitution provisions for each topic and a references section. Entries marked &#8224; need a citation check (see Notes on Citations at the end of the PDF).</p>
+<p class="pdf-actions"><a href="PCG_307_List_of_Cases_2026.pdf" target="_blank" rel="noopener">Open in new tab</a> <a href="PCG_307_List_of_Cases_2026.pdf" download>Download PDF</a></p>
+<object class="pdf-frame" data="PCG_307_List_of_Cases_2026.pdf#view=FitH" type="application/pdf" aria-label="PCG 307 List of Cases (PDF)"><p class="empty">Your browser cannot show the PDF here. Use <b>Open in new tab</b> or <b>Download PDF</b> above.</p></object>` },
       { title: "Lesson 2", content: `<h3>Lesson 2</h3><p>Content coming soon.</p>` },
       { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Philippine Constitution and Government.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/consti/cons1987.html" target="_blank" rel="noopener">1987 Constitution</a></td><td>Full text, Lawphil Project</td></tr><tr><td><a href="https://lawphil.net/consti/cons1935.html" target="_blank" rel="noopener">1935 Constitution</a></td><td>For comparison</td></tr><tr><td><a href="https://lawphil.net/consti/cons1973.html" target="_blank" rel="noopener">1973 Constitution</a></td><td>For comparison</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
     ]
@@ -1841,9 +1845,646 @@ const SUBJECTS = [
     title: "Labor Law",
     sub: "",
     lessons: [
-      { title: "Lesson 1", content: `<h3>Lesson 1</h3><p>Content coming soon.</p>` },
-      { title: "Lesson 2", content: `<h3>Lesson 2</h3><p>Content coming soon.</p>` },
-      { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Labor Law.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html" target="_blank" rel="noopener">Labor Code (P.D. 442)</a></td><td>Renumbered Labor Code</td></tr><tr><td><a href="https://www.dole.gov.ph/" target="_blank" rel="noopener">Department of Labor and Employment</a></td><td>Orders, advisories, wage orders</td></tr><tr><td><a href="https://nlrc.dole.gov.ph/" target="_blank" rel="noopener">NLRC</a></td><td>Rules of procedure</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
+      { title: "Overview", content: `<h3>LSL 303: Labor Laws and Social Legislation</h3>
+<p>Course syllabus for Blocks 3A, 3B and 3C. Professor: Atty. Anna Clarissa C. Carpio, Guest Lecturer.</p>
+<h4>Course Map</h4>
+<table><tr><th>Part</th><th>Module</th><th>Coverage</th></tr>
+<tr><td rowspan="2">Labor Standards (first half)</td><td>1. Fundamental Principles</td><td>Definitions; constitutional principles; Civil Code; Labor Code Arts. 1-6, 218, 290</td></tr>
+<tr><td>2. Employer-Employee Relationship</td><td>Kinds of employees; tests of the relationship</td></tr>
+<tr><td rowspan="4">Labor Standards, Labor and Social Legislations (second half)</td><td>3. Hours of Work</td><td>Coverage; hours worked; overtime; rest days; holiday pay; night work; SIL; service charge; leave laws</td></tr>
+<tr><td>4. Wages and Salary</td><td>Wages; minimum wage; 13th month pay; non-diminution; payment, deductions, wage distortion</td></tr>
+<tr><td>5. Special Groups of Workers</td><td>Women; child workers; Batas Kasambahay</td></tr>
+<tr><td>6. Termination of Employment</td><td>Just and authorized causes; due process; readings</td></tr></table>
+<h4>Recommended References</h4>
+<ul><li><i>The Labor Code with Comments and Cases</i>, Cesario Azucena, Jr. (Volume 1 and pertinent portions of Volume 2)</li>
+<li><i>Labor Laws and Social Legislations</i>, Cecilio D. Duka</li>
+<li>CODALS: P.D. No. 442 (Labor Code, as amended); Omnibus Rules Implementing the Labor Code; pertinent Department Orders and Labor Advisories</li></ul>
+<h4>Modality and Class Policies</h4>
+<ul><li><b>Modality:</b> online and on-site classes. Online classes are announced the night before; students must have the proper equipment and connection.</li>
+<li><b>Cheating:</b> not tolerated; the grade is 0, without prejudice to administrative sanctions.</li>
+<li><b>Attendance:</b> follow the student handbook. Being late means being absent once the roll call has begun; exhausting the allowed absences means "FDA" (failure due to absences). Perfect attendance may earn a premium.</li>
+<li><b>Online conduct:</b> leaving without notice or unexplained disconnection counts as absence; camera must stay on; marked present but found absent when called to recite means a grade of 0.</li>
+<li><b>Recitations:</b> every day is a recitation day. Students called but absent get 0. Online: eyes closed while reciting. On-site: stand one step away from the chair and look straight ahead or close eyes.</li>
+<li><b>Bathroom breaks:</b> online, call the professor's attention and return soon; on-site, raise your hand. Only one student may leave at a time.</li>
+<li><b>Merits and credentials:</b> announced and unannounced quizzes; projects, seatworks and assignments count as one quiz each; an oral revalida at semester's end counts as one activity and one long quiz.</li></ul>
+<p><i>The full original is in the <b>Syllabus PDF</b> tab.</i></p>` },
+      { title: "Module 1", content: `<h3>I. Fundamental Principles</h3>
+<p>Labor Standards, Module 1. Definitions, constitutional principles in relation to labor law, other statutory principles, and the Labor Code&#x27;s fundamental principles.</p>
+<p><i>Case titles link to a web search by title and G.R. No. Confirm the full text in the <a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a> or <a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil</a>.</i></p>
+<h4>Definitions</h4>
+<ul>
+<li>1.1 Labor Law (Labor Legislation) v. Social Legislation</li>
+<li>1.2 Two divisions of Labor Legislation: Labor Standards; Labor Relations</li>
+<li>1.3 Labor v. Skill v. Work</li>
+<li>1.4 Worker v. Employee</li>
+</ul>
+<h4>Constitutional principles in relation to Labor Law</h4>
+<ul>
+<li>2.1 Art. II, Declaration of State Policies</li>
+<ul>
+<li>Secs. 9 and 10: definition of Social Justice</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Justa%20G.%20Guido%20v.%20Rural%20Progress%20Administration%2C%20G.R.%20No.%20L-2089%2C%2031%20October%201949%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Justa G. Guido v. Rural Progress Administration</i></a>, G.R. No. L-2089, 31 October 1949, Tuason, J.</li>
+<li><a href="https://www.google.com/search?q=Maximo%20Calalang%20v.%20A.D.%20Williams%2C%20et%20al.%2C%20G.R.%20No.%2047800%2C%202%20December%201940%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Maximo Calalang v. A.D. Williams, et al.</i></a>, G.R. No. 47800, 2 December 1940, Laurel, J.</li>
+</ul>
+<li>Secs. 11, 13, 14</li>
+<li>Sec. 18: &quot;Protection to Labor Clause&quot;</li>
+<li>Sec. 20: private sector&#x27;s indispensable role; 3 rights of the Enterprise</li>
+</ul>
+<li>2.2 Art. III, Bill of Rights</li>
+<ul>
+<li>Sec. 1: due process and equal protection</li>
+<ul>
+<li>Statutory due process v. procedural due process; effects of violation of either or both</li>
+<li>Due process:</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Agabon%20v.%20NLRC%2C%20G.R.%20No.%20158693%2C%2017%20November%202004%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Agabon v. NLRC</i></a>, G.R. No. 158693, 17 November 2004</li>
+<li><a href="https://www.google.com/search?q=Jaka%20Food%20Processing%20Corporation%20v.%20Pacot%2C%20G.R.%20No.%20151378%2C%2028%20March%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Jaka Food Processing Corporation v. Pacot</i></a>, G.R. No. 151378, 28 March 2005</li>
+<li><a href="https://www.google.com/search?q=Abbott%20Laboratories%20v.%20Alcaraz%2C%20G.R.%20No.%20192571%2C%2023%20July%202013%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Abbott Laboratories v. Alcaraz</i></a>, G.R. No. 192571, 23 July 2013</li>
+</ul>
+<li>Equal protection:</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Duncan%20Association%20of%20Detailman-PTGWO%20v.%20Glaxo%20Wellcome%2C%20G.R.%20No.%20162994%2C%2017%20September%202004%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Duncan Association of Detailman-PTGWO v. Glaxo Wellcome</i></a>, G.R. No. 162994, 17 September 2004</li>
+<li><a href="https://www.google.com/search?q=Yrasuegui%20v.%20Philippine%20Airlines%2C%20G.R.%20No.%20168081%2C%2017%20October%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Yrasuegui v. Philippine Airlines</i></a>, G.R. No. 168081, 17 October 2008</li>
+</ul>
+</ul>
+<li>Sec. 2: right against unreasonable searches and seizures</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Social%20Justice%20Society%20v.%20Dangerous%20Drugs%20Board%20and%20PDEA%2C%20G.R.%20No.%20158633%3B%20Laserna%20v.%20Dangerous%20Drugs%20Board%20and%20PDEA%2C%20G.R.%20No.%20161658%3B%20Pimentel%20v.%20COMELEC%2C%20G.R.%20No.%20157870%3B%203%20November%202008%2C%20En%20Banc%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Social Justice Society (SJS) v. Dangerous Drugs Board and PDEA</i></a>, G.R. No. 158633; Laserna v. Dangerous Drugs Board and PDEA, G.R. No. 161658; Pimentel v. COMELEC, G.R. No. 157870; 3 November 2008, En Banc</li>
+</ul>
+<li>Secs. 4 and 8: peaceful assembly and association (government v. private sector employees)</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Merlinda%20Jacinto%20et%20al.%20v.%20Court%20of%20Appeals%2C%20G.R.%20No.%20124540%2C%2014%20November%201997%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Merlinda Jacinto et al. v. Court of Appeals</i></a>, G.R. No. 124540, 14 November 1997, Panganiban, J.</li>
+</ul>
+<li>Sec. 10: non-impairment of contracts</li>
+<li>Sec. 12: right to counsel (applicability to labor cases)</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Eddie%20Manuel%20et%20al.%20v.%20N.C.%20Construction%20Supply%20et%20al.%2C%20G.R.%20No.%20127553%2C%2028%20November%201997%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Eddie Manuel et al. v. N.C. Construction Supply et al.</i></a>, G.R. No. 127553, 28 November 1997, Puno, J.</li>
+<li><a href="https://www.google.com/search?q=Punzal%20v.%20ETSI%20Technologies%20Inc.%2C%20G.R.%20No.%20170384%2C%209%20March%202007%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Punzal v. ETSI Technologies Inc.</i></a>, G.R. No. 170384, 9 March 2007</li>
+<li><a href="https://www.google.com/search?q=Lopez%20v.%20Alturas%20Group%20of%20Companies%2C%20G.R.%20No.%20191008%2C%2011%20April%202011%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Lopez v. Alturas Group of Companies</i></a>, G.R. No. 191008, 11 April 2011</li>
+</ul>
+<li>Sec. 16: speedy disposition of cases (rules of evidence; labor cases)</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Spouses%20Florentino%20R.%20Maynes%2C%20Sr.%20and%20Shirley%20M.%20Maynes%20v.%20Marivin%20Oreiro%2C%20G.R.%20No.%20206109%2C%2025%20November%202020%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Spouses Florentino R. Maynes, Sr. and Shirley M. Maynes v. Marivin Oreiro</i></a>, G.R. No. 206109, 25 November 2020, Hernando, J.</li>
+</ul>
+<li>Sec. 17: right against self-incrimination (labor and administrative hearings)</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Arsenio%20Pascual%20Jr.%20v.%20Board%20of%20Medical%20Examiners%2C%20L-25018%2C%2026%20May%201969%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Arsenio Pascual Jr. v. Board of Medical Examiners</i></a>, L-25018, 26 May 1969, Fernando, J.</li>
+<li><a href="https://www.google.com/search?q=Ruben%20Serrano%20v.%20NLRC%20and%20Isetann%20Department%20Store%2C%20G.R.%20No.%20117040%2C%2027%20January%202000%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Ruben Serrano v. NLRC and Isetann Department Store</i></a>, G.R. No. 117040, 27 January 2000, Mendoza, J.</li>
+<li><a href="https://www.google.com/search?q=Reghis%20M.%20Romero%20II%2C%20et%20al.%20v.%20Senator%20Jinggoy%20E.%20Estrada%20and%20Senate%20Committee%20on%20Labor%2C%20Employment%20and%20Human%20Resources%20Development%2C%20G.R.%20No.%20174105%2C%202%20April%202009%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Reghis M. Romero II, et al. v. Senator Jinggoy E. Estrada and Senate Committee on Labor, Employment and Human Resources Development</i></a>, G.R. No. 174105, 2 April 2009, Velasco, Jr., J.</li>
+</ul>
+<li>Sec. 18: right against involuntary servitude</li>
+<ul>
+<li><a href="https://www.google.com/search?q=The%20Philippine%20Geothermal%2C%20Inc.%20Employees%20Union%20v.%20UNOCAL%20Philippines%2C%20Inc.%2C%20G.R.%20No.%20190187%2C%2028%20September%202016%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>The Philippine Geothermal, Inc. Employees Union v. UNOCAL Philippines, Inc.</i></a>, G.R. No. 190187, 28 September 2016, Leonen, J.</li>
+</ul>
+</ul>
+<li>2.3 Art. XIII, Social Justice and Human Rights</li>
+<ul>
+<li>Sec. 1: equality policy</li>
+<li>Sec. 2: freedom and self-reliance of private enterprises</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Philippine%20Airlines%20Inc.%20v.%20Joselito%20Pascua%20et%20al.%2C%20G.R.%20No.%20143258%2C%2015%20August%202003%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine Airlines Inc. v. Joselito Pascua et al.</i></a>, G.R. No. 143258, 15 August 2003, Quisumbing, J. (balancing labor and management interests; management prerogative: valid exercise and limits)</li>
+<li>Management prerogatives: definition, criterion of valid exercise, aspects (rights of management)</li>
+</ul>
+<li>Sec. 3: rights of labor and rights of enterprise; shared responsibility; State&#x27;s right to regulate labor relations and labor standards</li>
+<li>Sec. 13: special agency for disabled persons</li>
+<li>Sec. 14: protection of working women (to be discussed further under the Expanded Maternity Law, Safe Spaces Act, etc.)</li>
+</ul>
+</ul>
+<h4>Other statutory principles</h4>
+<ul>
+<li>3.1 New Civil Code (R.A. No. 386), Chapter 3, Secs. 1 and 2</li>
+<ul>
+<li>Art. 1700; Art. 1701; Art. 1702</li>
+<li>Section 1 (Household Service) is discussed under the Batas Kasambahay module</li>
+<li>Arts. 19, 20, 21 (Human Relations), in relation to Torts and Damages</li>
+</ul>
+<li>3.2 Overview of other social legislations (discussed later under the Social Legislation modules)</li>
+</ul>
+<h4>Labor Code of the Philippines</h4>
+<ul>
+<li>4.1 Definition; primary law in labor legislation; substantive rights, defined</li>
+<li>4.2 Fundamental Principles (Arts. 1 to 6, as amended)</li>
+<ul>
+<li>Art. 3: protection afforded to labor; rights accorded to workers (compare with Art. XIII, Sec. 3)</li>
+<li>Art. 4: construction in favor of labor (in relation to Art. 1702); statutory construction of the Labor Code and its IRR</li>
+</ul>
+<li>4.3 Art. 218: Declaration of State Policy</li>
+<li>4.4 Art. 290 (as amended by R.A. 10395, Tripartism Law)</li>
+<ul>
+<li>Tripartism in labor relations</li>
+<li>National Tripartite Industrial Peace Council (NTIPC)</li>
+<li>Tripartite Industrial Peace Councils (TIPCs)</li>
+<li>Department Order No. 140-14: IRR of R.A. 10395</li>
+</ul>
+</ul>` },
+      { title: "Module 2", content: `<h3>II. Employer-Employee Relationship</h3>
+<p>Employer and employee, kinds of employees (Art. 295), and the tests for determining the relationship.</p>
+<p><i>Case titles link to a web search by title and G.R. No. Confirm the full text in the <a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a> or <a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil</a>.</i></p>
+<h4>Employer and employee</h4>
+<ul>
+<li>1. Employer v. Employee, defined (Art. 219, Labor Code; Book V of the Labor Code IRR)</li>
+<li>2. Worker v. Employee (Art. 13, Labor Code)</li>
+<li>3. Kinds of employees (Art. 295, Labor Code). Although this falls under Labor Relations, understanding employee kinds is needed for a whole view of the course.</li>
+<ul>
+<li>Regular: test to determine regular employment; exceptions</li>
+<li>Project</li>
+<li>Seasonal</li>
+<li>Casual</li>
+<li>Fixed-term: fixed-term v. independent contractors v. regular employees</li>
+<li>Probationary</li>
+</ul>
+</ul>
+<h4>How is employment status defined and prescribed?</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Innodata%20Knowledge%20Services%2C%20Inc.%20v.%20Socorro%20D%27Marie%20T.%20Inting%2C%20G.R.%20No.%20211892%2C%206%20December%202017%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Innodata Knowledge Services, Inc. v. Socorro D&#x27;Marie T. Inting</i></a>, G.R. No. 211892, 6 December 2017, Peralta, J.</li>
+<li><a href="https://www.google.com/search?q=Universal%20Robina%20Sugar%20Milling%20Corporation%20v.%20Nagkahiusang%20Mamumuo%20sa%20URSMUMCO-National%20Federation%20of%20Labor%2C%20G.R.%20No.%20224558%2C%2028%20November%202018%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Universal Robina Sugar Milling Corporation v. Nagkahiusang Mamumuo sa URSMUMCO-National Federation of Labor</i></a>, G.R. No. 224558, 28 November 2018, J. Reyes, Jr., J.</li>
+</ul>
+<h4>Determination of employer-employee relationship</h4>
+<ul>
+<li>5.1 Elements of employer-employee relationship</li>
+<li>5.2 Four-Fold Test</li>
+<li>5.3 Control Test</li>
+<li>5.4 Economic Dependence Test</li>
+<li>5.5 Two-tier Test (totality of the circumstances)</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Angelina%20Francisco%20v.%20NLRC%20and%20Kasei%20Corporation%20et%20al.%2C%20G.R.%20No.%20170087%2C%2031%20August%202006%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Angelina Francisco v. NLRC and Kasei Corporation et al.</i></a>, G.R. No. 170087, 31 August 2006, Ynares-Santiago, J.</li>
+</ul>
+<li>5.6 Evidence in equipoise (Art. 4, Labor Code)</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Salvador%20Dela%20Fuente%20v.%20Marilyn%20E.%20Gimenez%2C%20G.R.%20No.%20214419%2C%2017%20November%202021%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Salvador Dela Fuente v. Marilyn E. Gimenez</i></a>, G.R. No. 214419, 17 November 2021, Zalameda, J.</li>
+</ul>
+<li>5.7 Other case readings</li>
+<ul>
+<li><a href="https://www.google.com/search?q=LVN%20Pictures%20Inc.%20v.%20Philippine%20Musicians%20Guild%2C%20G.R.%20No.%20L-12582%2C%2028%20January%201961%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>LVN Pictures Inc. v. Philippine Musicians Guild (FFW)</i></a>, G.R. No. L-12582, 28 January 1961, Concepcion, J.</li>
+<li><a href="https://www.google.com/search?q=Hydro%20Resources%20Contractors%20Corporation%20v.%20Labor%20Arbiter%20Adrian%20N.%20Pagalilauan%2C%20G.R.%20No.%20L-62909%2C%2018%20April%201989%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Hydro Resources Contractors Corporation v. Labor Arbiter Adrian N. Pagalilauan</i></a>, G.R. No. L-62909, 18 April 1989, Gutierrez, Jr., J.</li>
+<li><a href="https://www.google.com/search?q=Paguio%20Transport%20Corporation%20v.%20NLRC%2C%20G.R.%20No.%20119500%2C%2028%20August%201998%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Paguio Transport Corporation v. NLRC</i></a>, G.R. No. 119500, 28 August 1998</li>
+<li><a href="https://www.google.com/search?q=Teng%20v.%20Pahagac%2C%20G.R.%20No.%20169704%2C%2017%20November%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Teng v. Pahagac</i></a>, G.R. No. 169704, 17 November 2010</li>
+<li><a href="https://www.google.com/search?q=Dy%20Keh%20Beng%20v.%20International%20Labor%2C%20L-32245%2C%2025%20May%201979%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Dy Keh Beng v. International Labor</i></a>, L-32245, 25 May 1979</li>
+<li><a href="https://www.google.com/search?q=Tongko%20v.%20Manufacturer%27s%20Life%20Insurance%20Company%2C%20G.R.%20No.%20167622%2C%2029%20June%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Tongko v. Manufacturer&#x27;s Life Insurance Company</i></a>, G.R. No. 167622, 29 June 2010 (see also the 25 January 2011 Resolution)</li>
+<li><a href="https://www.google.com/search?q=AFP%20Mutual%20Benefit%20Association%20v.%20NLRC%2C%20G.R.%20No.%20102199%2C%2028%20January%201997%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>AFP Mutual Benefit Association v. NLRC</i></a>, G.R. No. 102199, 28 January 1997</li>
+<li><a href="https://www.google.com/search?q=Osias%20I.%20Corporal%2C%20Sr.%20v.%20NLRC%2C%20Lao%20Enteng%20Company%2C%20Inc.%2C%20G.R.%20No.%20129315%2C%202%20October%202000%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Osias I. Corporal, Sr. v. NLRC, Lao Enteng Company, Inc.</i></a>, G.R. No. 129315, 2 October 2000</li>
+<li><a href="https://www.google.com/search?q=Rico%20B.%20Escauriaga%20et%20al.%20v.%20Fitness%20First%2C%20Phil.%20Inc.%2C%20G.R.%20No.%20266552%2C%2022%20January%202024%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Rico B. Escauriaga et al. v. Fitness First, Phil. Inc.</i></a>, G.R. No. 266552, 22 January 2024, Lazaro-Javier, J.</li>
+<li><a href="https://www.google.com/search?q=Alejandro%20Maraguinot%2C%20Jr.%20v.%20NLRC%2C%20G.R.%20No.%20120969%2C%2022%20January%201998%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Alejandro Maraguinot, Jr. v. NLRC</i></a>, G.R. No. 120969, 22 January 1998, Davide, Jr., J.</li>
+<li><a href="https://www.google.com/search?q=Calamba%20Medical%20Center%20v.%20NLRC%2C%20G.R.%20No.%20176484%2C%2025%20November%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Calamba Medical Center v. NLRC</i></a>, G.R. No. 176484, 25 November 2008</li>
+<li><a href="https://www.google.com/search?q=Angel%20Jardin%20et%20al.%20v.%20NLRC%20and%20Goodman%20Taxi%2C%20G.R.%20No.%20119268%2C%2023%20February%202000%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Angel Jardin et al. v. NLRC and Goodman Taxi (PhilJama International, Inc.)</i></a>, G.R. No. 119268, 23 February 2000, Quisumbing, J.</li>
+<li><a href="https://www.google.com/search?q=Sonza%20v.%20ABS-CBN%20Broadcasting%20Corporation%2C%20G.R.%20No.%20138051%2C%2010%20June%202004%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Sonza v. ABS-CBN Broadcasting Corporation</i></a>, G.R. No. 138051, 10 June 2004</li>
+<li><a href="https://www.google.com/search?q=ABS-CBN%20Broadcasting%20Corporation%20v.%20Marlyn%20Nazareno%2C%20G.R.%20No.%20164156%2C%2026%20September%202006%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>ABS-CBN Broadcasting Corporation v. Marlyn Nazareno</i></a>, G.R. No. 164156, 26 September 2006</li>
+<li><a href="https://www.google.com/search?q=Fulache%20v.%20ABS-CBN%2C%20G.R.%20No.%20183810%2C%2021%20January%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Fulache v. ABS-CBN</i></a>, G.R. No. 183810, 21 January 2010</li>
+<li><a href="https://www.google.com/search?q=Begino%20v.%20ABS-CBN%2C%20G.R.%20No.%20199166%2C%2020%20April%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Begino v. ABS-CBN</i></a>, G.R. No. 199166, 20 April 2015</li>
+<li><a href="https://www.google.com/search?q=Orozco%20v.%20Court%20of%20Appeals%2C%20G.R.%20No.%20155207%2C%2013%20August%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Orozco v. Court of Appeals</i></a>, G.R. No. 155207, 13 August 2008</li>
+<li><a href="https://www.google.com/search?q=Television%20and%20Production%20Exponents%2C%20Inc.%20v.%20Serva%C3%B1a%2C%20G.R.%20No.%20167648%2C%2028%20January%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Television and Production Exponents, Inc. v. Servaña</i></a>, G.R. No. 167648, 28 January 2008</li>
+<li><a href="https://www.google.com/search?q=Tabang%20v.%20NLRC%2C%20G.R.%20No.%20121143%2C%2021%20January%201997%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Tabang v. NLRC</i></a>, G.R. No. 121143, 21 January 1997</li>
+<li><a href="https://www.google.com/search?q=WPP%20Marketing%20Communications%2C%20Inc.%20et%20al.%20v.%20Galera%2C%20G.R.%20No.%20169207%20/%20G.R.%20No.%20169239%2C%2025%20March%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>WPP Marketing Communications, Inc. et al. v. Galera</i></a>, G.R. No. 169207 / G.R. No. 169239, 25 March 2010</li>
+<li><a href="https://www.google.com/search?q=Matling%20Industrial%20v.%20Coros%2C%20G.R.%20No.%20157802%2C%2013%20October%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Matling Industrial v. Coros</i></a>, G.R. No. 157802, 13 October 2010</li>
+<li><a href="https://www.google.com/search?q=Malcaba%20v.%20Prohealth%20Pharma%20Philippines%2C%20G.R.%20No.%20209085%2C%206%20June%202018%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Malcaba v. Prohealth Pharma Philippines</i></a>, G.R. No. 209085, 6 June 2018</li>
+<li><a href="https://www.google.com/search?q=Republic%20v.%20Asiapro%20Cooperative%2C%20G.R.%20No.%20172101%2C%2023%20November%202007%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Republic v. Asiapro Cooperative</i></a>, G.R. No. 172101, 23 November 2007</li>
+</ul>
+</ul>` },
+      { title: "Module 3", content: `<h3>III. Hours of Work</h3>
+<p>Second half: Labor Standards, Labor and Social Legislations. Book Three, Title I of the Labor Code; read also the pertinent portions of the IRR.</p>
+<p><i>Case titles link to a web search by title and G.R. No. Confirm the full text in the <a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a> or <a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil</a>.</i></p>
+<h4>Coverage and exclusions (Art. 82, LC)</h4>
+<ul>
+<li>1.1 Managerial employees: definition and conditions; managerial v. supervisory</li>
+<li>1.2 Government employees</li>
+<ul>
+<li><a href="https://www.google.com/search?q=National%20Service%20Corporation%20v.%20NLRC%2C%20G.R.%20No.%20L-69870%2C%2029%20November%201988%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>National Service Corporation (NASECO) v. NLRC</i></a>, G.R. No. L-69870, 29 November 1988, Padilla, J.</li>
+</ul>
+<li>1.3 Field personnel: those engaged on task or contract basis, purely commission basis</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Auto%20Bus%20Transport%20Systems%2C%20Inc.%20v.%20Bautista%2C%20G.R.%20No.%20156367%2C%2016%20May%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Auto Bus Transport Systems, Inc. v. Bautista</i></a>, G.R. No. 156367, 16 May 2005, Chico-Nazario, J.</li>
+</ul>
+<li>1.4 Employer&#x27;s family members</li>
+<li>1.5 Domestic helpers</li>
+<li>1.6 Workers paid by results</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Labor%20Congress%20of%20the%20Philippines%20v.%20NLRC%2C%20G.R.%20No.%20123938%2C%2021%20May%201998%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Labor Congress of the Philippines v. NLRC</i></a>, G.R. No. 123938, 21 May 1998, Davide, Jr., J.</li>
+<li>Categories: piecework, takay, pakiao, task basis</li>
+<li><a href="https://www.google.com/search?q=Lambao%20v.%20NLRC%2C%20G.R.%20No.%20111042%2C%2026%20October%201999%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Lambao v. NLRC</i></a>, G.R. No. 111042, 26 October 1999, Mendoza, J.</li>
+</ul>
+</ul>
+<h4>Statutory benefits under Book III, Title I of the LC</h4>
+<h4>Normal hours of work (Art. 83, LC; Art. 91; Sec. 3, Rule III, Omnibus Rules)</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Legend%20Hotel%20Manila%20v.%20Realuyo%2C%20G.R.%20No.%20153511%2C%2018%20July%202012%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Legend Hotel Manila v. Realuyo</i></a>, G.R. No. 153511, 18 July 2012, Bersamin, J.</li>
+<li><a href="https://www.google.com/search?q=Rada%20v.%20NLRC%2C%20G.R.%20No.%2096078%2C%209%20January%201992%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Rada v. NLRC</i></a>, G.R. No. 96078, 9 January 1992, Regalado, J.</li>
+<li><a href="https://www.google.com/search?q=University%20of%20Pangasinan%20Faculty%20Union%20v.%20University%20of%20Pangasinan%2C%20G.R.%20No.%20L-63122%2C%2020%20February%201984%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>University of Pangasinan Faculty Union v. University of Pangasinan</i></a>, G.R. No. L-63122, 20 February 1984, Gutierrez, Jr., J.</li>
+</ul>
+<ul>
+<li>3.4 Exceptions to normal hours of work</li>
+<ul>
+<li>Healthcare personnel</li>
+<ul>
+<li>Department Order No. 182, s. 2017: guidelines on employment and working conditions of health personnel in the private healthcare industry</li>
+<li>Private v. public sector health personnel working hours (DO 182-17 v. Art. 83)</li>
+<li><a href="https://www.google.com/search?q=San%20Juan%20De%20Dios%20Hospital%20Employees%20Association-AFW%20et%20al.%20v.%20NLRC%20et%20al.%2C%20G.R.%20No.%20126383%2C%2028%20November%201997%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>San Juan De Dios Hospital Employees Association-AFW et al. v. NLRC et al.</i></a>, G.R. No. 126383, 28 November 1997, Francisco, J.</li>
+</ul>
+<li>Flexible work arrangements</li>
+<ul>
+<li>Department Advisory No. 2, s. 2009: guidelines on flexible work arrangements</li>
+<li>Compressed Workweek (CWW): grounds; guidelines, requisites and conditions for validity; effects</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Philippine%20Graphic%20Arts%20v.%20NLRC%2C%20L-80737%2C%2029%20September%201988%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine Graphic Arts v. NLRC</i></a>, L-80737, 29 September 1988</li>
+<li><a href="https://www.google.com/search?q=Unicorn%20Safety%20Glass%20v.%20Basarte%2C%20G.R.%20No.%20154689%2C%2025%20November%202004%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Unicorn Safety Glass v. Basarte</i></a>, G.R. No. 154689, 25 November 2004</li>
+<li><a href="https://www.google.com/search?q=Linton%20Commercial%20v.%20Hellera%2C%20G.R.%20No.%20163147%2C%2010%20October%202007%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Linton Commercial v. Hellera</i></a>, G.R. No. 163147, 10 October 2007</li>
+<li><a href="https://www.google.com/search?q=Bisig%20Manggagawa%20sa%20Tryco%20v.%20NLRC%2C%20G.R.%20No.%20151309%2C%2015%20October%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Bisig Manggagawa sa Tryco v. NLRC</i></a>, G.R. No. 151309, 15 October 2008</li>
+</ul>
+<li>Reduction of workdays; rotation of workers; forced leave; broken-time schedule; flexi-holidays schedule</li>
+<li>Department Advisory No. 4, s. 2010: flexible work arrangements and exemption from the night work prohibition for women employees in the BPO industry</li>
+</ul>
+</ul>
+<li>3.5 Compensable hours worked (Art. 84, LC)</li>
+<ul>
+<li>Principles in determining hours worked (Sec. 4, Rule I, Book III, LC IRR)</li>
+<li>Work interruption due to brownouts: Policy Instruction No. 36, 22 May 1978</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Durabilt%20Recapping%20Plant%20v.%20NLRC%2C%20G.R.%20No.%2076746%2C%2027%20July%201987%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Durabilt Recapping Plant v. NLRC</i></a>, G.R. No. 76746, 27 July 1987, Gutierrez, Jr., J.</li>
+</ul>
+<li>Meal breaks: general rule; when compensable; conditions for validity</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Pan%20American%20World%20Airways%20System%20v.%20Pan%20American%20Employees%20Association%2C%20G.R.%20L-16275%2C%2023%20February%201961%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Pan American World Airways System v. Pan American Employees Association</i></a>, G.R. L-16275, 23 February 1961</li>
+<li><a href="https://www.google.com/search?q=Sime%20Darby%20Pilipinas%20v.%20NLRC%2C%20G.R.%20No.%20119205%2C%2015%20April%201998%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Sime Darby Pilipinas v. NLRC</i></a>, G.R. No. 119205, 15 April 1998</li>
+<li><a href="https://www.google.com/search?q=Philippine%20Airlines%20v.%20NLRC%2C%20G.R.%20No.%20132805%2C%202%20February%201999%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine Airlines v. NLRC</i></a>, G.R. No. 132805, 2 February 1999</li>
+</ul>
+<li>Rest periods and coffee breaks (Sec. 7, Rule I, Book III, LC IRR)</li>
+<li>Idle time and waiting time (Sec. 5, Rule I, Book III, LC IRR): &quot;engaged to work&quot; v. &quot;waiting to be engaged&quot;; on-call status</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Arica%20v.%20NLRC%2C%20G.R.%20No.%2078210%2C%2028%20February%201989%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Arica v. NLRC</i></a>, G.R. No. 78210, 28 February 1989</li>
+</ul>
+<li>Meetings, lectures and training (Sec. 6, Rule I, Book III, LC IRR)</li>
+<li>Travel time and commuting time</li>
+<li>Night Shift Differential (NSD, Art. 86, LC): coverage, exclusions, computation, NSD v. overtime pay</li>
+<ul>
+<li><a href="https://www.google.com/search?q=GMA%20Network%20Inc.%20v.%20Pabriga%2C%20G.R.%20No.%20176419%2C%2027%20November%202013%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>GMA Network Inc. v. Pabriga</i></a>, G.R. No. 176419, 27 November 2013</li>
+</ul>
+</ul>
+<li>3.6 Overtime work (Art. 87, LC, with the IRR and Department Orders)</li>
+<ul>
+<li>Definition and nature of overtime (OT)</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Salazar%20v.%20NLRC%2C%20G.R.%20No.%20109210%2C%2017%20April%201996%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Salazar v. NLRC</i></a>, G.R. No. 109210, 17 April 1996</li>
+<li><a href="https://www.google.com/search?q=San%20Miguel%20Brewery%20v.%20Democratic%20Labor%20Union%2C%20L-18353%2C%2031%20July%201963%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>San Miguel Brewery v. Democratic Labor Union</i></a>, L-18353, 31 July 1963</li>
+<li><a href="https://www.google.com/search?q=PAL%20Employees%20Savings%20and%20Loan%20Association%20v.%20NLRC%2C%20G.R.%20No.%20105963%2C%2022%20August%201996%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>PAL Employees Savings and Loan Association v. NLRC</i></a>, G.R. No. 105963, 22 August 1996</li>
+</ul>
+<li>Overtime pay v. NSD; overtime work v. overtime pay; coverage; exclusions</li>
+<li>Components of OT pay</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Philippine%20National%20Bank%20v.%20Philippine%20National%20Bank%20Employees%20Association%2C%20G.R.%20No.%20L-30279%2C%2030%20July%201982%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine National Bank v. Philippine National Bank Employees Association</i></a>, G.R. No. L-30279, 30 July 1982</li>
+</ul>
+<li>Computation of OT rates: ordinary days; scheduled rest day or special day; special day on a rest day; regular holiday; regular holiday on a rest day; regular v. special holidays</li>
+<li>Is OT pay subject to stipulation between the parties?</li>
+<li>Emergency overtime (Art. 89, LC; Sec. 4, Rule I, Book III, IRR): general rule and exceptions</li>
+<ul>
+<li><a href="https://www.google.com/search?q=R.B.%20Michael%20Press%20v.%20Galit%2C%20G.R.%20No.%20153510%2C%2013%20February%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>R.B. Michael Press v. Galit</i></a>, G.R. No. 153510, 13 February 2008</li>
+</ul>
+<li>Waiver of overtime pay: general rule and exceptions</li>
+<li>Offsetting and undertime (Art. 88, LC)</li>
+</ul>
+</ul>
+<h4>Rest periods (Art. 91, LC; Sec. 3, Rule III, Omnibus Rules)</h4>
+<ul>
+<li>4.1 Right to weekly rest day; employee&#x27;s preference; when work on rest day may be compelled</li>
+<li>4.2 Premium pay: definition, coverage, exceptions</li>
+<li>4.3 Computation: work on rest day or special day; rest day that is also a special day; regular holiday that is also a rest day</li>
+</ul>
+<h4>Holiday pay</h4>
+<ul>
+<li>5.1 Special v. regular holidays; definition; coverage; rules on entitlement and on absences during holidays</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Union%20of%20Filipro%20Employees%20v.%20Vivar%2C%20G.R.%20No.%2079256%2C%2020%20January%201992%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Union of Filipro Employees v. Vivar</i></a>, G.R. No. 79256, 20 January 1992</li>
+<li><a href="https://www.google.com/search?q=Jose%20Rizal%20College%20v.%20NLRC%2C%20L-65482%2C%201%20December%201987%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Jose Rizal College v. NLRC</i></a>, L-65482, 1 December 1987</li>
+<li><a href="https://www.google.com/search?q=Grand%20Asian%20Shipping%20Lines%20v.%20Galvez%2C%20G.R.%20No.%20178184%2C%2029%20January%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Grand Asian Shipping Lines v. Galvez</i></a>, G.R. No. 178184, 29 January 2014</li>
+<li><a href="https://www.google.com/search?q=San%20Miguel%20Corporation%20v.%20Court%20of%20Appeals%2C%20G.R.%20No.%20146775%2C%2030%20January%202002%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>San Miguel Corporation v. Court of Appeals</i></a>, G.R. No. 146775, 30 January 2002</li>
+</ul>
+<li>5.2 Exclusions</li>
+<li>5.3 Components of holiday pay</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Chartered%20Bank%20Employees%20Association%20v.%20Ople%2C%20G.R.%20No.%20L-44717%2C%2028%20August%201985%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Chartered Bank Employees Association v. Ople</i></a>, G.R. No. L-44717, 28 August 1985</li>
+<li><a href="https://www.google.com/search?q=Wellington%20Investment%20v.%20Trajano%2C%20G.R.%20No.%20114698%2C%203%20July%201995%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Wellington Investment v. Trajano</i></a>, G.R. No. 114698, 3 July 1995</li>
+<li><a href="https://www.google.com/search?q=Producers%20Bank%20of%20the%20Philippines%20v.%20NLRC%2C%20G.R.%20No.%20100701%2C%2028%20March%202001%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Producers Bank of the Philippines v. NLRC</i></a>, G.R. No. 100701, 28 March 2001</li>
+<li><a href="https://www.google.com/search?q=Odango%20v.%20NLRC%2C%20G.R.%20No.%20147420%2C%2010%20June%202004%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Odango v. NLRC</i></a>, G.R. No. 147420, 10 June 2004</li>
+<li><a href="https://www.google.com/search?q=Lim%20v.%20HMR%20Philippines%2C%20G.R.%20No.%20201483%2C%204%20August%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Lim v. HMR Philippines</i></a>, G.R. No. 201483, 4 August 2014</li>
+<li><a href="https://www.google.com/search?q=Asian%20Transmission%20Corporation%20v.%20Court%20of%20Appeals%2C%20G.R.%20No.%20144664%2C%2015%20March%202004%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Asian Transmission Corporation v. Court of Appeals</i></a>, G.R. No. 144664, 15 March 2004</li>
+</ul>
+<li>5.4 Computation of premium pay on holidays: if unworked; if worked (regular holiday; regular holiday on rest day or Sunday; two regular holidays on the same day; two successive regular holidays)</li>
+<li>5.5 Regular holiday during temporary or periodic shutdown and temporary cessation of work</li>
+</ul>
+<h4>Special days (special working and special non-working days)</h4>
+<ul>
+<li>Coverage and exclusions; computation</li>
+</ul>
+<h4>Night work (R.A. 10151; DOLE Department Order No. 119-12)</h4>
+<ul>
+<li>Coverage; night worker, defined; health assessment; mandatory facilities; transfers</li>
+<li>NSD pay: definition, coverage, computation (within regular hours; outside regular hours or within OT; on a rest day, special day or regular holiday)</li>
+</ul>
+<h4>Service Incentive Leave (SIL, Art. 95, LC)</h4>
+<ul>
+<li>&quot;At least one-year service&quot;, defined; coverage; exclusions (connect with Batas Kasambahay, R.A. 10361)</li>
+<li>Usage, conversion and commutation; prescriptive period</li>
+<li><a href="https://www.google.com/search?q=Fernandez%20v.%20NLRC%2C%20G.R.%20No.%20105892%2C%2028%20January%201998%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Fernandez v. NLRC</i></a>, G.R. No. 105892, 28 January 1998</li>
+<li><a href="https://www.google.com/search?q=Auto%20Bus%20Transport%20v.%20Bautista%2C%20G.R.%20No.%20156367%2C%2016%20May%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Auto Bus Transport v. Bautista</i></a>, G.R. No. 156367, 16 May 2005</li>
+<li><a href="https://www.google.com/search?q=JPL%20Marketing%20v.%20Court%20of%20Appeals%2C%20G.R.%20No.%20151966%2C%208%20July%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>JPL Marketing v. Court of Appeals</i></a>, G.R. No. 151966, 8 July 2005</li>
+<li><a href="https://www.google.com/search?q=David%20v.%20Macasio%2C%20G.R.%20No.%20195466%2C%202%20July%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>David v. Macasio</i></a>, G.R. No. 195466, 2 July 2014</li>
+<li><a href="https://www.google.com/search?q=Paloma%20v.%20Philippine%20Airlines%2C%20G.R.%20No.%20148415%2C%2014%20July%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Paloma v. Philippine Airlines</i></a>, G.R. No. 148415, 14 July 2008</li>
+<li><a href="https://www.google.com/search?q=Sugue%20v.%20Triumph%20International%2C%20G.R.%20No.%20164804%2C%2030%20January%202009%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Sugue v. Triumph International</i></a>, G.R. No. 164804, 30 January 2009</li>
+<li><a href="https://www.google.com/search?q=Soriano%20v.%20PNCC%20Skyway%20Corporation%2C%20G.R.%20No.%20171231%2C%2017%20February%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Soriano v. PNCC Skyway Corporation</i></a>, G.R. No. 171231, 17 February 2010</li>
+</ul>
+<h4>Service charge (Art. 96, LC, as amended by R.A. 11360)</h4>
+<ul>
+<li>Definition; coverage; distribution; frequency of distribution</li>
+</ul>
+<h4>Relevant social and labor legislations</h4>
+<ul>
+<li>10.1 Paternity Leave (R.A. No. 8187): definition, coverage, conditions, period to avail, effect when not availed</li>
+<li>10.2 Expanded Maternity Leave Law (R.A. 11210): coverage; benefits; manner of enjoyment; frequency; grant after termination of service; grant with a pending administrative case; requirements and notice; amount; effect of SSS maternity benefits; allocation of leave credits</li>
+<li>10.3 Solo Parent Act (R.A. 8972): who is a solo parent; children; parental leave; conditions; effect when not availed</li>
+<li>10.4 Leave for victims of violence under the VAWC Law (R.A. 9262): entitlement; employer compliance</li>
+<li>10.5 Magna Carta of Women (R.A. 9710): special leave; conditions; special leave v. SSS sickness benefit; effect of availing the special leave</li>
+</ul>` },
+      { title: "Module 4", content: `<h3>IV. Wages and Salary</h3>
+<p>Definition of wages, wage components, payment of wages, wage fixing and distortion, and worker preference.</p>
+<p><i>Case titles link to a web search by title and G.R. No. Confirm the full text in the <a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a> or <a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil</a>.</i></p>
+<h4>Definition of wages (R.A. 6727 and 8188; IRR of R.A. 6727)</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Aklan%20Electric%20Cooperative%20v.%20NLRC%2C%20G.R.%20No.%20121439%2C%2025%20January%202000%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Aklan Electric Cooperative v. NLRC</i></a>, G.R. No. 121439, 25 January 2000</li>
+<li><a href="https://www.google.com/search?q=Philex%20Gold%20Philippines%20v.%20Philex%20Bulawan%20Supervisors%20Union%2C%20G.R.%20No.%20149758%2C%2025%20August%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philex Gold Philippines v. Philex Bulawan Supervisors Union</i></a>, G.R. No. 149758, 25 August 2005</li>
+<li><a href="https://www.google.com/search?q=International%20School%20Alliance%20of%20Educators%20v.%20Quisumbing%2C%20G.R.%20No.%20128845%2C%201%20June%202000%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>International School Alliance of Educators v. Quisumbing</i></a>, G.R. No. 128845, 1 June 2000</li>
+</ul>
+<h4>Wages v. salary</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Rosario%20Gaa%20v.%20Court%20of%20Appeals%2C%20G.R.%20No.%20L-44169%2C%203%20December%201985%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Rosario Gaa v. Court of Appeals</i></a>, G.R. No. L-44169, 3 December 1985</li>
+<li>Art. 1708, Civil Code</li>
+</ul>
+<h4>Minimum wage; coverage</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=C.%20Planas%20Commercial%20v.%20NLRC%2C%20G.R.%20No.%20144619%2C%2011%20November%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>C. Planas Commercial v. NLRC</i></a>, G.R. No. 144619, 11 November 2005</li>
+</ul>
+<h4>Payments due to employees</h4>
+<ul>
+<li>5.1 Basic wage</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Honda%20Philippines%20v.%20Samahan%20ng%20Malayang%20Manggagawa%20sa%20Honda%2C%20G.R.%20No.%20145561%2C%2015%20June%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Honda Philippines v. Samahan ng Malayang Manggagawa sa Honda</i></a>, G.R. No. 145561, 15 June 2005</li>
+</ul>
+<li>5.2 Cost of Living Allowance (COLA)</li>
+<li>5.3 Facilities and supplements: facilities v. supplements; valid deduction of facilities from basic wage (purpose test)</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Millares%20v.%20NLRC%2C%20305%20SCRA%20500%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Millares v. NLRC</i></a>, 305 SCRA 500 (1999)</li>
+<li><a href="https://www.google.com/search?q=Mayon%20Hotel%20and%20Restaurant%20v.%20Adana%2C%20G.R.%20No.%20157634%2C%2016%20May%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Mayon Hotel and Restaurant v. Adana</i></a>, G.R. No. 157634, 16 May 2005</li>
+<li><a href="https://www.google.com/search?q=SLL%20International%20v.%20NLRC%2C%20G.R.%20No.%20172161%2C%202%20March%202011%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>SLL International v. NLRC</i></a>, G.R. No. 172161, 2 March 2011</li>
+<li><a href="https://www.google.com/search?q=Our%20Haus%20Realty%20Development%20Corporation%20v.%20Parian%2C%20G.R.%20No.%20204651%2C%206%20August%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Our Haus Realty Development Corporation v. Parian</i></a>, G.R. No. 204651, 6 August 2014</li>
+</ul>
+<li>5.4 Bonus</li>
+<li>5.5 Commissions</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Philippine%20Duplicators%2C%20Inc.%20v.%20NLRC%2C%20G.R.%20No.%20110068%2C%2011%20November%201993%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine Duplicators, Inc. v. NLRC</i></a>, G.R. No. 110068, 11 November 1993</li>
+<li><a href="https://www.google.com/search?q=Philippine%20Duplicators%2C%20Inc.%20v.%20NLRC%2C%20G.R.%20No.%20110068%2C%2015%20February%201995%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine Duplicators, Inc. v. NLRC</i></a>, G.R. No. 110068, 15 February 1995</li>
+<li><a href="https://www.google.com/search?q=Boie-Takeda%20Chemicals%2C%20Inc.%20v.%20De%20la%20Serna%2C%20G.R.%20No.%2092174%2C%2010%20December%201993%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Boie-Takeda Chemicals, Inc. v. De la Serna</i></a>, G.R. No. 92174, 10 December 1993</li>
+<li><a href="https://www.google.com/search?q=Iran%20v.%20NLRC%2C%20G.R.%20No.%20121927%2C%2022%20April%201998%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Iran v. NLRC</i></a>, G.R. No. 121927, 22 April 1998</li>
+<li><a href="https://www.google.com/search?q=Reyes%20v.%20NLRC%2C%20G.R.%20No.%20160233%2C%208%20August%202007%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Reyes v. NLRC</i></a>, G.R. No. 160233, 8 August 2007</li>
+<li><a href="https://www.google.com/search?q=Philippine%20Spring%20Water%20Resources%20v.%20Court%20of%20Appeals%2C%20G.R.%20No.%20205278%2C%2011%20June%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine Spring Water Resources v. Court of Appeals</i></a>, G.R. No. 205278, 11 June 2014</li>
+</ul>
+<li>5.6 Allowances</li>
+<li>5.7 Service charges (Art. 96, LC, as amended by R.A. 11360)</li>
+</ul>
+<h4>Thirteenth (13th) Month Pay Law (P.D. 851)</h4>
+<ul>
+<li>Definition; who must pay (P.D. 851 as modified by Memorandum Order No. 28); who is entitled and conditions; who is excluded; exempted employers</li>
+<li>Components and nature; basic salary v. fringe benefits; computation; releasing of 13th month pay</li>
+<li>Cases:</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Central%20Azucarera%20de%20Tarlac%20v.%20Central%20Azucarera%20de%20Tarlac%20Labor%20Union-NLU%2C%20G.R.%20No.%20188949%2C%2026%20July%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Central Azucarera de Tarlac v. Central Azucarera de Tarlac Labor Union-NLU</i></a>, G.R. No. 188949, 26 July 2010</li>
+<li><a href="https://www.google.com/search?q=Honda%20Philippines%20v.%20Samahan%20ng%20Malayang%20Manggagawa%20sa%20Honda%2C%20G.R.%20No.%20145561%2C%2015%20June%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Honda Philippines v. Samahan ng Malayang Manggagawa sa Honda</i></a>, G.R. No. 145561, 15 June 2005</li>
+<li><a href="https://www.google.com/search?q=Boie-Takeda%20Chemicals%2C%20Inc.%20v.%20De%20la%20Serna%2C%20G.R.%20No.%2092174%2C%2010%20December%201993%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Boie-Takeda Chemicals, Inc. v. De la Serna</i></a>, G.R. No. 92174, 10 December 1993</li>
+<li><a href="https://www.google.com/search?q=Philippine%20Duplicators%2C%20Inc.%20v.%20NLRC%2C%20G.R.%20No.%20110068%2C%2015%20February%201995%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine Duplicators, Inc. v. NLRC</i></a>, G.R. No. 110068, 15 February 1995</li>
+<li><a href="https://www.google.com/search?q=King%20of%20Kings%20Transport%20v.%20Mamac%2C%20G.R.%20No.%20166208%2C%2029%20June%202007%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>King of Kings Transport v. Mamac</i></a>, G.R. No. 166208, 29 June 2007</li>
+</ul>
+</ul>
+<h4>Non-diminution of benefits (Art. 100, LC)</h4>
+<ul>
+<li>The rule; benefits, defined; basis of benefit; requisites for application; benefit as regular company practice; when the rule will not apply</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Vergara%20v.%20Coca%20Cola%20Bottlers%20Philippines%2C%20G.R.%20No.%20176985%2C%201%20April%202013%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Vergara v. Coca Cola Bottlers Philippines</i></a>, G.R. No. 176985, 1 April 2013</li>
+</ul>
+<li>Company practice:</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Arco%20Metal%20Products%20v.%20SAMARM-NAFLU%2C%20G.R.%20No.%20170734%2C%2014%20May%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Arco Metal Products v. SAMARM-NAFLU</i></a>, G.R. No. 170734, 14 May 2008</li>
+<li><a href="https://www.google.com/search?q=Metropolitan%20Bank%20v.%20NLRC%2C%20G.R.%20No.%20152928%2C%2018%20June%202009%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Metropolitan Bank v. NLRC</i></a>, G.R. No. 152928, 18 June 2009</li>
+<li><a href="https://www.google.com/search?q=University%20of%20the%20East%20v.%20University%20of%20the%20East%20Employees%20Association%2C%20G.R.%20No.%20179593%2C%2014%20September%202011%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>University of the East v. University of the East Employees Association</i></a>, G.R. No. 179593, 14 September 2011</li>
+<li><a href="https://www.google.com/search?q=Wesleyan%20University%20v.%20Wesleyan%20University%20Faculty%20and%20Staff%20Association%2C%20G.R.%20No.%20181806%2C%2012%20March%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Wesleyan University v. Wesleyan University Faculty and Staff Association</i></a>, G.R. No. 181806, 12 March 2014</li>
+</ul>
+<li>Bonuses:</li>
+<ul>
+<li><a href="https://www.google.com/search?q=American%20Wire%20and%20Cable%20Daily%20Rated%20Employees%20Union%20v.%20American%20Wire%20and%20Cable%20Co.%2C%20G.R.%20No.%20155059%2C%2029%20April%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>American Wire and Cable Daily Rated Employees Union v. American Wire and Cable Co.</i></a>, G.R. No. 155059, 29 April 2005</li>
+<li><a href="https://www.google.com/search?q=Protacio%20v.%20Laya%20Mananghaya%2C%20G.R.%20No.%20168654%2C%2025%20March%202009%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Protacio v. Laya Mananghaya</i></a>, G.R. No. 168654, 25 March 2009</li>
+<li><a href="https://www.google.com/search?q=Lepanto%20Ceramics%20v.%20Lepanto%20Ceramics%20Employees%20Association%2C%20G.R.%20No.%20180866%2C%202%20March%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Lepanto Ceramics v. Lepanto Ceramics Employees Association</i></a>, G.R. No. 180866, 2 March 2010</li>
+<li><a href="https://www.google.com/search?q=Mega%20Magazine%20Publications%20v.%20Defensor%2C%20G.R.%20No.%20162021%2C%2016%20June%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Mega Magazine Publications v. Defensor</i></a>, G.R. No. 162021, 16 June 2014</li>
+<li><a href="https://www.google.com/search?q=TSPIC%20Corporation%20v.%20TSPIC%20Employees%20Union%2C%20G.R.%20No.%20163419%2C%2013%20February%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>TSPIC Corporation v. TSPIC Employees Union</i></a>, G.R. No. 163419, 13 February 2008</li>
+<li><a href="https://www.google.com/search?q=Eastern%20Telecommunications%20v.%20Eastern%20Telecoms%20Employees%20Union%2C%20G.R.%20No.%20185665%2C%208%20February%202012%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Eastern Telecommunications v. Eastern Telecoms Employees Union</i></a>, G.R. No. 185665, 8 February 2012</li>
+</ul>
+</ul>
+<h4>Payment of wages</h4>
+<ul>
+<li>8.1 How wages are paid: Art. 102, LC; Art. 1705, Civil Code; time and frequency (Arts. 103 and 105, LC)</li>
+<li>8.2 To whom wages are paid (Art. 104, LC): general rule; exceptions (Art. 105, LC; IRR)</li>
+<li>8.3 Deductions from wages (Labor Advisory No. 11, s. 2014; Department Order No. 195-18): when allowed; conditions for validity</li>
+<li>8.4 Interference in the disposal of wages</li>
+<li>8.5 Wages exempt from execution or attachment (Art. 1705, Civil Code)</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Rosario%20Gaa%20v.%20Court%20of%20Appeals%2C%20G.R.%20No.%20L-44169%2C%203%20December%201985%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Rosario Gaa v. Court of Appeals</i></a>, G.R. No. L-44169, 3 December 1985</li>
+</ul>
+<li>8.6 Requiring deposits</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Five%20J%20Taxi%20v.%20NLRC%2C%20G.R.%20No.%20111474%2C%2022%20August%201994%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Five J Taxi v. NLRC</i></a>, G.R. No. 111474, 22 August 1994</li>
+<li><a href="https://www.google.com/search?q=Ni%C3%B1a%20Jewelry%20v.%20Montecillo%2C%20G.R.%20No.%20188169%2C%2028%20November%202011%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Niña Jewelry v. Montecillo</i></a>, G.R. No. 188169, 28 November 2011</li>
+</ul>
+<li>8.7 Withholding of wages</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Special%20Steel%20Products%20v.%20Villareal%2C%20G.R.%20No.%20143304%2C%208%20July%202004%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Special Steel Products v. Villareal</i></a>, G.R. No. 143304, 8 July 2004</li>
+<li><a href="https://www.google.com/search?q=Milan%20v.%20NLRC%2C%20G.R.%20No.%20202961%2C%204%20February%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Milan v. NLRC</i></a>, G.R. No. 202961, 4 February 2015</li>
+</ul>
+<li>8.8 Deductions to ensure employment; retaliatory acts by employer; false statement in a report or record</li>
+<li>8.9 Wage fixing: criteria; methods (floor wage; salary ceiling)</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Norkis%20Free%20and%20Independent%20Workers%20Union%20v.%20Norkis%20Trading%2C%20G.R.%20No.%20157098%2C%2030%20June%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Norkis Free and Independent Workers Union v. Norkis Trading</i></a>, G.R. No. 157098, 30 June 2005</li>
+</ul>
+<li>8.10 Wage distortion: definition; elements</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Prubankers%20Association%20v.%20Prudential%20Bank%2C%20G.R.%20No.%20131247%2C%2025%20January%201999%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Prubankers Association v. Prudential Bank</i></a>, G.R. No. 131247, 25 January 1999</li>
+<li><a href="https://www.google.com/search?q=Employers%20Confederation%20of%20the%20Philippines%20v.%20National%20Wages%20and%20Productivity%20Commission%2C%20G.R.%20No.%2096169%2C%2024%20September%201991%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Employers Confederation of the Philippines v. National Wages and Productivity Commission</i></a>, G.R. No. 96169, 24 September 1991</li>
+<li><a href="https://www.google.com/search?q=Metropolitan%20Bank%20and%20Trust%20Co.%20Employees%20Union%20v.%20NLRC%2C%20G.R.%20No.%20102636%2C%2010%20September%201993%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Metropolitan Bank and Trust Co. Employees Union v. NLRC</i></a>, G.R. No. 102636, 10 September 1993</li>
+<li><a href="https://www.google.com/search?q=Metro%20Transit%20Organization%20v.%20NLRC%2C%20G.R.%20No.%20116008%2C%2011%20July%201995%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Metro Transit Organization v. NLRC</i></a>, G.R. No. 116008, 11 July 1995</li>
+<li><a href="https://www.google.com/search?q=Bankard%20Employees%20Union%20v.%20NLRC%2C%20G.R.%20No.%20140689%2C%2017%20February%202004%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Bankard Employees Union v. NLRC</i></a>, G.R. No. 140689, 17 February 2004</li>
+<li><a href="https://www.google.com/search?q=Philippine%20Geothermal%20Employees%20Union%20v.%20Chevron%2C%20G.R.%20No.%20207252%2C%2024%20January%202018%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine Geothermal Employees Union v. Chevron</i></a>, G.R. No. 207252, 24 January 2018</li>
+</ul>
+</ul>
+<h4>In case of bankruptcy: worker preference</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=DBP%20v.%20NLRC%2C%20G.R.%20No.%2082763%2C%2019%20March%201990%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>DBP v. NLRC</i></a>, G.R. No. 82763, 19 March 1990</li>
+<li><a href="https://www.google.com/search?q=DBP%20v.%20NLRC%2C%20G.R.%20No.%2086227%2C%2019%20January%201994%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>DBP v. NLRC</i></a>, G.R. No. 86227, 19 January 1994</li>
+</ul>` },
+      { title: "Module 5", content: `<h3>V. Special Groups of Workers and Other Social and Labor Legislations</h3>
+<p>Women, child workers and domestic workers (Batas Kasambahay).</p>
+<p><i>Case titles link to a web search by title and G.R. No. Confirm the full text in the <a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a> or <a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil</a>.</i></p>
+<h4>Women</h4>
+<ul>
+<li>1.1 Prohibited acts under the Labor Code</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Philippine%20Telegraph%20and%20Telephone%20Co.%20v.%20NLRC%2C%20G.R.%20No.%20118978%2C%2023%20May%201997%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine Telegraph and Telephone Co. v. NLRC</i></a>, G.R. No. 118978, 23 May 1997</li>
+<li><a href="https://www.google.com/search?q=Lakpue%20Drug%20v.%20Belga%2C%20G.R.%20No.%20166379%2C%2020%20October%202005%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Lakpue Drug v. Belga</i></a>, G.R. No. 166379, 20 October 2005</li>
+<li><a href="https://www.google.com/search?q=Del%20Monte%20v.%20Velasco%2C%20G.R.%20No.%20153477%2C%206%20March%202007%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Del Monte v. Velasco</i></a>, G.R. No. 153477, 6 March 2007</li>
+<li><a href="https://www.google.com/search?q=Star%20Paper%20v.%20Simbol%2C%20G.R.%20No.%20164774%2C%2012%20April%202006%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Star Paper v. Simbol</i></a>, G.R. No. 164774, 12 April 2006</li>
+<li><a href="https://www.google.com/search?q=Leus%20v.%20St.%20Scholastica%27s%20College%2C%20G.R.%20No.%20187226%2C%2028%20January%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Leus v. St. Scholastica&#x27;s College</i></a>, G.R. No. 187226, 28 January 2015</li>
+<li><a href="https://www.google.com/search?q=Capin-Cadiz%20v.%20Brent%20Hospital%20and%20Colleges%2C%20G.R.%20No.%20187417%2C%2024%20February%202016%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Capin-Cadiz v. Brent Hospital and Colleges</i></a>, G.R. No. 187417, 24 February 2016</li>
+<li><a href="https://www.google.com/search?q=Inocente%20v.%20St.%20Vincent%20Foundation%2C%20G.R.%20No.%20202621%2C%2022%20June%202016%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Inocente v. St. Vincent Foundation</i></a>, G.R. No. 202621, 22 June 2016</li>
+<li><a href="https://www.google.com/search?q=Union%20School%20International%20v.%20Dagdag%2C%20G.R.%20No.%20234186%2C%2021%20November%202018%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Union School International v. Dagdag</i></a>, G.R. No. 234186, 21 November 2018 (see also J. Jardeleza&#x27;s Separate Opinion)</li>
+</ul>
+<li>1.2 Anti-Sexual Harassment Act (R.A. No. 7877): acts punished; persons liable; duty of the employer</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Libres%20v.%20NLRC%2C%20G.R.%20No.%20123737%2C%2028%20May%201999%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Libres v. NLRC</i></a>, G.R. No. 123737, 28 May 1999</li>
+<li><a href="https://www.google.com/search?q=Domingo%20v.%20Rayala%2C%20G.R.%20No.%20155831%2C%2018%20February%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Domingo v. Rayala</i></a>, G.R. No. 155831, 18 February 2008</li>
+<li><a href="https://www.google.com/search?q=Toliongco%20v.%20Court%20of%20Appeals%2C%20G.R.%20No.%20231748%2C%208%20July%202020%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Toliongco v. Court of Appeals</i></a>, G.R. No. 231748, 8 July 2020</li>
+<li><a href="https://www.google.com/search?q=LBC%20Express%20v.%20Palco%2C%20G.R.%20No.%20217101%2C%2012%20February%202020%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>LBC Express v. Palco</i></a>, G.R. No. 217101, 12 February 2020</li>
+</ul>
+</ul>
+<h4>Safe Spaces Act, a.k.a. &quot;Bawal Bastos Law&quot; (R.A. No. 11313)</h4>
+<h4>Child workers (R.A. 7610, R.A. 9231 and IRRs; DO 65-04; Dept. Advisory 01-08; Dept. Circular 02-2017; DO 02-2018)</h4>
+<ul>
+<li>&quot;Working child&quot;, defined; working hours of a child; prohibited employment in certain undertakings</li>
+<li>Employment of children below 15: general rule and exceptions</li>
+</ul>
+<h4>Batas Kasambahay (R.A. 10361, IRR)</h4>
+<ul>
+<li>4.1 Coverage and exclusions</li>
+<ul>
+<li><a href="https://www.google.com/search?q=Atienza%20v.%20Saluta%2C%20G.R.%20No.%20233413%2C%2017%20June%202019%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Atienza v. Saluta</i></a>, G.R. No. 233413, 17 June 2019</li>
+<li><a href="https://www.google.com/search?q=Apex%20Mining%20v.%20NLRC%2C%20G.R.%20No.%2094951%2C%2022%20April%201991%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Apex Mining v. NLRC</i></a>, G.R. No. 94951, 22 April 1991</li>
+<li><a href="https://www.google.com/search?q=Barcenas%20v.%20NLRC%2C%20G.R.%20No.%2087210%2C%2016%20July%201990%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Barcenas v. NLRC</i></a>, G.R. No. 87210, 16 July 1990</li>
+</ul>
+<li>4.2 &quot;Kasambahay&quot; or &quot;domestic worker&quot;, defined</li>
+<li>4.3 Employment: mode of hiring and related expenses; pre-employment requirements; written employment contract</li>
+<li>4.4 Rights and privileges of a kasambahay</li>
+<ul>
+<li>Minimum wage: wage rate, allowable deductions, rules on payment, non-interference</li>
+<li>Hours of work and rest periods; service incentive leave pay; 13th month pay</li>
+<li>Coverage under SSS, PhilHealth and Pag-IBIG</li>
+<li>Standard of treatment; board, lodging and medical attendance; privacy; outside communication</li>
+<li>Education and training; forming, joining or assisting a labor organization; religious beliefs and cultural practices</li>
+</ul>
+<li>4.5 Termination of employment: termination of service; by the domestic worker; by the employer</li>
+</ul>` },
+      { title: "Module 6", content: `<h3>VI. Termination of Employment</h3>
+<p>Just and authorized causes, due process, remedies, and assigned readings by ground.</p>
+<p><i>Case titles link to a web search by title and G.R. No. Confirm the full text in the <a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a> or <a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil</a>.</i></p>
+<h4>Overview</h4>
+<ul>
+<li>1. Grounds for valid termination of employment, including termination of probationary employment</li>
+<ul>
+<li>Just cause: Art. 297, LC; requisites for each</li>
+<li>Authorized causes: Arts. 298 and 299, LC; requisites for each</li>
+<li>Termination by employee: Art. 300</li>
+</ul>
+<li>2. Power to terminate (scope and limitations)</li>
+<li>3. Review of procedural and substantive due process, with scenarios and effects of presence or absence of due process</li>
+<li>4. Remedies available to employees</li>
+</ul>
+<h4>Readings: Serious misconduct</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Imasen%20Philippine%20Corporation%20v.%20Alcon%2C%20G.R.%20No.%20194884%2C%2022%20October%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Imasen Philippine Corporation v. Alcon</i></a>, G.R. No. 194884, 22 October 2014 (elements)</li>
+<li><a href="https://www.google.com/search?q=Northwest%20Airlines%20v.%20Del%20Rosario%2C%20G.R.%20No.%20157633%2C%2010%20September%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Northwest Airlines v. Del Rosario</i></a>, G.R. No. 157633, 10 September 2014 (fighting as serious misconduct)</li>
+<li><a href="https://www.google.com/search?q=Citibank%20v.%20NLRC%2C%20G.R.%20No.%20159302%2C%206%20February%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Citibank v. NLRC</i></a>, G.R. No. 159302, 6 February 2008 (attitude problem as serious misconduct)</li>
+<li><a href="https://www.google.com/search?q=Mirant%20Philippines%20v.%20Caro%2C%20G.R.%20No.%20181490%2C%2023%20April%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Mirant Philippines v. Caro</i></a>, G.R. No. 181490, 23 April 2014 (refusal to undergo drug test not necessarily serious misconduct)</li>
+<li><a href="https://www.google.com/search?q=Nacague%20v.%20Sulpicio%20Lines%2C%20G.R.%20No.%20172589%2C%209%20August%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Nacague v. Sulpicio Lines</i></a>, G.R. No. 172589, 9 August 2010 (proof required for dismissal for drug use)</li>
+<li><a href="https://www.google.com/search?q=Leus%20v.%20St.%20Scholastica%27s%20College%2C%20G.R.%20No.%20187226%2C%2028%20January%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Leus v. St. Scholastica&#x27;s College</i></a>, G.R. No. 187226, 28 January 2015 (immorality)</li>
+<li><a href="https://www.google.com/search?q=Domingo%20v.%20Rayala%2C%20G.R.%20No.%20155831%2C%2018%20February%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Domingo v. Rayala</i></a>, G.R. No. 155831, 18 February 2008 (sexual harassment)</li>
+<li><a href="https://www.google.com/search?q=Naguit%20v.%20San%20Miguel%2C%2022%20June%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Naguit v. San Miguel</i></a>, 22 June 2015 (fighting)</li>
+<li><a href="https://www.google.com/search?q=Adamson%20University%20Faculty%20%26%20Employees%20Union%20v.%20Adamson%20University%2C%209%20March%202020%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Adamson University Faculty &amp; Employees Union v. Adamson University</i></a>, 9 March 2020 (expletives as a casual expression of surprise)</li>
+</ul>
+<h4>Gross insubordination / willful disobedience</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Coffee%20Bean%20and%20Tea%20Leaf%20v.%20Arenas%2C%20G.R.%20No.%20208908%2C%2011%20March%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Coffee Bean and Tea Leaf v. Arenas</i></a>, G.R. No. 208908, 11 March 2015</li>
+<li><a href="https://www.google.com/search?q=Lores%20Realty%20Enterprises%20v.%20Pacia%2C%20G.R.%20No.%20171189%2C%209%20March%202011%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Lores Realty Enterprises v. Pacia</i></a>, G.R. No. 171189, 9 March 2011 (good faith refusal to obey a lawful order)</li>
+<li><a href="https://www.google.com/search?q=ePacific%20Global%20Contact%20Center%20v.%20Cabansay%2C%20G.R.%20No.%20167345%2C%2023%20November%202007%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>ePacific Global Contact Center v. Cabansay</i></a>, G.R. No. 167345, 23 November 2007 (refusal to comply with lawful order)</li>
+<li><a href="https://www.google.com/search?q=Tongko%20v.%20The%20Manufacturer%27s%20Life%20Insurance%20Co.%20Inc.%2C%207%20November%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Tongko v. The Manufacturer&#x27;s Life Insurance Co. Inc.</i></a>, 7 November 2008 (willful disobedience)</li>
+<li><a href="https://www.google.com/search?q=Pharmacia%20and%20Upjohn%20Inc.%20v.%20Albayda%20Jr.%2C%2023%20August%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Pharmacia and Upjohn Inc. v. Albayda Jr.</i></a>, 23 August 2010 (refusal to be transferred)</li>
+<li><a href="https://www.google.com/search?q=St.%20Luke%27s%20Medical%20Center%20v.%20Sanchez%2C%2011%20March%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>St. Luke&#x27;s Medical Center v. Sanchez</i></a>, 11 March 2015 (willful disobedience)</li>
+</ul>
+<h4>Gross and habitual neglect</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=St.%20Luke%27s%20Medical%20Center%20v.%20Notario%2C%20G.R.%20No.%20152166%2C%2020%20October%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>St. Luke&#x27;s Medical Center v. Notario</i></a>, G.R. No. 152166, 20 October 2010 (negligence must be gross and habitual; a single act does not suffice)</li>
+<li><a href="https://www.google.com/search?q=LBC%20Express%20v.%20Mateo%2C%20G.R.%20No.%20168215%2C%209%20June%202009%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>LBC Express v. Mateo</i></a>, G.R. No. 168215, 9 June 2009 (single act of negligence causing loss of a substantial amount)</li>
+<li><a href="https://www.google.com/search?q=Mansion%20Printing%20Center%20v.%20Bitara%2C%20G.R.%20No.%20168120%2C%2015%20January%202012%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Mansion Printing Center v. Bitara</i></a>, G.R. No. 168120, 15 January 2012 (habitual tardiness and absenteeism; totality of infractions)</li>
+<li><a href="https://www.google.com/search?q=Cavite%20Apparel%20v.%20Marquez%2C%20G.R.%20No.%20172044%2C%206%20February%202013%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Cavite Apparel v. Marquez</i></a>, G.R. No. 172044, 6 February 2013 (four absences in six months not gross and habitual neglect)</li>
+<li><a href="https://www.google.com/search?q=Manarpiis%20v.%20Texan%20Philippines%2C%20G.R.%20No.%20197011%2C%2028%20January%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Manarpiis v. Texan Philippines</i></a>, G.R. No. 197011, 28 January 2015 (requisites for abandonment)</li>
+<li><a href="https://www.google.com/search?q=School%20of%20Holy%20Spirit%20of%20Quezon%20City%20v.%20Taguiam%2C%2014%20July%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>School of Holy Spirit of Quezon City v. Taguiam</i></a>, 14 July 2008 (gross and habitual neglect)</li>
+</ul>
+<h4>Fraud</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Philippine%20Airlines%20v.%20NLRC%2C%20G.R.%20No.%20126805%2C%2016%20March%202000%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Philippine Airlines v. NLRC</i></a>, G.R. No. 126805, 16 March 2000 (fraud need not cause actual loss to justify dismissal)</li>
+</ul>
+<h4>Loss of confidence / breach of trust</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Sta.%20Ana%20v.%20Manila%20Jockey%20Club%2C%20G.R.%20No.%20208459%2C%2015%20February%202017%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Sta. Ana v. Manila Jockey Club</i></a>, G.R. No. 208459, 15 February 2017 (requisites for breach of trust)</li>
+<li><a href="https://www.google.com/search?q=Hormillosa%20v.%20Coca-Cola%20Bottlers%20Philippines%2C%20G.R.%20No.%20198699%2C%209%20October%202013%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Hormillosa v. Coca-Cola Bottlers Philippines</i></a>, G.R. No. 198699, 9 October 2013 (non-managerial employees)</li>
+<li><a href="https://www.google.com/search?q=Manese%20v.%20Jollibee%20Foods%20Corporation%2C%20G.R.%20No.%20170454%2C%2011%20October%202012%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Manese v. Jollibee Foods Corporation</i></a>, G.R. No. 170454, 11 October 2012 (managerial employee)</li>
+<li><a href="https://www.google.com/search?q=Grand%20Asian%20Shipping%20Lines%20Inc.%20v.%20Galvez%2C%2029%20January%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Grand Asian Shipping Lines Inc. v. Galvez</i></a>, 29 January 2014 (loss of trust)</li>
+<li><a href="https://www.google.com/search?q=Bluer%20than%20Blue%20Joint%20Ventures%20Co.%20v.%20Esteban%2C%207%20April%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Bluer than Blue Joint Ventures Co. v. Esteban</i></a>, 7 April 2014 (whether the job is imbued with trust and confidence)</li>
+<li><a href="https://www.google.com/search?q=Concepcion%20v.%20Minex%20Import%20Corporation%2C%2024%20January%202012%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Concepcion v. Minex Import Corporation</i></a>, 24 January 2012 (criminal prosecution not required for valid dismissal)</li>
+</ul>
+<h4>Commission of a crime</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Reno%20Foods%20v.%20Nagkakaisang%20Lakas%20ng%20Manggagawa%2C%20G.R.%20No.%20164016%2C%2015%20March%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Reno Foods v. Nagkakaisang Lakas ng Manggagawa</i></a>, G.R. No. 164016, 15 March 2010 (acquittal does not invalidate dismissal)</li>
+<li><a href="https://www.google.com/search?q=Lynvil%20Fishing%20Enterprises%20v.%20Ariola%2C%20G.R.%20No.%20181974%2C%201%20February%202012%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Lynvil Fishing Enterprises v. Ariola</i></a>, G.R. No. 181974, 1 February 2012 (preliminary investigation findings do not bind labor tribunals)</li>
+</ul>
+<h4>Other analogous causes</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=John%20Hancock%20Life%20Insurance%20v.%20Davis%2C%20G.R.%20No.%20169549%2C%203%20September%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>John Hancock Life Insurance v. Davis</i></a>, G.R. No. 169549, 3 September 2008 (theft of co-worker&#x27;s property)</li>
+<li><a href="https://www.google.com/search?q=Yrasuegui%20v.%20PAL%2C%20G.R.%20No.%20168081%2C%2017%20October%202008%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Yrasuegui v. PAL</i></a>, G.R. No. 168081, 17 October 2008</li>
+<li><a href="https://www.google.com/search?q=Son%20et%20al.%20v.%20UST%2C%2018%20April%202018%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Son et al. v. UST</i></a>, 18 April 2018</li>
+</ul>
+<h4>Abandonment</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Mallo%20v.%20Southeast%20Asian%20College%2C%2014%20October%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Mallo v. Southeast Asian College</i></a>, 14 October 2015</li>
+<li><a href="https://www.google.com/search?q=Manarpiis%20v.%20Texan%20Philippines%2C%20G.R.%20No.%20197011%2C%2028%20January%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Manarpiis v. Texan Philippines</i></a>, G.R. No. 197011, 28 January 2015</li>
+</ul>
+<h4>Redundancy</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Arabit%20v.%20Jardine%20Pacific%2C%20G.R.%20No.%20181719%2C%2021%20April%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Arabit v. Jardine Pacific</i></a>, G.R. No. 181719, 21 April 2014 (redundancy v. retrenchment; guidelines)</li>
+<li><a href="https://www.google.com/search?q=Shimizu%20Philippines%20v.%20Callanta%2C%20G.R.%20No.%20165923%2C%2029%20September%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Shimizu Philippines v. Callanta</i></a>, G.R. No. 165923, 29 September 2010 (guidelines; notice to DOLE; nominal damages)</li>
+<li><a href="https://www.google.com/search?q=SPI%20Technologies%20Inc.%20v.%20Mapua%2C%207%20April%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>SPI Technologies Inc. v. Mapua</i></a>, 7 April 2014</li>
+<li><a href="https://www.google.com/search?q=Culili%20v.%20Eastern%20Telecommunication%20Philippines%2C%209%20February%202011%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Culili v. Eastern Telecommunication Philippines</i></a>, 9 February 2011</li>
+<li><a href="https://www.google.com/search?q=Asufrin%20v.%20San%20Miguel%20Corporation%2C%2010%20March%202004%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Asufrin v. San Miguel Corporation</i></a>, 10 March 2004</li>
+<li><a href="https://www.google.com/search?q=Ocean%20East%20Agency%20Corp.%20v.%20Lopez%2C%2014%20October%202015%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Ocean East Agency Corp. v. Lopez</i></a>, 14 October 2015</li>
+</ul>
+<h4>Retrenchment</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Asian%20Alcohol%20Corporation%20v.%20NLRC%2C%20G.R.%20No.%20131108%2C%2025%20March%201999%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Asian Alcohol Corporation v. NLRC</i></a>, G.R. No. 131108, 25 March 1999 (requirements; proof; prevention of losses)</li>
+<li><a href="https://www.google.com/search?q=FASAP%20v.%20Philippine%20Airlines%2C%20G.R.%20No.%20178083%2C%2013%20March%202018%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>FASAP v. Philippine Airlines</i></a>, G.R. No. 178083, 13 March 2018 (audited financial statements not absolute; corporate rehabilitation)</li>
+<li><a href="https://www.google.com/search?q=Sebuguero%20v.%20NLRC%2C%20G.R.%20No.%20115394%2C%2027%20September%201995%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Sebuguero v. NLRC</i></a>, G.R. No. 115394, 27 September 1995 (temporary lay-off; Art. 301 by analogy)</li>
+<li><a href="https://www.google.com/search?q=Blue%20Eagle%20v.%20Naval%2C%2019%20April%202016%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Blue Eagle v. Naval</i></a>, 19 April 2016</li>
+<li><a href="https://www.google.com/search?q=La%20Consolacion%20College%20v.%20Pascua%2C%2014%20March%202018%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>La Consolacion College v. Pascua</i></a>, 14 March 2018</li>
+</ul>
+<h4>Closure of business</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Sangwoo%20Philippines%20v.%20Sangwoo%20Philippines%20Employees%20Union%2C%20G.R.%20No.%20173154%2C%209%20December%202013%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Sangwoo Philippines v. Sangwoo Philippines Employees Union</i></a>, G.R. No. 173154, 9 December 2013 (closure due to serious losses; no separation pay; nominal damages)</li>
+<li><a href="https://www.google.com/search?q=Navotas%20Shipyard%20v.%20Montallana%2C%20G.R.%20No.%20190053%2C%2024%20March%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Navotas Shipyard v. Montallana</i></a>, G.R. No. 190053, 24 March 2014 (temporary closure becoming closure due to serious losses)</li>
+<li><a href="https://www.google.com/search?q=Veterans%20Federation%20of%20the%20Phils.%20v.%20Montenegro%2C%2029%20November%202017%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Veterans Federation of the Phils. v. Montenegro</i></a>, 29 November 2017</li>
+<li><a href="https://www.google.com/search?q=PNCC%20Skyway%20Corp.%20v.%20Secretary%20of%20Labor%2C%206%20February%202017%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>PNCC Skyway Corp. v. Secretary of Labor</i></a>, 6 February 2017</li>
+<li><a href="https://www.google.com/search?q=Pe%C3%B1afrancia%20Tours%20and%20Travel%20Transport%20v.%20Sarmiento%2C%2020%20October%202010%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Peñafrancia Tours and Travel Transport v. Sarmiento</i></a>, 20 October 2010</li>
+</ul>
+<h4>Article 299</h4>
+<ul>
+<li><a href="https://www.google.com/search?q=Sy%20et%20al.%20v.%20CA%2C%2027%20February%202003%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Sy et al. v. CA</i></a>, 27 February 2003</li>
+<li><a href="https://www.google.com/search?q=Union%20Motors%20Corp.%20v.%20NLRC%2C%209%20December%202004%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Union Motors Corp. v. NLRC</i></a>, 9 December 2004</li>
+<li><a href="https://www.google.com/search?q=Villaruel%20v.%20Yeo%20Han%20Guan%2C%201%20June%202011%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Villaruel v. Yeo Han Guan</i></a>, 1 June 2011</li>
+<li><a href="https://www.google.com/search?q=Deoferio%20v.%20Intel%20Technology%20Philippines%2C%2018%20June%202014%20Philippines%20Supreme%20Court" target="_blank" rel="noopener"><i>Deoferio v. Intel Technology Philippines</i></a>, 18 June 2014</li>
+</ul>` },
+      { title: "Syllabus PDF", content: `<h3>LSL 303 Course Syllabus (PDF)</h3>
+<p>Original syllabus by Atty. Anna Clarissa C. Carpio.</p>
+<p class="pdf-actions"><a href="LSL_303_Course_Syllabus.pdf" target="_blank" rel="noopener">Open in new tab</a> <a href="LSL_303_Course_Syllabus.pdf" download>Download PDF</a></p>
+<object class="pdf-frame" data="LSL_303_Course_Syllabus.pdf#view=FitH" type="application/pdf" aria-label="LSL 303 Course Syllabus (PDF)"><p class="empty">Your browser cannot show the PDF here. Use <b>Open in new tab</b> or <b>Download PDF</b> above.</p></object>` },
+      { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Labor Law, matched to the syllabus modules.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html" target="_blank" rel="noopener">Labor Code (P.D. 442, as amended)</a></td><td>Renumbered Labor Code; Modules 1-6</td></tr><tr><td><a href="https://lawphil.net/consti/cons1987.html" target="_blank" rel="noopener">1987 Constitution</a></td><td>Art. II, III, XIII; Module 1</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra1949/ra_386_1949.html" target="_blank" rel="noopener">Civil Code (R.A. 386)</a></td><td>Arts. 19-21, 1700-1708; Modules 1 and 4</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2013/ra_10395_2013.html" target="_blank" rel="noopener">R.A. 10395 (Tripartism Law)</a></td><td>Module 1, Art. 290</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra1989/ra_6727_1989.html" target="_blank" rel="noopener">R.A. 6727 (Wage Rationalization Act)</a></td><td>Module 4</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra1996/ra_8188_1996.html" target="_blank" rel="noopener">R.A. 8188</a></td><td>Module 4, double indemnity for wage violations</td></tr><tr><td><a href="https://lawphil.net/statutes/presdecs/pd1975/pd_851_1975.html" target="_blank" rel="noopener">P.D. 851 (13th Month Pay)</a></td><td>Module 4</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2019/ra_11360_2019.html" target="_blank" rel="noopener">R.A. 11360 (Service Charge)</a></td><td>Modules 3 and 4, Art. 96</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2011/ra_10151_2011.html" target="_blank" rel="noopener">R.A. 10151 (Night Work)</a></td><td>Module 3</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra1996/ra_8187_1996.html" target="_blank" rel="noopener">R.A. 8187 (Paternity Leave)</a></td><td>Module 3</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2019/ra_11210_2019.html" target="_blank" rel="noopener">R.A. 11210 (Expanded Maternity Leave)</a></td><td>Module 3</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2000/ra_8972_2000.html" target="_blank" rel="noopener">R.A. 8972 (Solo Parents&#x27; Welfare Act)</a></td><td>Module 3</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2004/ra_9262_2004.html" target="_blank" rel="noopener">R.A. 9262 (Anti-VAWC Act)</a></td><td>Module 3, leave for victims of violence</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2009/ra_9710_2009.html" target="_blank" rel="noopener">R.A. 9710 (Magna Carta of Women)</a></td><td>Module 3, special leave</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra1995/ra_7877_1995.html" target="_blank" rel="noopener">R.A. 7877 (Anti-Sexual Harassment Act)</a></td><td>Module 5</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2019/ra_11313_2019.html" target="_blank" rel="noopener">R.A. 11313 (Safe Spaces Act)</a></td><td>Module 5</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra1992/ra_7610_1992.html" target="_blank" rel="noopener">R.A. 7610 (Child Abuse Law)</a></td><td>Module 5, child workers</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2003/ra_9231_2003.html" target="_blank" rel="noopener">R.A. 9231</a></td><td>Module 5, child labor</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2013/ra_10361_2013.html" target="_blank" rel="noopener">R.A. 10361 (Batas Kasambahay)</a></td><td>Modules 3 and 5</td></tr><tr><td><a href="https://www.dole.gov.ph/" target="_blank" rel="noopener">Department of Labor and Employment</a></td><td>Department Orders, Advisories, Labor Advisories</td></tr><tr><td><a href="https://nlrc.dole.gov.ph/" target="_blank" rel="noopener">NLRC</a></td><td>Rules of procedure</td></tr><tr><td><a href="https://nwpc.dole.gov.ph/" target="_blank" rel="noopener">National Wages and Productivity Commission</a></td><td>Wage orders, Module 4</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Statute links follow Lawphil's standard address format. If one does not open, search the title on Lawphil. Always cite the latest amended text. Recommended books: Azucena, <b>The Labor Code with Comments and Cases</b>; Duka, <b>Labor Laws and Social Legislations</b>.</i></p>` }
     ]
   }
 ];
