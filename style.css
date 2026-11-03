@@ -11,16 +11,30 @@
     :root:not([data-theme="light"]) {
       --navy: #0d1a33; --page: #14171d; --side: #1b1f27; --ink: #e8e6df; --muted: #9aa1ae;
       --line: #343a46; --link: #9db8ee; --active: #b08d3c; --active-text: #14171d;
+      color-scheme: dark;
     }
   }
+  /* manual override: chosen with the toggle button */
+  :root[data-theme="dark"] {
+    --navy: #0d1a33; --page: #14171d; --side: #1b1f27; --ink: #e8e6df; --muted: #9aa1ae;
+    --line: #343a46; --link: #9db8ee; --active: #b08d3c; --active-text: #14171d;
+    color-scheme: dark;
+  }
+  :root[data-theme="light"] { color-scheme: light; }
   html { scroll-padding-top: env(safe-area-inset-top, 0px); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--page); color: var(--ink);
          font: 16px/1.6 "Libre Baskerville", Georgia, "Times New Roman", serif; overflow-wrap: break-word; }
   img, video, iframe { max-width: 100%; }
 
-  header { background: var(--navy); color: var(--navy-text); text-align: center;
+  header { position: relative; background: var(--navy); color: var(--navy-text); text-align: center;
            padding: clamp(14px, 3vw, 22px) 16px; border-bottom: 4px solid var(--gold); }
+  .theme-toggle { position: absolute; top: 50%; right: max(12px, env(safe-area-inset-right, 0px)); transform: translateY(-50%);
+                  width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(244,241,232,.45);
+                  background: transparent; color: var(--navy-text); font-size: 1.15rem; line-height: 1; cursor: pointer; }
+  .theme-toggle:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  @media (hover: hover) { .theme-toggle:hover { background: rgba(244,241,232,.15); } }
+  header h1, header p { padding: 0 48px; }
   header h1 { margin: 0; font-size: clamp(1.25rem, 3.2vw + .5rem, 1.6rem); letter-spacing: .02em; line-height: 1.25; }
   header p { margin: 4px 0 0; font-size: clamp(.8rem, 1.5vw + .5rem, .9rem); font-style: italic; opacity: .85; }
 
@@ -111,7 +125,7 @@
   }
 
   @media print {
-    nav, .tabs, footer { display: none; }
+    nav, .tabs, footer, .theme-toggle { display: none; }
     .layout { display: block; }
     main { padding: 0; }
   }
