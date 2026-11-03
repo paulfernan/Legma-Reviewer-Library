@@ -78,6 +78,10 @@
   .lesson td, .lesson th { border: 1px solid var(--line); padding: 4px 8px; }
   .lesson a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
   .lesson img { height: auto; }
+  /* embedded PDF viewer */
+  .lesson .pdf-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+  .lesson .pdf-actions a { text-decoration: none; padding: 8px 14px; border: 1px solid var(--line); background: var(--side); font-size: .9rem; }
+  .lesson .pdf-frame { display: block; width: 100%; height: 75vh; min-height: 480px; border: 1px solid var(--line); background: var(--side); }
   .empty { color: var(--muted); font-style: italic; padding: 14px; border: 1px dashed var(--line); }
 
   footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 16px; border-top: 1px solid var(--line); }
@@ -125,7 +129,7 @@
   }
 
   @media print {
-    nav, .tabs, footer, .theme-toggle { display: none; }
+    nav, .tabs, footer, .theme-toggle, .pdf-frame { display: none; }
     .layout { display: block; }
     main { padding: 0; }
   }
