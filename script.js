@@ -256,7 +256,7 @@ const SUBJECTS = [
   },
   {
     title: "Criminal Law",
-    sub: "Revised Penal Code, Book One (Introduction to Art. 4)",
+    sub: "Revised Penal Code, Book One (Introduction to Art. 13)",
     lessons: [
       { title: "1. Introduction & Sources", content: `<h3>1. Criminal Law: Introduction and Sources</h3>
 <table>
@@ -477,6 +477,223 @@ const SUBJECTS = [
 <li>Elements of mistake of fact? <i>Lawful if facts were as believed; lawful intention; no fault or carelessness.</i></li>
 <li>Requisites of Art. 4(1)? <i>A felony committed; the wrong is the direct, natural and logical consequence.</i></li>
 </ol>` },
+      { title: "Art. 1 Effectivity", content: `<h3>Art. 1: Time When Act Takes Effect</h3>
+<blockquote>This Code shall take effect on the first day of January, nineteen hundred and thirty-two.</blockquote>
+<ul>
+<li>The Revised Penal Code (Act No. 3815) took effect on <b>January 1, 1932</b>. Under Art. 366 and the prospectivity rule, crimes are punished under the law in force when they were committed.</li>
+<li>It revised the old Spanish Penal Code; it is not a complete codification of penal laws, and special penal laws remain outside it (Art. 10).</li>
+<li><b>Book One</b> (Arts. 1-113): general provisions. <b>Book Two</b> (Arts. 114 onward): specific felonies and their penalties.</li>
+</ul>` },
+      { title: "Art. 2 Territorial Scope", content: `<h3>Art. 2: Application of Its Provisions</h3>
+<blockquote>Except as provided in the treaties and laws of preferential application, the provisions of this Code shall be enforced not only within the Philippine Archipelago, including its atmosphere, its interior waters and maritime zone, but also outside of its jurisdiction, against those who: (1) should commit an offense while on a Philippine ship or airship; (2) should forge or counterfeit any coin or currency note of the Philippine Islands or obligations and securities issued by the Government of the Philippine Islands; (3) should be liable for acts connected with the introduction into these islands of the obligations and securities mentioned in the preceding number; (4) while being public officers or employees, should commit an offense in the exercise of their functions; or (5) should commit any of the crimes against national security and the law of nations, defined in Title One of Book Two of this Code.</blockquote>
+<h4>Key Points (Reyes)</h4>
+<ul>
+<li><b>Territorial principle:</b> penal laws are enforceable only within Philippine territory (terrestrial, fluvial and aerial domains, including the territorial sea, per Art. I, 1987 Constitution). The waters between and around the islands are internal waters.</li>
+<li><b>Exceptions:</b> treaties (e.g., the Visiting Forces Agreement) and laws of preferential application (e.g., R.A. 75 protecting diplomatic representatives and their domestics).</li>
+<li><b>Exempt under international law:</b> sovereigns and chiefs of state; ambassadors, ministers plenipotentiary, ministers resident and charges d'affaires. A <b>consul</b> is not exempt without a treaty (<i>Schneckenburger v. Moran</i>).</li>
+<li><b>Mnemonic S-F-P-N:</b> Ship, Forgery (and its introduction), Public officers, National security.</li>
+<li><b>Foreign merchant vessels:</b> the English rule governs; the Philippines has jurisdiction unless the act merely affects the internal order of the ship. Mere possession of opium aboard is not triable; smoking it in Philippine waters is (<i>U.S. v. Look Chaw</i>; <i>U.S. v. Ah Sing</i>). Warships belong to their flag state.</li>
+</ul>
+<p><i>See also tab 4 for the full discussion.</i></p>` },
+      { title: "Art. 3 Felonies", content: `<h3>Art. 3: Definition</h3>
+<blockquote>Acts and omissions punishable by law are felonies (delitos). Felonies are committed not only by means of deceit (dolo) but also by means of fault (culpa). There is deceit when the act is performed with deliberate intent and there is fault when the wrongful act results from imprudence, negligence, lack of foresight, or lack of skill.</blockquote>
+<table>
+<tr><th>Element</th><th>Rule</th></tr>
+<tr><td>1. Act or omission</td><td>External act, or failure to perform a positive duty the law requires</td></tr>
+<tr><td>2. Punishable by the RPC</td><td>No felony without a law punishing it</td></tr>
+<tr><td>3. By dolo or culpa</td><td>Dolo needs freedom, intelligence, intent. Culpa needs freedom, intelligence, and imprudence, negligence, lack of foresight or lack of skill.</td></tr>
+</table>
+<ul>
+<li><b>Criminal intent is presumed</b> from an unlawful act but yields to facts showing lack of intent. Mistake of fact (<i>U.S. v. Ah Chong</i>) excuses; a mistake caused by carelessness (<i>People v. Oanis</i>) does not.</li>
+<li><b>Mala in se vs. mala prohibita:</b> intent is required in the first; generally not in the second.</li>
+<li><b>Intent vs. motive:</b> motive is not an element; it matters when the offender's identity is in doubt or evidence is circumstantial.</li>
+</ul>
+<p><i>Full treatment is in tab 5 (Felonies).</i></p>` },
+      { title: "Art. 4 Criminal Liability", content: `<h3>Art. 4: Criminal Liability</h3>
+<blockquote>Criminal liability shall be incurred: (1) by any person committing a felony (delito) although the wrongful act done be different from that which he intended; (2) by any person performing an act which would be an offense against persons or property, were it not for the inherent impossibility of its accomplishment or on account of the employment of inadequate or ineffectual means.</blockquote>
+<h4>Par. 1: Requisites</h4>
+<ol><li>A felony is committed.</li><li>The wrong done is the <b>direct, natural and logical consequence</b> of the felony (proximate cause).</li></ol>
+<p>Covers <b>error in personae</b>, <b>aberratio ictus</b> and <b>praeter intentionem</b>. No liability for the result if no felony was committed (justified act, attempted suicide) or if an efficient intervening cause intervened (<i>People v. Rellin</i>). Death from wounds is attributed to the assailant when the victim was in normal health, death may be expected, and it ensued within a reasonable time.</p>
+<h4>Par. 2: Impossible Crime (Requisites)</h4>
+<ol>
+<li>The act would be an offense against <b>persons or property</b>.</li>
+<li>It was done with <b>evil intent</b>.</li>
+<li>Its accomplishment was inherently impossible, or the means were inadequate or ineffectual.</li>
+<li>The act is not another violation of the Code.</li>
+</ol>
+<p>Examples: stabbing a corpse believed alive; stabbing an empty bed (<i>Intod v. CA</i>); picking an empty pocket. Penalty: arresto mayor or a fine (Art. 59). Based on the positivist theory: the offender's criminal tendency is punished.</p>
+<p><i>Full treatment is in tab 6 (Criminal Liability).</i></p>` },
+      { title: "Art. 5 Duty of Court", content: `<h3>Art. 5: Duty of the Court in Connection with Acts Which Should Be Repressed but Are Not Covered by the Law, and in Cases of Excessive Penalties</h3>
+<blockquote>Whenever a court has knowledge of any act which it may deem proper to repress and which is not punishable by law, it shall render the proper decision, and shall report to the Chief Executive, through the Department of Justice, the reasons which induce the court to believe that said act should be made the subject of legislation. In the same way, the court shall submit to the Chief Executive, through the Department of Justice, such statement as may be deemed proper, without suspending the execution of the sentence, when a strict enforcement of the provisions of this Code would result in the imposition of a clearly excessive penalty, taking into consideration the degree of malice and the injury caused by the offense.</blockquote>
+<table>
+<tr><th>Situation</th><th>Duty of the court</th></tr>
+<tr><td>Act deserves repression but no law punishes it</td><td><b>Acquit</b> (no crime without a law), and report to the Chief Executive through the DOJ that the act should be legislated on</td></tr>
+<tr><td>Strict enforcement gives a clearly excessive penalty</td><td>Impose the penalty (do <b>not</b> suspend execution) and recommend executive clemency (pardon or commutation)</td></tr>
+</table>
+<ul>
+<li>The court has <b>no power to modify</b> the penalty fixed by law; Art. 5 reflects the principle that courts apply, not make, law (<i>nullum crimen, nulla poena sine lege</i>).</li>
+<li>Example: <i>U.S. v. Tamparong</i> (an act not punished by law: acquittal, with the report to the Executive).</li>
+</ul>` },
+      { title: "Art. 6 Stages", content: `<h3>Art. 6: Consummated, Frustrated, and Attempted Felonies</h3>
+<blockquote>Consummated felonies as well as those which are frustrated and attempted, are punishable. A felony is consummated when all the elements necessary for its execution and accomplishment are present; and it is frustrated when the offender performs all the acts of execution which would produce the felony as a consequence but which, nevertheless, do not produce it by reason of causes independent of the will of the perpetrator. There is an attempt when the offender commences the commission of a felony directly by overt acts, and does not perform all the acts of execution which should produce the felony by reason of some cause or accident other than his own spontaneous desistance.</blockquote>
+<table>
+<tr><th>Stage</th><th>Acts of execution</th><th>Result</th><th>Why not produced</th></tr>
+<tr><td>Attempted</td><td>Commenced; <b>not all</b> performed</td><td>Not produced</td><td>Cause or accident <b>other than own spontaneous desistance</b></td></tr>
+<tr><td>Frustrated</td><td><b>All</b> performed</td><td>Not produced</td><td>Causes <b>independent of the will</b> of the perpetrator</td></tr>
+<tr><td>Consummated</td><td>All performed</td><td>Produced; all elements present</td><td>N/A</td></tr>
+</table>
+<h4>Elements</h4>
+<ul>
+<li><b>Attempted:</b> (1) offender commences the felony by <b>overt acts</b>; (2) does not perform all the acts of execution; (3) non-completion is due to a cause other than spontaneous desistance.</li>
+<li><b>Frustrated:</b> (1) offender performs all acts of execution; (2) which would produce the felony; (3) it is not produced because of causes independent of his will.</li>
+<li><b>Overt act:</b> some physical activity or deed indicating intention to commit a particular crime, more than a mere planning or preparation, which if carried out to its complete termination following its natural course, without being frustrated by external obstacles, will logically and necessarily ripen into a concrete offense.</li>
+<li><b>Desistance:</b> spontaneous desistance <b>before</b> all acts of execution are performed negates the attempt, but liability remains for any other felony already committed (e.g., acts of lasciviousness in an abandoned rape).</li>
+<li><b>Test for frustrated vs. attempted homicide/murder:</b> a wound that would have been fatal with no timely medical attention shows the offender performed all acts (frustrated); a non-mortal wound shows intent not fully carried out (attempted). Intent to kill is the key.</li>
+<li><b>Subjective phase</b> (from the start of execution until the offender has no more to do) vs. <b>objective phase</b> (what follows). Desistance after the subjective phase is no defense.</li>
+<li><b>Stages do not apply</b> to formal crimes (e.g., slander, perjury, false testimony), to felonies by culpa, to impossible crimes, and to crimes consummated by mere attempt (e.g., flight to enemy country, corruption of minors). For crimes defined by a single act (e.g., arson of an inhabited house, bribery), see the particular rules.</li>
+<li><b>Theft:</b> consummated upon taking with intent to gain without the owner's consent, even without opportunity to dispose of the thing; there is no frustrated theft (<i>Valenzuela v. People</i>).</li>
+</ul>` },
+      { title: "Art. 7 Light Felonies", content: `<h3>Art. 7: When Light Felonies Are Punishable</h3>
+<blockquote>Light felonies are punishable only when they have been consummated, with the exception of those committed against persons or property.</blockquote>
+<table>
+<tr><th>Light felony</th><th>Punishable when</th></tr>
+<tr><td>Against persons or property (e.g., slight physical injuries, theft of a small value)</td><td>Consummated, frustrated or attempted</td></tr>
+<tr><td>Other light felonies (e.g., alarms and scandals)</td><td><b>Consummated only</b></td></tr>
+</table>
+<ul>
+<li>Reason: the social wrong is too slight to punish an attempt or a frustration, unless the interests protected (person or property) justify it.</li>
+<li>Only <b>principals and accomplices</b> in light felonies are liable; <b>accessories</b> are not (Art. 16).</li>
+<li>Light felonies are those punished with arresto menor or a fine not exceeding the amount set in Art. 9 (see Art. 9 tab).</li>
+</ul>` },
+      { title: "Art. 8 Conspiracy", content: `<h3>Art. 8: Conspiracy and Proposal to Commit Felony</h3>
+<blockquote>Conspiracy and proposal to commit felony are punishable only in the cases in which the law specially provides a penalty therefor. A conspiracy exists when two or more persons come to an agreement concerning the commission of a felony and decide to commit it. There is proposal when the person who has decided to commit a felony proposes its execution to some other person or persons.</blockquote>
+<table>
+<tr><th></th><th>Conspiracy</th><th>Proposal</th></tr>
+<tr><td>Requisites</td><td>(1) Two or more persons agree to commit a felony; (2) they <b>decide</b> to commit it</td><td>(1) A person has <b>decided</b> to commit a felony; (2) he <b>proposes</b> its execution to some other person or persons</td></tr>
+<tr><td>Punishable?</td><td>Only when the law specially provides a penalty</td><td>Only when the law specially provides a penalty</td></tr>
+</table>
+<h4>Cases Where Punishable (examples)</h4>
+<ul>
+<li><b>Conspiracy:</b> treason, rebellion, insurrection, coup d'etat, sedition, monopolies and combinations in restraint of trade, and under special laws (e.g., the Dangerous Drugs Act, R.A. 9165).</li>
+<li><b>Proposal:</b> treason, rebellion, insurrection, coup d'etat.</li>
+</ul>
+<h4>Two Roles of Conspiracy</h4>
+<ul>
+<li><b>As a felony</b> (standing alone) in the cases above: the mere agreement is punished.</li>
+<li><b>As a manner of incurring liability</b> for a felony that was committed: the act of one is the act of all; each conspirator is a <b>principal</b> by direct participation (Art. 17[1]).</li>
+</ul>
+<ul>
+<li>Conspiracy may be proved by direct evidence or inferred from the acts of the accused before, during and after the crime, showing a common design, concerted action, and community of interest. <b>Mere presence</b> or knowledge, without participation in the plan, is not conspiracy.</li>
+<li>Conspiracy is <b>absorbed</b> by the crime when the offense is committed (conspiracy to commit a felony punished only as a means to the crime done).</li>
+<li><b>Conspiracy and proposal</b> to commit a felony are different: in proposal, the proposer has decided and invites the other, who has not yet agreed; once the other accepts, conspiracy arises.</li>
+</ul>` },
+      { title: "Art. 9 Classification", content: `<h3>Art. 9: Grave Felonies, Less Grave Felonies and Light Felonies</h3>
+<blockquote>Grave felonies are those to which the law attaches the capital punishment or penalties which in any of their periods are afflictive, in accordance with Article 25 of this Code. Less grave felonies are those which the law punishes with penalties which in their maximum period are correctional, in accordance with the above-mentioned article. Light felonies are those infractions of law for the commission of which the penalty of arresto menor or a fine not exceeding 200 pesos, or both, is provided.</blockquote>
+<table>
+<tr><th>Class</th><th>Penalty</th></tr>
+<tr><td><b>Grave</b></td><td>Capital punishment, or a penalty which in <b>any of its periods</b> is afflictive (reclusion perpetua, reclusion temporal, prision mayor, perpetual or temporary absolute disqualification, perpetual or temporary special disqualification)</td></tr>
+<tr><td><b>Less grave</b></td><td>A penalty which in its <b>maximum period</b> is correctional (prision correccional, arresto mayor, suspension, destierro)</td></tr>
+<tr><td><b>Light</b></td><td>Arresto menor, or a fine not exceeding the statutory amount, or both</td></tr>
+</table>
+<blockquote><b>Update:</b> R.A. 10951 (2017) adjusted the fine amounts in the Code, so the light-felony fine ceiling in Art. 9 is now <b>&#8369;40,000</b>, not 200 pesos. R.A. 9346 (2006) prohibits the death penalty; where it was the prescribed penalty, reclusion perpetua is imposed. Verify the current text of Arts. 9 and 26 in the RPC as amended (see References).</blockquote>
+<h4>Why Classify?</h4>
+<ul>
+<li>To determine the <b>prescription</b> of the crime and of the penalty (Arts. 90 and 92).</li>
+<li>To know whether <b>attempted or frustrated</b> light felonies are punishable (Art. 7).</li>
+<li>To know who is liable (accessories are not liable for light felonies, Art. 16) and the rules on <b>complex crimes</b> (Art. 48) and <b>subsidiary penalty</b>.</li>
+<li>For the application of rules on arrests, bail, and the penalty of <b>recidivism</b> and <b>habitual delinquency</b>.</li>
+</ul>
+<ul>
+<li><b>Mixed penalties:</b> classify by the <b>higher</b> penalty (if imprisonment is afflictive in any of its periods, it is grave). If the penalty is a <b>fine only</b>, classify by the amount.</li>
+<li>Classification follows the penalty <b>prescribed by law</b>, not the penalty actually imposed after considering modifying circumstances.</li>
+</ul>` },
+      { title: "Art. 10 Special Laws", content: `<h3>Art. 10: Offenses Not Subject to the Provisions of This Code</h3>
+<blockquote>Offenses which are or in the future may be punishable under special laws are not subject to the provisions of this Code. This Code shall be supplementary to such laws, unless the latter should specially provide the contrary.</blockquote>
+<h4>Rule</h4>
+<ul>
+<li>The Code applies <b>supplementarily</b> to special penal laws: its general provisions on stages, participation, penalties and modifying circumstances apply when the special law is silent and not inconsistent.</li>
+<li>Special laws that provide otherwise prevail.</li>
+</ul>
+<table>
+<tr><th>Special law</th><th>Rule on the Code's application</th></tr>
+<tr><td>Penalties in the Code's terms (e.g., reclusion perpetua, prision mayor, as used in a special law)</td><td>Code's rules on the <b>application of penalties</b> and on <b>mitigating and aggravating circumstances</b> may apply (e.g., <i>People v. Simon</i>: for R.A. 6425, the Code's rules apply when the special law uses the Code's penalty names)</td></tr>
+<tr><td>Penalties in a different scale (e.g., a fixed term or fine)</td><td>The Code's modifying circumstances generally <b>do not apply</b></td></tr>
+<tr><td>R.A. 9165 (Dangerous Drugs Act)</td><td>Contains its own rules on conspiracy, attempt, accessories; the Code applies only as the law provides</td></tr>
+</table>
+<ul>
+<li>Offenses under special laws are usually <b>mala prohibita</b>: intent is generally not required, and only the consummated act is typically punished.</li>
+<li>Examples of special laws: Anti-Graft and Corrupt Practices Act, Anti-Fencing Law, B.P. 22, Anti-Hazing, Anti-VAWC.</li>
+</ul>` },
+      { title: "Art. 11 Justifying", content: `<h3>Art. 11: Justifying Circumstances</h3>
+<p>The following do not incur criminal liability. The act is <b>lawful</b>: no crime, no criminal, and generally <b>no civil liability</b> (except in state of necessity, where the persons benefited pay, Art. 101).</p>
+<table>
+<tr><th>#</th><th>Circumstance</th><th>Requisites</th></tr>
+<tr><td>1</td><td><b>Self-defense</b> (of person or rights)</td><td>(1) <b>Unlawful aggression</b>; (2) <b>reasonable necessity</b> of the means employed to prevent or repel it; (3) <b>lack of sufficient provocation</b> on the part of the person defending himself</td></tr>
+<tr><td>2</td><td><b>Defense of relatives</b> (spouse, ascendants, descendants; legitimate, natural or adopted brothers or sisters; relatives by affinity in the same degrees; relatives by consanguinity within the 4th civil degree)</td><td>(1) Unlawful aggression; (2) reasonable necessity of the means; (3) in case the provocation was given by the person attacked, the one defending had <b>no part</b> in it</td></tr>
+<tr><td>3</td><td><b>Defense of a stranger</b></td><td>(1) Unlawful aggression; (2) reasonable necessity of the means; (3) the defender is <b>not induced by revenge, resentment or other evil motive</b></td></tr>
+<tr><td>4</td><td><b>State of necessity</b> (avoidance of a greater evil or injury)</td><td>(1) The evil sought to be avoided <b>actually exists</b>; (2) the injury feared is <b>greater</b> than that done to avoid it; (3) there is <b>no other practical and less harmful means</b> of preventing it</td></tr>
+<tr><td>5</td><td><b>Fulfillment of duty / lawful exercise of a right or office</b></td><td>(1) The accused acted in the performance of a duty or in the lawful exercise of a right or office; (2) the injury or offense committed is the <b>necessary consequence</b> of the due performance of the duty or the lawful exercise of the right or office</td></tr>
+<tr><td>6</td><td><b>Obedience to an order</b> issued by a superior</td><td>(1) An order was issued by a superior; (2) the order is for some <b>lawful purpose</b>; (3) the means used to carry it out is <b>lawful</b></td></tr>
+</table>
+<h4>Key Doctrines</h4>
+<ul>
+<li><b>Unlawful aggression is the indispensable requisite.</b> Without it there is no self-defense, complete or incomplete. It must be actual or at least imminent (a real threat to life or limb), not a mere threatening attitude. Aggression that has ceased is no longer a basis for defense.</li>
+<li><b>Burden of proof:</b> by invoking self-defense the accused <b>admits the killing</b> and has the burden of proving it by clear and convincing evidence; he must rely on the strength of his own evidence.</li>
+<li><b>Reasonable necessity</b> considers the nature and quality of the weapon, the physical condition of the parties, and the circumstances; perfect equality of weapons is not required.</li>
+<li><b>Rights defended</b> include property rights in cases like defense of a dwelling or the property when an attack on it also endangers the person.</li>
+<li><b>Battered woman syndrome</b> is a recognized justifying circumstance under R.A. 9262 (Sec. 26) without the need to prove unlawful aggression in the ordinary way.</li>
+<li><b>Incomplete justifying circumstance</b> (Art. 13[1], Art. 69): when the majority of the requisites are present, the offender gets a privileged mitigating circumstance; when only the unlawful aggression is present, it is <b>unlawful aggression</b> that is the sine qua non.</li>
+<li>Under Art. 11(4), civil liability falls on the persons for whose benefit the harm was prevented (Art. 101), not on the actor.</li>
+<li><b>Obedience to an order:</b> the subordinate is liable if the order is patently illegal.</li>
+</ul>` },
+      { title: "Art. 12 Exempting", content: `<h3>Art. 12: Circumstances Which Exempt from Criminal Liability</h3>
+<p>The act is a crime, but the actor is <b>exempt</b> because of the absence of a voluntary element (intelligence, freedom, or intent, or negligence). <b>Civil liability remains</b>, except in accident and in the cases of paragraphs 4 and 7.</p>
+<table>
+<tr><th>#</th><th>Circumstance</th><th>Notes</th></tr>
+<tr><td>1</td><td><b>Imbecile or insane person</b>, unless acting during a <b>lucid interval</b></td><td>Absence of intelligence. Insanity must exist <b>at the time of the commission</b>; it must be proved by clear and convincing evidence (test: complete deprivation of intelligence, not mere abnormality). Confinement in a hospital or asylum is ordered by the court. Insanity <b>after</b> the crime does not exempt but suspends trial or sentence.</td></tr>
+<tr><td>2</td><td><b>Minor</b>: a child <b>15 years or under</b> at the time of the commission</td><td>Under R.A. 9344, as amended by R.A. 10630, a child 15 or under is exempt from criminal liability (subject to an intervention program). A child above 15 but below 18 is exempt <b>unless he acted with discernment</b>. Art. 12(2) and (3) (nine years old) are superseded.</td></tr>
+<tr><td>3</td><td>Minor above 15 and below 18 who acted <b>without discernment</b></td><td>Discernment is the mental capacity to understand the difference between right and wrong, determined from the manner of the commission and the child's conduct before, during and after.</td></tr>
+<tr><td>4</td><td><b>Accident</b></td><td>Requisites: (1) the person is performing a <b>lawful act</b>; (2) with <b>due care</b>; (3) he causes injury to another by <b>mere accident</b>; (4) without <b>fault or intention</b> of causing it</td></tr>
+<tr><td>5</td><td><b>Irresistible force</b></td><td>Requisites: (1) the compulsion is by <b>physical force</b>; (2) the force is <b>irresistible</b>; (3) it comes from a <b>third person</b>. The actor is a mere instrument.</td></tr>
+<tr><td>6</td><td><b>Uncontrollable fear</b> of an equal or greater injury</td><td>Requisites: (1) the threat causing the fear is of an <b>evil greater than or at least equal</b> to the act required; (2) it promises an evil that is <b>real and imminent</b>; (3) the fear is <b>uncontrollable</b>. Fear is moral compulsion, unlike physical force.</td></tr>
+<tr><td>7</td><td><b>Insuperable or lawful cause</b></td><td>Requisites: (1) an act is required by law to be done; (2) the person fails to perform it; (3) the failure is due to some <b>lawful or insuperable cause</b></td></tr>
+</table>
+<h4>Key Distinctions</h4>
+<ul>
+<li><b>Justifying vs. exempting:</b> in justifying the <b>act</b> is lawful; in exempting the <b>actor</b> is excused, so the act is still wrongful.</li>
+<li><b>Irresistible force vs. uncontrollable fear:</b> physical violence by a third person vs. threats of an evil; both require the compulsion to come from another person.</li>
+<li><b>Accident vs. imprudence:</b> accident is absence of fault; if negligence exists, the actor is liable under Art. 365.</li>
+<li><b>Exempting circumstances do not apply to special laws</b> unless the law provides, except those that negate voluntariness.</li>
+<li>Civil liability in paragraphs 1 and 2 (insane, minor) falls on the <b>parents or guardians</b> having them under their legal authority (Art. 101).</li>
+</ul>` },
+      { title: "Art. 13 Mitigating", content: `<h3>Art. 13: Mitigating Circumstances</h3>
+<p>These reduce the <b>penalty</b> (or its period), not the criminal liability. <b>Privileged</b> mitigating circumstances lower the penalty by a degree (Arts. 68, 69); <b>ordinary</b> ones operate within the prescribed period (Art. 64).</p>
+<table>
+<tr><th>#</th><th>Circumstance</th><th>Notes</th></tr>
+<tr><td>1</td><td><b>Incomplete</b> justifying or exempting circumstances (when all the requisites are not attendant)</td><td>In self-defense, defense of relatives or a stranger, unlawful aggression must be present. If the majority of the requisites are present: privileged (Art. 69). For others, ordinary.</td></tr>
+<tr><td>2</td><td><b>Under 18 or over 70</b> years of age</td><td>For minors, R.A. 9344 applies (see Art. 12). A child above 15 but below 18 acting with discernment gets a penalty one degree lower (Art. 68). Age over 70 is an ordinary mitigating circumstance (no death penalty).</td></tr>
+<tr><td>3</td><td>No <b>intention to commit so grave a wrong</b> (<i>praeter intentionem</i>)</td><td>Considered from the weapon used, the part of the body hit, and the manner of the attack. Applicable to crimes against persons only (<i>physical injuries, homicide</i>).</td></tr>
+<tr><td>4</td><td><b>Sufficient provocation or threat</b> by the offended party <b>immediately preceding</b> the act</td><td>The provocation must be sufficient, from the offended party, and immediate. <i>Not</i> available together with incomplete self-defense when provocation is the basis.</td></tr>
+<tr><td>5</td><td><b>Immediate vindication of a grave offense</b> to himself, spouse, ascendants, descendants, siblings, or relatives by affinity within the same degrees</td><td>The offense must be <b>grave</b>; the vindication <b>immediate</b> (a lapse of time may defeat it). Cannot be considered with paragraph 4 or 6 if based on the same facts.</td></tr>
+<tr><td>6</td><td><b>Passion or obfuscation</b></td><td>Requisites: (1) an act, both unlawful and sufficient to produce such a condition of mind; (2) the act was not far removed from the commission of the crime by a considerable length of time, during which the offender might recover his normal equanimity. Not applicable when the cause is a lawful act or when it arises from a <b>criminal propensity</b>.</td></tr>
+<tr><td>7</td><td><b>Voluntary surrender</b> or <b>plea of guilty</b></td><td><b>Surrender:</b> (1) not actually arrested; (2) surrender to a person in authority or his agents; (3) the surrender is <b>voluntary</b> (spontaneous, intent to submit to authorities). <b>Confession:</b> (1) spontaneous; (2) in open court before a competent court; (3) before the presentation of the prosecution's evidence. These may both be considered separately.</td></tr>
+<tr><td>8</td><td>Offender is <b>deaf and dumb, blind</b>, or has another <b>physical defect</b> restricting means of action, defense or communication</td><td>The defect must restrict, not merely impair; the offender must be in a position as to be deprived of the means of acting, defending himself or communicating.</td></tr>
+<tr><td>9</td><td><b>Illness</b> diminishing the exercise of will-power without depriving him of consciousness of his acts</td><td>The illness must diminish the will power; the offender retains consciousness of his acts.</td></tr>
+<tr><td>10</td><td><b>Analogous circumstances</b></td><td>Any other circumstance of a similar nature and analogous to those above (e.g., an extreme poverty and a feeble mind, which are comparable to paragraphs 8 and 9).</td></tr>
+</table>
+<h4>Key Points</h4>
+<ul>
+<li><b>Voluntariness</b> of the surrender is the test; the surrender must be spontaneous and show the offender's acknowledgment of guilt or his wish to save the authorities the trouble of searching for him.</li>
+<li><b>Mitigating circumstances do not apply</b> to crimes punished by <b>indivisible penalties</b> in the same way (Art. 63[3]; Art. 64 deals with divisible penalties), nor to <b>special laws</b> unless the law adopts the Code's penalty nomenclature.</li>
+<li><b>Mitigating circumstances</b> must be <b>proved</b>; the burden is on the accused.</li>
+<li><b>Paragraphs 4, 5 and 6</b> arise from the same facts: they are considered as one only (<i>People v. Ibanez</i>; one cannot be appreciated together with another if based on the same fact).</li>
+</ul>
+<li><b>Voluntariness</b> of the surrender is the test; the surrender must be spontaneous and show the offender's acknowledgment of guilt or his wish to save the authorities the trouble of searching for him.</li>
+<li><b>Mitigating circumstances do not apply</b> to crimes punished by <b>indivisible penalties</b> in the same way (Art. 63[3]; Art. 64 deals with divisible penalties), nor to <b>special laws</b> unless the law adopts the Code's penalty nomenclature.</li>
+<li><b>Mitigating circumstances</b> must be <b>proved</b>; the burden is on the accused.</li>
+<li><b>Paragraphs 4, 5 and 6</b> arise from the same facts: they are considered as one only (<i>People v. Ibanez</i>; one cannot be appreciated together with another if based on the same fact).</li>
+</ul>
+<p><i>This list is the statutory text with standard doctrines; the uploaded Reyes PDF ends at Art. 4, so confirm details against your professor's module.</i></p>` },
       { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Criminal Law.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/statutes/acts/act1930/act_3815_1930b.html" target="_blank" rel="noopener">Revised Penal Code (Act No. 3815)</a></td><td>Book One, Arts. 1-113</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2017/ra_10951_2017.html" target="_blank" rel="noopener">R.A. 10951</a></td><td>Adjusted amounts of fines and property values in the RPC</td></tr><tr><td><a href="https://ldr.senate.gov.ph/legislative-issuance/act-no-3815" target="_blank" rel="noopener">Act No. 3815, Senate LDR</a></td><td>Alternative full text</td></tr><tr><td><a href="https://lawphil.net/consti/cons1987.html" target="_blank" rel="noopener">1987 Constitution</a></td><td>Full text, Lawphil Project</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
     ]
   },
