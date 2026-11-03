@@ -1,4 +1,12 @@
-
+/* ------------------------------------------------------------------
+   HOW TO ADD CONTENT
+   Each subject has a "lessons" list. Each lesson has:
+     title   - the text on the lesson tab
+     content - the lesson itself, written as HTML inside backticks (` `)
+   Add or remove lessons by adding or removing { title, content } blocks.
+   Useful tags: <h3> heading, <p> paragraph, <ul><li> list,
+   <blockquote> for provisions or cases, <strong> for key terms.
+------------------------------------------------------------------- */
 const SUBJECTS = [
   {
     title: "Law on Business Transactions",
@@ -242,15 +250,234 @@ const SUBJECTS = [
 <tr><td><b>Order among indorsers</b> (68)</td><td>Prima facie in order of indorsement</td><td>Evidence of a different agreement is admissible. Joint payees or joint indorsees are deemed to indorse jointly and severally; an express release of one joint indorser discharges the other.</td></tr>
 <tr><td><b>Agent or broker</b> (69)</td><td>Sec. 65 warranties</td><td>When negotiating without indorsement, liable unless he discloses the principal <b>and</b> that he acts only as agent. Parol evidence cannot relieve an agent whose indorsement brings him within the section.</td></tr>
 </table>
-<blockquote>Restrictive indorser (Sec. 36): still liable to his immediate indorsee like an unqualified indorser unless he states otherwise. A later taker is only an ordinary assignee if further negotiation is barred.</blockquote>` }
+<blockquote>Restrictive indorser (Sec. 36): still liable to his immediate indorsee like an unqualified indorser unless he states otherwise. A later taker is only an ordinary assignee if further negotiation is barred.</blockquote>` },
+      { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Law on Business Transactions.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra1949/ra_386_1949.html" target="_blank" rel="noopener">Civil Code of the Philippines (R.A. 386)</a></td><td>Guaranty (Arts. 2047-2081), Mortgage, Sales</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/28/26194" target="_blank" rel="noopener">Negotiable Instruments Law (Act No. 2031)</a></td><td>Secs. 1-196 (Supreme Court E-Library)</td></tr><tr><td><a href="https://chanrobles.com/actno2031.htm" target="_blank" rel="noopener">Act No. 2031, ChanRobles</a></td><td>Alternative full text</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Chattel Mortgage Law (Act No. 1508)</a></td><td>Search the E-Library for Act No. 1508</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
     ]
   },
   {
     title: "Criminal Law",
-    sub: "",
+    sub: "Revised Penal Code, Book One (Introduction to Art. 4)",
     lessons: [
-      { title: "Lesson 1", content: `<h3>Lesson 1</h3><p>Content coming soon.</p>` },
-      { title: "Lesson 2", content: `<h3>Lesson 2</h3><p>Content coming soon.</p>` }
+      { title: "1. Introduction & Sources", content: `<h3>1. Criminal Law: Introduction and Sources</h3>
+<table>
+<tr><th>Term</th><th>Meaning</th></tr>
+<tr><td>Criminal law</td><td>The branch of law that defines crimes, treats their nature, and provides their punishment</td></tr>
+<tr><td>Crime</td><td>An act or omission in violation of a public law that forbids or commands it</td></tr>
+</table>
+<h4>Sources of Philippine Criminal Law</h4>
+<ol>
+<li>The Revised Penal Code (Act No. 3815) and its amendments.</li>
+<li>Special penal laws passed by the legislative bodies (Philippine Commission, Assembly, Legislature, National Assembly, Batasang Pambansa, Congress).</li>
+<li>Penal presidential decrees issued during Martial Law.</li>
+</ol>
+<blockquote><b>No common law crimes.</b> An act, however immoral or antisocial, is not a crime unless a penal code or special law defines and punishes it (<i>U.S. v. Taylor</i>). <b>Court decisions are not sources</b> of criminal law: they only interpret and apply the law enacted by the legislature.</blockquote>
+<h4>Power to Define and Punish Crimes</h4>
+<p>The State may define and punish crimes and set criminal procedure under its <b>police power</b>, with wide discretion (<i>People v. Santiago</i>; <i>U.S. v. Pablo</i>).</p>` },
+      { title: "2. Limits & Rights of the Accused", content: `<h3>2. Limits on Penal Legislation and Rights of the Accused</h3>
+<h4>Constitutional Limits on Congress (Art. III, Bill of Rights)</h4>
+<ol>
+<li><b>No ex post facto law or bill of attainder</b> (Sec. 22).</li>
+<li><b>No one answers for a crime without due process</b> (Sec. 14(1)). Penal laws must be general in application and must clearly define the punished acts.</li>
+</ol>
+<h4>Ex Post Facto Law (a law that does any of these)</h4>
+<table>
+<tr><th>#</th><th>Effect of the law</th></tr>
+<tr><td>1</td><td>Makes criminal an act that was innocent when done, and punishes it</td></tr>
+<tr><td>2</td><td>Aggravates a crime or makes it greater than when committed</td></tr>
+<tr><td>3</td><td>Increases the punishment beyond what the law provided when the crime was committed</td></tr>
+<tr><td>4</td><td>Changes the rules of evidence so conviction is possible on less or different proof</td></tr>
+<tr><td>5</td><td>Regulates only civil rights and remedies but in effect imposes a penalty for a lawful act</td></tr>
+<tr><td>6</td><td>Takes away a protection the accused already earned (former conviction or acquittal, amnesty)</td></tr>
+</table>
+<p>The test: it is <b>retroactive and prejudicial to the accused</b>. <i>People v. Villaraza:</i> the higher penalty under P.D. 818 for estafa by bouncing checks applies only to offenses committed after its effectivity (Oct. 22, 1985); applying it to a 1974 offense would make it ex post facto (Arts. 21 and 22, RPC).</p>
+<blockquote><b>Bill of attainder:</b> a legislative act that inflicts punishment without judicial trial, replacing the court's finding of guilt with a legislative one (<i>People v. Ferrer</i>). <i>Example:</i> a law ordering the arrest and imprisonment of named groups with no trial.</blockquote>
+<h4>Rights of the Accused</h4>
+<table>
+<tr><th>Constitutional (Art. III)</th><th>Statutory</th></tr>
+<tr><td>Due process; equal protection; right against unreasonable searches and seizures; right to bail; presumption of innocence; right to be heard, to counsel, to be informed of the accusation, to a speedy, impartial and public trial, to meet witnesses face to face, to compulsory process; right against self-incrimination; right against double jeopardy; no excessive fines, cruel or unusual punishment.</td><td>Rights given by law such as the Rules of Court and special statutes (for example, the right to appeal, and rights during custodial investigation).</td></tr>
+</table>
+<p><b>Waivable vs. non-waivable:</b> a personal right that exists for the accused's benefit (for example, confrontation of witnesses) may be waived; a right founded on public policy or the integrity of the process (for example, a court's jurisdiction over the subject matter) cannot be waived.</p>` },
+      { title: "3. Characteristics of Criminal Law", content: `<h3>3. Characteristics of Criminal Law</h3>
+<table>
+<tr><th>Characteristic</th><th>Meaning</th><th>Exceptions</th></tr>
+<tr><td><b>General</b></td><td>Binds all persons who live or sojourn in Philippine territory, regardless of citizenship</td><td>Treaties and treaty stipulations (e.g., Visiting Forces Agreement); laws of preferential application (e.g., R.A. 75 protecting diplomats); public international law (heads of state, ambassadors and their staff; a consul is not exempt absent a treaty)</td></tr>
+<tr><td><b>Territorial</b></td><td>Penal laws apply only within Philippine territory</td><td>Art. 2 RPC (see tab 4)</td></tr>
+<tr><td><b>Prospective</b></td><td>A penal law cannot make punishable an act done before its enactment</td><td>When the new law is <b>favorable to the accused</b> (Art. 22), unless he is a habitual delinquent</td></tr>
+</table>
+<h4>Jurisdiction of Civil vs. Military Courts</h4>
+<ul>
+<li>Civil courts keep jurisdiction over crimes by military personnel unless the law gives the case to a military court. They have <b>concurrent jurisdiction</b> with military tribunals over many offenses even in wartime, where the military court cannot act (<i>Sweet</i> case).</li>
+<li>When a military court takes cognizance of a case it must be one within its statutory jurisdiction; offenders accused of war crimes are tried by the proper tribunals under special law.</li>
+</ul>
+<h4>Effect of Repeal of a Penal Law</h4>
+<table>
+<tr><th>Situation</th><th>Effect</th></tr>
+<tr><td>Absolute repeal (offense no longer a crime)</td><td>The offense ceases to be criminal; pending cases are dismissed; a convict may be released</td></tr>
+<tr><td>Re-enactment (new law penalizes the same act)</td><td>Prosecution continues under the new law (the old penalty may still apply if the new one is heavier, to avoid ex post facto effect)</td></tr>
+<tr><td>Repealing law fails to penalize the offense</td><td>The accused is acquitted (e.g., failure to file a sales return after the Tax Code dropped the requirement)</td></tr>
+<tr><td>New law omits something in the old law</td><td>The omitted act is no longer punishable</td></tr>
+</table>
+<h4>Construction of Penal Laws</h4>
+<ul>
+<li>Penal laws are construed <b>strictly against the State and liberally in favor of the accused</b>. No one is brought within a penal statute unless the act is clearly within its terms (<i>People v. Garcia</i>: selling tickets of a lottery not covered by the statute led to acquittal).</li>
+<li>For the Revised Penal Code, the <b>original Spanish text prevails</b> over a faulty English translation.</li>
+</ul>` },
+      { title: "4. The Revised Penal Code & Art. 2", content: `<h3>4. The Revised Penal Code: History, Theories and Territorial Scope</h3>
+<h4>History and Structure</h4>
+<ul>
+<li>A committee of jurists revised the old (Spanish) Penal Code; the Revised Penal Code (Act No. 3815) took effect on <b>January 1, 1932</b>. It did not codify all penal laws, and it is not the latest word in criminology.</li>
+<li><b>Book One:</b> general provisions (basic principles on crimes, persons liable, penalties). <b>Book Two:</b> specific felonies and their penalties.</li>
+</ul>
+<h4>Classical vs. Positivist Theory</h4>
+<table>
+<tr><th></th><th>Classical</th><th>Positivist</th></tr>
+<tr><td>Basis of liability</td><td>Man is a free moral agent; the <b>act</b> is punished</td><td>Man is shaped by his environment; the <b>criminal</b> is studied</td></tr>
+<tr><td>Penalty</td><td>Retributive; proportionate to the harm</td><td>Reformative; individualized</td></tr>
+<tr><td>Emphasis</td><td>Free will, intent</td><td>Determinism, social defense</td></tr>
+</table>
+<p>The Code is based mainly on the <b>classical theory</b>, with some positivist features (impossible crimes, indeterminate sentence, juvenile delinquency rules).</p>
+<h4>Art. 2: Application of the Code Outside Philippine Territory</h4>
+<p>The Code is enforced within the Philippines and also against those who:</p>
+<ol>
+<li>Commit an offense on a <b>Philippine ship or aircraft</b> (registered in the Philippines and under its flag; the rule is that of the nationality of the vessel, not distance from shore).</li>
+<li><b>Forge or counterfeit</b> Philippine coins or currency notes, or obligations and securities issued by the Government.</li>
+<li>Are <b>public officers or employees</b> who commit crimes in the exercise of their functions (e.g., falsification, malversation).</li>
+<li>Commit crimes <b>against national security and the law of nations</b> (Title One, Book Two: treason, espionage, piracy, etc.).</li>
+</ol>
+<p><b>Mnemonic: S-F-P-N</b> (Ship, Forgery, Public officers, National security).</p>
+<h4>Foreign Merchant Vessels: the English Rule</h4>
+<table>
+<tr><th>Rule</th><th>Position</th></tr>
+<tr><td>French rule</td><td>Crimes aboard a foreign merchant vessel in port are left to the flag state, unless the peace of the port is disturbed</td></tr>
+<tr><td><b>English rule (followed in the Philippines)</b></td><td>The local State has jurisdiction over crimes aboard a foreign merchant vessel in its waters, <b>unless</b> the crime merely affects the internal order of the ship</td></tr>
+</table>
+<ul>
+<li>Mere <b>possession</b> of opium aboard a foreign vessel in transit is <i>not</i> a breach of public order (it is not triable here); <b>smoking</b> it in Philippine waters <i>is</i> (it affects the community) (<i>U.S. v. Look Chaw</i>; <i>U.S. v. Ah Sing</i>).</li>
+<li><b>Warships</b> are always territory of their flag state.</li>
+<li>A <b>continuing crime</b> that is carried into Philippine waters may be prosecuted here.</li>
+</ul>` },
+      { title: "5. Felonies (Art. 3)", content: `<h3>5. Felonies (Art. 3)</h3>
+<p><b>Felonies</b> are acts and omissions punishable by the Revised Penal Code. They are committed by <b>deceit (dolo)</b> or by <b>fault (culpa)</b>.</p>
+<h4>Elements</h4>
+<table>
+<tr><th>Element</th><th>Notes</th></tr>
+<tr><td>1. An <b>act or omission</b></td><td>Act = bodily movement tending to produce a result; it must be <b>external</b> (thoughts alone are not punished) and defined by the Code. Omission = failure to perform a positive duty that the law requires (a duty must exist; mere moral duty is not enough).</td></tr>
+<tr><td>2. <b>Punishable by the RPC</b></td><td>No felony without a law punishing it</td></tr>
+<tr><td>3. Committed by <b>dolo or culpa</b></td><td>Voluntariness: freedom, intelligence, and intent (or fault)</td></tr>
+</table>
+<h4>Intentional vs. Culpable Felonies</h4>
+<table>
+<tr><th></th><th>Dolo (intentional)</th><th>Culpa (culpable)</th></tr>
+<tr><td>Act</td><td>Malicious</td><td>Not malicious; no intent to injure</td></tr>
+<tr><td>Voluntary?</td><td>Intent to do the act and to cause the injury</td><td>Voluntary act, but result from imprudence, negligence, lack of foresight or skill</td></tr>
+<tr><td>Basis of liability</td><td>Criminal intent</td><td>Fault (Art. 365)</td></tr>
+</table>
+<p><b>Imprudence</b> shows deficiency of action; <b>negligence</b> shows deficiency of perception. Acts done negligently are voluntary. Some crimes cannot be committed through imprudence (e.g., those requiring intent to gain).</p>
+<h4>The Three Requisites of Dolo</h4>
+<ol>
+<li><b>Freedom</b> (no irresistible force or uncontrollable fear)</li>
+<li><b>Intelligence</b> (no insanity or minority exemption)</li>
+<li><b>Intent</b> (purpose to commit the act, shown by overt acts)</li>
+</ol>
+<p>All three must be present. Intent is a mental state, shown by overt acts and the surrounding circumstances (e.g., intent to kill from the weapon used, the part of the body hit, the manner of the attack). <b>Criminal intent is presumed</b> from an unlawful act, but the presumption does not arise where the facts show a lack of intent, and there is no felony by dolo where intent is absent (for example, an honest mistake of fact).</p>
+<h4>Mistake of Fact</h4>
+<p><b>Ignorance of the law excuses no one; honest mistake of fact does.</b> It is a misapprehension of fact that, if true, would make the act lawful. Requisites: (1) the act done would have been <b>lawful had the facts been as the accused believed</b>; (2) the intention is lawful; (3) the mistake is <b>without fault or carelessness</b>.</p>
+<table>
+<tr><th>Case</th><th>Facts and holding</th></tr>
+<tr><td><b>U.S. v. Ah Chong</b></td><td>A cook, awakened in the dark by a man forcing the door, believed he was a robber and killed him; it was his roommate. <b>Acquitted:</b> had the facts been as believed, he would have acted in self-defense, and the mistake was innocent, with no fault.</td></tr>
+<tr><td><b>People v. Oanis</b></td><td>Constabulary men killed a man they believed was a notorious criminal, without any warning or aggression. <b>Guilty of murder:</b> the mistake was due to their own fault; no circumstance justified the killing.</td></tr>
+</table>
+<p>Ah Chong vs. Oanis: innocent, reasonable mistake (acquittal) vs. mistake caused by carelessness (liability).</p>
+<h4>Error in Personae; Aberratio Ictus; Praeter Intentionem (preview of Art. 4)</h4>
+<ul>
+<li><b>Error in personae:</b> mistake in the identity of the victim.</li>
+<li><b>Aberratio ictus:</b> mistake in the blow.</li>
+<li><b>Praeter intentionem:</b> injurious result greater than intended.</li>
+</ul>
+<h4>Mala in Se vs. Mala Prohibita</h4>
+<table>
+<tr><th></th><th>Mala in se</th><th>Mala prohibita</th></tr>
+<tr><td>Nature</td><td>Wrong by nature</td><td>Wrong because the law prohibits it</td></tr>
+<tr><td>Source</td><td>Revised Penal Code</td><td>Special laws</td></tr>
+<tr><td>Intent</td><td><b>Required</b> (good faith is a defense)</td><td>Generally <b>not required</b>; the mere act is punished</td></tr>
+<tr><td>Modifying circumstances</td><td>Apply</td><td>Do not apply (unless the special law adopts the Code)</td></tr>
+<tr><td>Stages and participation</td><td>Attempted, frustrated, consummated; principals, accomplices, accessories</td><td>Generally only consummated; all are liable as principals</td></tr>
+</table>
+<h4>Intent vs. Motive</h4>
+<table>
+<tr><th>Intent</th><th>Motive</th></tr>
+<tr><td>Purpose to use a particular means to achieve a result; an element of dolo</td><td>The moving power (reason) behind the act</td></tr>
+<tr><td>Presumed from the act</td><td>Not an element; need not be proved</td></tr>
+</table>
+<p><b>Motive</b> becomes important where the <b>identity</b> of the offender is in doubt, or where the evidence is <b>circumstantial</b> or the act is equivocal. It is proved by evidence of previous quarrels, threats, relationships. Proof of motive does not substitute for proof of guilt.</p>` },
+      { title: "6. Criminal Liability (Art. 4)", content: `<h3>6. Criminal Liability (Art. 4)</h3>
+<h4>The Two Paragraphs</h4>
+<table>
+<tr><th>Par.</th><th>Rule</th></tr>
+<tr><td><b>Par. 1</b></td><td>Criminal liability is incurred by any person <b>committing a felony</b> although the wrongful act done be different from that intended</td></tr>
+<tr><td><b>Par. 2</b></td><td>Liability for <b>impossible crimes</b>: an act that would be an offense against persons or property but is not accomplished because of the <b>inherent impossibility</b> of its accomplishment or the employment of inadequate or ineffectual means</td></tr>
+</table>
+<p><b>Rationale (Par. 1):</b> <i>el que es causa de la causa es causa del mal causado</i>: he who is the cause of the cause is the cause of the evil caused (<i>People v. Ural</i>). A person is not freed because he did not intend the result of his illegal act (<i>U.S. v. Brobst</i>).</p>
+<h4>Requisites of Par. 1</h4>
+<ol>
+<li>A <b>felony has been committed</b> (by dolo, not by special law, not culpa).</li>
+<li>The wrong done to the aggrieved party is the <b>direct, natural and logical consequence</b> of the felony (proximate cause).</li>
+</ol>
+<h4>No Felony, No Liability for the Result</h4>
+<ul>
+<li>Not a felony: an act not punished by the Code (e.g., attempted suicide: A, trying to kill himself by jumping, falls on and kills a passerby, and is not liable for homicide) (<i>U.S. v. Villanueva</i>: snatching a bolo from curiosity; <i>People v. Bindoy</i>: struggle over a bolo).</li>
+<li>Not a felony: an act covered by a <b>justifying circumstance</b> (Art. 11). A person who fires in self-defense and accidentally hits a bystander is not liable for the bystander's death.</li>
+<li>If the wrong results from imprudence, apply <b>Art. 365</b>, not Art. 4. A violator of a special law who causes injury (e.g., <i>U.S. v. Divino</i>, a non-physician who treated a girl and burned her) is liable for the injuries through imprudence and the special-law offense.</li>
+</ul>
+<h4>Three Situations Under "Although the Wrongful Act Be Different"</h4>
+<table>
+<tr><th>Situation</th><th>Meaning</th><th>Example</th></tr>
+<tr><td><b>Error in personae</b></td><td>Mistake in the victim's identity</td><td>A stabs in the dark a man he thinks is E; it is G. He is liable for the injury to G.</td></tr>
+<tr><td><b>Aberratio ictus</b></td><td>Mistake in the blow; the aimed-at victim is missed and another is hit</td><td>A fires at B, misses, and hits C. He is liable for C's injury.</td></tr>
+<tr><td><b>Praeter intentionem</b></td><td>The injurious result is greater than intended</td><td>A punches D, who falls and dies. A is liable for homicide, with the mitigating circumstance of lack of intent to commit so grave a wrong (Art. 13(3)).</td></tr>
+</table>
+<h4>Proximate Cause</h4>
+<p>Proximate cause is that cause which, in the natural and continuous sequence, unbroken by any efficient intervening cause, produces the injury, and without which the result would not have occurred.</p>
+<ul>
+<li>The offender is liable even if the death is aggravated by the victim's weak constitution, lack of medical care, or the victim's own reaction (e.g., jumping in fright) that was a natural consequence of the attack.</li>
+<li>He is <b>not liable</b> for consequences from a distinct act or fact <b>absolutely foreign</b> to the criminal act (<i>People v. Rellin</i>), i.e., an efficient intervening cause.</li>
+<li>A <b>blow that accelerates death</b> makes the offender liable for the resulting death.</li>
+<li>Death from a wound is attributable to the assailant when: (1) the victim was in <b>normal health</b>; (2) death may be <b>expected</b> from the injuries; (3) death ensued within a <b>reasonable time</b> (<i>People v. Datu Baginda</i>; <i>People v. Tammang</i>: a pupil whipped and hurled against a post died three days later; had he died of hydrophobia, that would have been an intervening cause).</li>
+<li><b>Bus case (Bataclan v. Medina):</b> a bus overturned, gasoline leaked, rescuers with a torch started a fire that burned trapped passengers. The proximate cause was the <b>overturning of the bus</b> (negligence of the driver); the rescuers' torch was a natural, foreseeable response to the emergency, not an efficient intervening cause.</li>
+</ul>
+<h4>Solved Problems</h4>
+<p><b>Problem 6.1.</b> A, intending to kill B, fires but hits C, who dies. Liability?<br><b>Answer:</b> Murder or homicide (aberratio ictus) as to C. A is liable because he was committing a felony, and C's death is the direct, natural and logical consequence of the act.</p>
+<p><b>Problem 6.2.</b> A fires at B in lawful self-defense but kills a bystander, D. Liability?<br><b>Answer:</b> None for D's death. A was not committing a felony; self-defense is a justifying circumstance (Art. 11).</p>
+<p><b>Problem 6.3.</b> A stabs V, who is rushed to the hospital but dies days later because a surgeon commits a gross error unrelated to the wound. Liability?<br><b>Answer:</b> Depends on whether the wound was mortal. If the wound was fatal, A is liable for homicide (medical negligence does not break the chain). If the wound was slight and the death was due solely to the grossly negligent treatment (an efficient intervening cause), A is liable only for the injury.</p>` },
+      { title: "7. Cases & Quick Review", content: `<h3>7. Cases and Quick Review</h3>
+<table>
+<tr><th>Case</th><th>Doctrine</th></tr>
+<tr><td>U.S. v. Taylor</td><td>No common law crimes in the Philippines</td></tr>
+<tr><td>People v. Santiago; U.S. v. Pablo</td><td>Power to define and punish crimes belongs to the State (police power)</td></tr>
+<tr><td>People v. Villaraza</td><td>An increased penalty cannot apply retroactively (ex post facto)</td></tr>
+<tr><td>People v. Ferrer</td><td>Bill of attainder: punishment without trial</td></tr>
+<tr><td>In re Kay Villegas Kami</td><td>Definition of ex post facto law</td></tr>
+<tr><td>People v. Garcia</td><td>Penal laws are construed strictly against the State</td></tr>
+<tr><td>U.S. v. Ah Chong</td><td>Honest and reasonable mistake of fact exempts from liability</td></tr>
+<tr><td>People v. Oanis</td><td>A mistake due to fault or carelessness does not exempt</td></tr>
+<tr><td>U.S. v. Brobst; People v. Ural</td><td>One is liable for the natural consequences of an illegal act, intended or not</td></tr>
+<tr><td>U.S. v. Villanueva; People v. Bindoy</td><td>No felony committed, so no liability for the unintended injury</td></tr>
+<tr><td>U.S. v. Divino</td><td>Non-physician who injures a patient: liable for imprudence plus the special-law offense</td></tr>
+<tr><td>People v. Datu Baginda; People v. Tammang</td><td>Requisites for liability for death from injuries; hydrophobia would be an intervening cause</td></tr>
+<tr><td>People v. Rellin</td><td>No liability for results from a distinct act foreign to the crime</td></tr>
+<tr><td>Bataclan v. Medina</td><td>Proximate cause: overturning of the bus, not the rescuers' torch</td></tr>
+</table>
+<h4>Quick Check</h4>
+<ol>
+<li>Sources of criminal law? <i>RPC, special penal laws, penal presidential decrees. Not court decisions.</i></li>
+<li>Three characteristics? <i>General, territorial, prospective.</i></li>
+<li>When is a penal law given retroactive effect? <i>When favorable to the accused (Art. 22), unless he is a habitual delinquent.</i></li>
+<li>Four cases covered by Art. 2? <i>Philippine ship or aircraft; forgery of currency and securities; public officers in their functions; crimes against national security and the law of nations.</i></li>
+<li>Three requisites of dolo? <i>Freedom, intelligence, intent.</i></li>
+<li>Elements of mistake of fact? <i>Lawful if facts were as believed; lawful intention; no fault or carelessness.</i></li>
+<li>Requisites of Art. 4(1)? <i>A felony committed; the wrong is the direct, natural and logical consequence.</i></li>
+</ol>` },
+      { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Criminal Law.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/statutes/acts/act1930/act_3815_1930b.html" target="_blank" rel="noopener">Revised Penal Code (Act No. 3815)</a></td><td>Book One, Arts. 1-113</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2017/ra_10951_2017.html" target="_blank" rel="noopener">R.A. 10951</a></td><td>Adjusted amounts of fines and property values in the RPC</td></tr><tr><td><a href="https://ldr.senate.gov.ph/legislative-issuance/act-no-3815" target="_blank" rel="noopener">Act No. 3815, Senate LDR</a></td><td>Alternative full text</td></tr><tr><td><a href="https://lawphil.net/consti/cons1987.html" target="_blank" rel="noopener">1987 Constitution</a></td><td>Full text, Lawphil Project</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
     ]
   },
   {
@@ -668,6 +895,16 @@ const SUBJECTS = [
 <tr><td>4th year</td><td>MCIT begins</td></tr>
 <tr><td>50%</td><td>Predominance test for schools and non-profit hospitals</td></tr>
 </table>
+<h4>Mnemonics</h4>
+<table>
+<tr><th>Mnemonic</th><th>Stands for</th></tr>
+<tr><td>S-P-I-N-E</td><td>Inherent limitations: Situs, Public purpose, International comity, Non-delegability, Exemption of government</td></tr>
+<tr><td>U-J-I-P</td><td>Valid tax: Uniform, Jurisdiction, Inherent/constitutional limits not violated, Public purpose</td></tr>
+<tr><td>S-O-U-R</td><td>Ordinary assets: Stock-in-trade, Ordinary course, Used in business, Real property used in business</td></tr>
+<tr><td>C-R-E-D3-I-T-L-P</td><td>Itemized deductions: Charitable, Research, Expenses, Depreciation, Depletion, Debts, Interest, Taxes, Losses, Pension trust</td></tr>
+<tr><td>P-C-S-W-N</td><td>Deductibility: Paid/incurred, Connected to business, Substantiated, Withholding tax paid (no longer required from 2024), Not against law</td></tr>
+<tr><td>H-E-V-H-I-M-H-E E-L</td><td>Fringe benefits: Housing, Expense account, Vehicle, Household personnel, Interest on loans, Membership fees, Holiday/vacation, Education, foreign travel Expenses, Life/health insurance excess</td></tr>
+</table>
 <h4>Solving Any Income Tax Problem (5 Steps)</h4>
 <ol>
 <li><b>Classify</b> the taxpayer (RC, NRC, RA, NRA-ETB, NRA-NETB, DC, RFC, NRFC).</li>
@@ -693,8 +930,54 @@ const SUBJECTS = [
 <tr><td>Fisher v. Trinidad</td><td>Stock dividends are not income</td></tr>
 <tr><td>CIR v. General Foods</td><td>Brand-building advertising is a capital expenditure</td></tr>
 <tr><td>3M Philippines v. CIR</td><td>Illegal or against-public-policy payments are not deductible</td></tr>
-<tr><td>RCBC v. CIR</td><td>Withholding agent and payee liability; payment by one discharges the other</td></tr>
-</table>` }
+<tr><td>Pascual v. Sec. of Public Works</td><td>Public purpose must exist; appropriating funds primarily for private benefit is void</td></tr><tr><td>American Bible Society v. City of Manila</td><td>No license tax on dissemination of religious materials</td></tr><tr><td>Tolentino v. Sec. of Finance</td><td>General non-discriminatory taxes may apply to the press; non-impairment protects only exemptions given for consideration</td></tr><tr><td>Compania General de Tabacos v. City of Manila</td><td>A license fee (police power) and a tax may both be imposed on the same business; not double taxation</td></tr><tr><td>CIR v. Transfield Philippines; CS Garment v. CIR</td><td>BIR circulars cannot add disqualifications to a tax amnesty law</td></tr><tr><td>CIR v. BOAC</td><td>Source of income is the activity that produces it; ticket sales in the PH are PH-source</td></tr><tr><td>El Oriente Fabrica de Tabacos v. Posadas</td><td>Life insurance proceeds on death are excluded from the beneficiary's gross income</td></tr><tr><td>CIR v. Isabela Cultural Corp.</td><td>Accrual method: all-events test (liability fixed; amount reasonably determinable)</td></tr><tr><td>Collector v. Goodrich International Rubber</td><td>Bad debt needs proof of actual worthlessness; a mere provision for doubtful accounts is not enough</td></tr><tr><td>CIR v. Smart Communications</td><td>PH payor must withhold the final tax on NRFC income; failure makes the withholding agent liable</td></tr><tr><td>RCBC v. CIR</td><td>Withholding agent and payee liability; payment by one discharges the other</td></tr>
+</table>` },
+      { title: "11. Problem Set & Review", content: `<h3>11. Problem Set and Review Exam</h3>
+<p><i>From the BSLM 3B Student Module. The module prints only the solutions, so each problem below is restated from the facts used in its solution.</i></p>
+<h4>Unit 3 Problems</h4>
+<p><b>3-A (classification).</b> Treat each item: salary; a VP's fringe benefit; free quarters required by the job; bonus to a rank-and-file employee; employer-paid group life insurance; life insurance proceeds on death; a rice subsidy of &#8369;12,000/month.<br><b>Solution:</b> (1) Compensation, graduated rates. (2) FBT paid by the employer; not compensation of the VP. (3) Excluded (employer's convenience). (4) Compensation. (5) Excluded and exempt from FBT. (6) Excluded. (7) The de minimis ceiling is &#8369;3,000/month (&#8369;36,000/year); the <u>excess</u> is compensation at graduated rates.</p>
+<p><b>3-B (CGT).</b> Mr. Santos sells a capital-asset lot: selling price &#8369;3,500,000; zonal value &#8369;4,100,000; assessor's FMV &#8369;3,200,000 (actual gain &#8369;700,000).<br><b>Solution:</b> 6% final CGT on the highest value: 4,100,000 &times; 6% = <b>&#8369;246,000</b>. The actual gain is irrelevant (presumed gain).</p>
+<p><b>3-C (leasehold, spread-out).</b> Ms. Lim: 8-year lease; cash rent &#8369;800,000/yr; lessee's improvement cost &#8369;6,400,000, useful life 32 years.<br><b>Solution:</b> Depreciation = 6,400,000 &divide; 32 = 200,000/yr; &times; 8 = 1,600,000; book value = 4,800,000; annual income = 4,800,000 &divide; 8 = 600,000; total = 800,000 + 600,000 = <b>&#8369;1,400,000 per year</b>.</p>
+<h4>Unit 4 Problems</h4>
+<p><b>4-A (arbitrage).</b> Interest expense &#8369;1,200,000; interest income under final tax &#8369;400,000.<br><b>Solution:</b> Reduction = 20% &times; 400,000 = 80,000. Deductible = 1,200,000 &minus; 80,000 = <b>&#8369;1,120,000</b>. The reduction is permanent.</p>
+<p><b>4-B (charitable).</b> Taxable income before contribution &#8369;6,000,000 (corporation). Donations: &#8369;400,000 to a fully deductible NGO; &#8369;300,000 to a church (limited).<br><b>Solution:</b> NGO: 100% = 400,000. Church: ceiling 10% &times; 6,000,000 = 600,000; 300,000 is within it. Total = <b>&#8369;700,000</b>.</p>
+<p><b>4-C (bad debt, tax benefit rule).</b> &#8369;200,000 was written off in Year 1 (tax benefit &#8369;50,000); &#8369;150,000 is recovered in Year 3.<br><b>Solution:</b> (a) The deduction reduced tax, so the recovery of 150,000 is <b>taxable</b>. (b) If Year 1 produced a net operating loss and the deduction gave no tax benefit, the recovery is <b>not taxable</b>. A recovery is taxable only to the extent the prior deduction reduced actual tax.</p>
+<h4>Unit 5 Problems</h4>
+<p><b>5-A.</b> Resident citizen: compensation &#8369;1,800,000; bank interest &#8369;40,000; cash dividend &#8369;80,000; rent &#8369;360,000 with &#8369;60,000 expenses.<br><b>Solution:</b> Interest (20% FWT) and dividend (10% FWT) are final and left out. Taxable income = 1,800,000 + (360,000 &minus; 60,000) = 2,100,000. Tax = 402,500 + 30% &times; 100,000 = <b>&#8369;432,500</b>, less any CWT on the rent.</p>
+<p><b>5-B (8% vs. graduated).</b> Ms. Flores: gross receipts &#8369;1,500,000; itemized expenses &#8369;480,000.<br><b>Solution:</b> Graduated: taxable income 1,020,000; tax = 102,500 + 25% &times; 220,000 = 157,500. 8%: 8% &times; (1,500,000 &minus; 250,000) = 100,000. The 8% option also avoids the 3% percentage tax (3% &times; 1,500,000 = 45,000). Total saving = 57,500 + 45,000 = <b>&#8369;102,500</b>. Elect 8%.</p>
+<p><b>5-C (NCIT vs. MCIT over three years).</b></p>
+<table>
+<tr><th>Year</th><th>Net taxable income</th><th>Gross income</th><th>NCIT 25%</th><th>MCIT 2%</th><th>Result</th></tr>
+<tr><td>1</td><td>2,500,000</td><td>15,000,000</td><td>625,000</td><td>300,000</td><td>Pay NCIT 625,000</td></tr>
+<tr><td>2</td><td>600,000</td><td>18,000,000</td><td>150,000</td><td>360,000</td><td>Pay MCIT 360,000; excess MCIT 210,000</td></tr>
+<tr><td>3</td><td>3,000,000</td><td>20,000,000</td><td>750,000</td><td>400,000</td><td>Pay NCIT 750,000 &minus; 210,000 credit = <b>540,000</b></td></tr>
+</table>
+<p><b>5-D (GPP).</b> A GPP of two equal partners earns &#8369;4,200,000. Mr. B also has &#8369;800,000 sole-proprietorship income.<br><b>Solution:</b> The GPP is not taxed. Each share = 2,100,000. Mr. A: 402,500 + 30% &times; 100,000 = <b>&#8369;432,500</b>. Mr. B: taxable income 2,900,000; 402,500 + 30% &times; 900,000 = <b>&#8369;672,500</b>.</p>
+<p><b>Worked example (GPP, three equal partners).</b> Net income &#8369;8,000,000 (fees 12,000,000 less deductions 4,000,000). Share = 8,000,000 &divide; 3 = 2,666,667. Tax per partner = 402,500 + 30% &times; 666,667 = <b>&#8369;602,500</b>. Partners cannot claim extra deductions on the share if the GPP already claimed them.</p>
+<h4>Review Exam: Multiple Choice</h4>
+<table>
+<tr><th>#</th><th>Question</th><th>Answer and reason</th></tr>
+<tr><td>1</td><td>Resident citizen sells a condo (capital asset) for &#8369;8,000,000; zonal value &#8369;7,500,000; FMV &#8369;6,800,000. CGT?</td><td><b>&#8369;480,000.</b> 6% &times; highest (8,000,000).</td></tr>
+<tr><td>2</td><td>Dividends received by an RFC from a domestic corporation are:</td><td><b>Exempt</b> (inter-corporate dividend).</td></tr>
+<tr><td>3</td><td>The holding period rule applies to:</td><td><b>Individuals only</b>; not corporations, real property or shares.</td></tr>
+<tr><td>4</td><td>Who may elect the 8%: employee earning &#8369;2.5M; VAT-registered writer with &#8369;2M; non-VAT consultant with &#8369;2.5M; corporation with &#8369;5M?</td><td><b>The non-VAT consultant.</b> Others fail by category or VAT registration.</td></tr>
+<tr><td>5</td><td>Stock dividends are generally:</td><td><b>Not income</b> (<i>Fisher v. Trinidad</i>), unless redeemed in a way equivalent to a taxable dividend.</td></tr>
+</table>
+<h4>Review Exam: Essays</h4>
+<p><b>Essay 1.</b> Distinguish avoidance and evasion.<br><b>Answer:</b> The dividing line is <b>legality</b>. Avoidance uses lawful means in good faith (e.g., donating half of income property to a tax-exempt school, 2000 Bar). Evasion needs (1) underpayment of tax known to be due, (2) bad faith, (3) an unlawful course of action (e.g., the sham two-step sale in <i>Toda</i>).</p>
+<p><b>Essay 2.</b> Mr. Santos stayed more than 180 days; income: consultancy fees &#8369;500,000, bank interest &#8369;200,000, cash dividends &#8369;200,000.<br><b>Answer:</b> He is an NRA-ETB (graduated rates on net PH-source income). The fees are PH-source (services performed here) and go in his return. The interest bears 20% FWT (&#8369;40,000) and the dividends 20% FWT, both final and left out. Only the &#8369;500,000 enters the return.</p>
+<h4>Review Exam: Comprehensive Problem</h4>
+<p>ABC Corp.: sales &#8369;50,000,000; COGS &#8369;28,000,000; operating expenses &#8369;14,000,000; interest expense &#8369;2,000,000; &#8369;500,000 interest on long-term deposits; &#8369;800,000 donation to the Red Cross; total assets &#8369;180,000,000 including &#8369;50,000,000 of land; prior-year MCIT credit &#8369;150,000. Compute the tax payable.</p>
+<ol>
+<li><b>Gross income</b> = 50,000,000 &minus; 28,000,000 = 22,000,000.</li>
+<li><b>Interest:</b> the module treats the long-term deposit interest as exempt, so no arbitrage reduction: full 2,000,000 deductible. (Under CMEPA that interest is no longer exempt; the 20% arbitrage reduction would then apply. Follow your professor's version.)</li>
+<li><b>Donation:</b> income before contribution = 22,000,000 &minus; 14,000,000 &minus; 2,000,000 = 6,000,000; ceiling 10% = 600,000; allowed <b>600,000</b> (200,000 disallowed).</li>
+<li><b>Net taxable income</b> = 6,000,000 &minus; 600,000 = <b>5,400,000</b>.</li>
+<li><b>Rate:</b> assets less land = 130,000,000, above the 100M cap, so not a small corporation: 25%. NCIT = <b>1,350,000</b>.</li>
+<li><b>MCIT</b> = 2% &times; 22,000,000 = 440,000. NCIT is higher, so pay NCIT.</li>
+<li><b>Credit</b> prior MCIT 150,000: tax payable = <b>&#8369;1,200,000</b>.</li>
+</ol>` },
+      { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Income Taxation.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra1997/ra_8424_1997.html" target="_blank" rel="noopener">National Internal Revenue Code (R.A. 8424)</a></td><td>Secs. 22-34, 24-28, 32, 39-42, 51, 57-58</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2017/ra_10963_2017.html" target="_blank" rel="noopener">TRAIN Law (R.A. 10963)</a></td><td>Individual rates, 8% option</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2021/ra_11534_2021.html" target="_blank" rel="noopener">CREATE Act (R.A. 11534)</a></td><td>Corporate rates, MCIT, dividends</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2024/ra_11976_2024.html" target="_blank" rel="noopener">Ease of Paying Taxes Act (R.A. 11976)</a></td><td>Repeal of Sec. 34(K) and other changes</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2025/ra_12214_2025.html" target="_blank" rel="noopener">CMEPA (R.A. 12214)</a></td><td>Stock transaction tax, interest income tax</td></tr><tr><td><a href="https://www.bir.gov.ph/" target="_blank" rel="noopener">Bureau of Internal Revenue</a></td><td>Revenue regulations, forms, issuances</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
     ]
   },
   {
@@ -1046,7 +1329,105 @@ const SUBJECTS = [
 <li><b>Held:</b> <b>CA affirmed.</b> Copyright protects only <b>original intellectual creations</b> (Sec. 172). A Certificate of Copyright Registration is only a <b>rebuttable presumption</b>, not conclusive proof of copyrightability. With no copyrightable work, there was <b>no infringement</b> and <b>no probable cause</b> for the search warrant.</li>
 <li><b>Doctrine:</b> the Certificate of Registration and Deposit merely serves as notice of recording and registration. It is <b>not conclusive proof of ownership</b> and does not automatically place the work under copyright protection. (Same principle as <i>Ching v. Salinas</i>.)</li>
 </ul>` },
-      { title: "Case Index and Self-Test", content: `<h3>XIV. Case Index</h3>
+      { title: "Olaño v. Lim Eng Co", content: `<h3>XIV. Useful Articles: Olaño v. Lim Eng Co</h3>
+<p>G.R. No. 195835, March 14, 2016, Reyes, J. (<a href="https://lawphil.net/judjuris/juri2016/mar2016/gr_195835_2016.html" target="_blank" rel="noopener">full text</a>)</p>
+<h4>Facts</h4>
+<ul>
+<li>Lim Eng Co is Chairman of <b>LEC Steel Manufacturing Corporation (LEC)</b>, which specializes in architectural metal manufacturing. For the <b>Manansala Project</b> in Rockwell Center, LEC prepared the designs, drawings, and specifications for the interior and exterior <b>hatch doors</b>. After the plans were approved, LEC was subcontracted to manufacture and install the doors for the <b>7th to 22nd floors</b>. LEC later obtained <b>copyright registration</b> for the sketches and drawings.</li>
+<li>Petitioners Sison Olaño, Sergio T. Ong, Marilyn O. Go, and Jap Fuk Hai, officers and/or directors of <b>Metrotech Steel Industries, Inc.</b>, were later subcontracted for the <b>23rd to 41st floors</b>. LEC claimed Metrotech's doors were <b>substantially identical</b> to its own and that Metrotech copied its copyrighted drawings, and filed a copyright infringement complaint.</li>
+<li><b>NBI search:</b> finished and unfinished hatch doors found, but <b>no copies of LEC's copyrighted drawings</b>.</li>
+<li><b>DOJ:</b> first found probable cause; on motion for reconsideration it <b>reversed and dismissed</b>, reasoning that LEC's copyright covered its <b>drawings</b>, while the physical doors were <b>useful articles</b> made for a functional purpose.</li>
+<li><b>CA:</b> ruled against the DOJ and reinstated probable cause. Petitioners went to the Supreme Court.</li>
+</ul>
+<h4>Issues and Rulings</h4>
+<table>
+<tr><th>Issue</th><th>Ruling</th></tr>
+<tr><td>1. Did the DOJ commit <b>grave abuse of discretion</b> in reversing its earlier finding of probable cause?</td><td><b>No.</b> The prosecutor and the DOJ reached different conclusions, but both rested on the <b>same uniform set of facts</b> (LEC's registered plans and Metrotech's later installation of similar doors). The shifting resolutions merely reflected an <b>evolving legal discourse</b> on whether the doors were copyrightable works or original ornamental designs.</td></tr>
+<tr><td>2. Did Metrotech's manufacture of the hatch doors <b>infringe</b> LEC's copyrighted drawings and designs?</td><td><b>No. Petition granted; complaint dismissed.</b> Hatch doors are <b>functional, useful articles</b>, excluded from copyright eligibility under the IP Code. A registration certificate covering illustrations, maps, plans, sketches, charts, and three-dimensional works relating to geography, topography, architecture, or science gives <b>no exclusive monopoly over manufacturing the functional items depicted</b>. LEC failed to show that the physical objects themselves had copyright, and offered <b>no proof that petitioners directly reproduced any protected drawing</b>. No probable cause.</td></tr>
+</table>
+<h4>Doctrine</h4>
+<ol>
+<li><b>Copyright vs. patent:</b> copyright protects only the <b>original expression</b> of an idea, not the underlying art or utilitarian object disclosed.</li>
+<li><b>Denicola test (conceptual separability):</b> a useful article cannot be copyrighted when its aesthetic elements are <b>totally merged with functional considerations</b>, with no ornamental or artistic features that can exist <b>independently</b> of its utilitarian design.</li>
+</ol>
+<blockquote><b>Exam tip:</b> a <b>drawing</b> of a useful article may be copyrighted, but the copyright in the drawing does not give the owner control over <b>making the article</b>. To protect the functional thing itself, think <b>patent or utility model</b>, not copyright. Compare <i>Ching v. Salinas</i> (Protected Works) and <i>Manly Sportswear</i> (Registration and Deposit).</blockquote>` },
+      { title: "E-Commerce Act", content: `<h3>XV. E-Commerce Act (R.A. 8792) in Relation to Copyright</h3>
+<p>The E-Commerce Act of 2000 extends legal protection to electronic documents and also reaches <b>online piracy</b> of copyrighted works. (The report's title slide says R.A. 8791; the Act is <b>R.A. No. 8792</b>, as its later slides and the NBI release state.)</p>
+<h4>Sec. 5: Key Definitions</h4>
+<table>
+<tr><th>Term</th><th>Meaning</th></tr>
+<tr><td><b>(c) Electronic data message</b></td><td>Information <b>generated, sent, received, or stored</b> by electronic, optical, or similar means.</td></tr>
+<tr><td><b>(f) Electronic document</b></td><td>Information or the representation of information, data, figures, symbols, or other modes of written expression, by which a <b>right is established or an obligation extinguished</b>, or by which a <b>fact may be proved and affirmed</b>, which is received, recorded, transmitted, stored, processed, retrieved, or produced electronically.</td></tr>
+</table>
+<h4>Secs. 30 to 33</h4>
+<table>
+<tr><th>Section</th><th>Rule</th></tr>
+<tr><td><b>Sec. 30: Liability of a service provider</b></td><td>Except as otherwise provided, no person or party is subject to <b>civil or criminal liability</b> for an electronic data message or document where the person, acting as a <b>service provider</b> (Sec. 5), <b>merely provides access</b>, if the liability is founded on the <b>making, publication, dissemination, or distribution</b> of the material or any statement in it, <b>including possible infringement of any right</b> subsisting in or in relation to the material. A mere conduit is not the infringer. <i>The full text attaches provisos (e.g., no actual knowledge of the unlawful or infringing character, no direct financial benefit from the infringement, no direct participation or inducement); confirm against the Act.</i></td></tr>
+<tr><td><b>Sec. 31: Lawful access</b></td><td>Access to an electronic file, or an electronic signature of an electronic data message or document, is authorized and enforced only in favor of the person or entity with a <b>legal right to the possession or use</b> of the plaintext, signature, or file, or <b>solely for authorized purposes</b>. The <b>electronic key</b> for identity or integrity may not be made available to anyone without the consent of the person or entity lawfully holding it.</td></tr>
+<tr><td><b>Sec. 32: Obligation of confidentiality</b></td><td>Except for purposes authorized under the Act, anyone who obtained access to any electronic key, electronic data message or document, book, register, correspondence, information, or other material <b>pursuant to powers conferred by the Act</b> shall <b>not convey to or share</b> it with any other person.</td></tr>
+<tr><td><b>Sec. 33(b): Piracy</b></td><td>Unauthorized <b>copying, reproduction, dissemination, distribution, importation, use, removal, alteration, substitution, modification, storage, uploading, downloading, communication, making available to the public, or broadcasting</b> of protected material, electronic signature, or copyrighted works (including legally protected sound recordings or phonograms, or information material on protected works) <b>through telecommunication networks such as the internet</b>, in a manner that infringes intellectual property rights.</td></tr>
+</table>
+<h4>Penalty for Piracy (Sec. 33[b])</h4>
+<ul>
+<li><b>Fine:</b> minimum of <b>&#8369;100,000</b>; maximum <b>commensurate to the damage incurred</b>.</li>
+<li><b>Imprisonment:</b> <b>mandatory</b>, <b>6 months to 3 years</b>.</li>
+</ul>
+<blockquote><b>Remember:</b> the key words are <b>"through the use of telecommunication networks, such as the internet."</b> The same copying done offline falls under the IP Code (Sec. 217), not Sec. 33(b).</blockquote>` },
+      { title: "Cybercrime and Cyber Infringement", content: `<h3>XVI. Cybercrime Prevention Act (R.A. 10175) and Cyber Infringement</h3>
+<h4>Declaration of Policy</h4>
+<p>The State recognizes the vital role of information and communications industries (content production, telecommunications, broadcasting, electronic commerce, data processing) in national development, and the need to protect the <b>integrity of computer systems, networks, and databases</b>, and the <b>confidentiality, integrity, and availability</b> of the data in them, from misuse, abuse, and illegal access. The State shall adopt powers to prevent and combat these offenses, domestically and through <b>international cooperation</b>.</p>
+<h4>What Is Cybercrime?</h4>
+<p>An unlawful act carried out using information and communication technology (ICT) to either <b>target</b> networks, systems, data, or websites, or to <b>facilitate</b> a crime (United Nations). Merriam-Webster adds criminal activity such as fraud, theft, or distribution of child pornography committed using a computer, especially to illegally access, transmit, or manipulate data.</p>
+<h4>Cybercrime Offenses (Sec. 4)</h4>
+<table>
+<tr><th>Group</th><th>Offenses</th></tr>
+<tr><td><b>A. Against confidentiality, integrity, and availability of computer data and systems</b></td><td>
+<b>(1) Illegal access:</b> access to the whole or any part of a computer system <b>without right</b>.<br>
+<b>(2) Illegal interception:</b> interception by technical means, without right, of any <b>non-public</b> transmission of computer data to, from, or within a system (including electromagnetic emissions).<br>
+<b>(3) Data interference:</b> intentional or reckless <b>alteration, damaging, deletion, or deterioration</b> of computer data, electronic document, or electronic data message, without right, including introducing or transmitting viruses.<br>
+<b>(4) System interference:</b> intentional alteration or reckless <b>hindering or interference</b> with the functioning of a computer or network (inputting, transmitting, damaging, deleting, altering, or suppressing data or programs), without right, including viruses.<br>
+<b>(5) Misuse of devices:</b> (i) use, production, sale, procurement, importation, distribution, or making available, without right, of (aa) a <b>device or computer program</b> designed or adapted primarily to commit any offense under the Act, or (bb) a <b>computer password, access code,</b> or similar data, with intent to use it to commit the offenses; (ii) <b>possession</b> of such an item with intent to use it.<br>
+<b>(6) Cyber-squatting:</b> acquiring a <b>domain name</b> in <b>bad faith</b> to profit, mislead, destroy reputation, or deprive others of registering it, if the name is (i) identical or confusingly similar to a <b>registered trademark</b> at the time of registration, (ii) identical or similar to the <b>name of another person</b>, and (iii) acquired without right or with IP interests in it.</td></tr>
+<tr><td><b>B. Computer-related offenses</b></td><td>
+<b>(1) Computer-related forgery:</b> input, alteration, or deletion of computer data without right resulting in <b>inauthentic data</b>, intended to be treated as authentic for legal purposes; or knowingly using such data to perpetuate a fraudulent or dishonest design.<br>
+<b>(2) Computer-related fraud:</b> unauthorized input, alteration, or deletion of data or programs, or interference with a system, <b>causing damage</b> with fraudulent intent. If no damage has yet been caused, the penalty is <b>one degree lower</b>.<br>
+<b>(3) Computer-related identity theft:</b> intentional acquisition, use, misuse, transfer, possession, alteration, or deletion of <b>identifying information</b> of another (natural or juridical) without right. If no damage yet, <b>one degree lower</b>.</td></tr>
+<tr><td><b>C. Content-related offenses</b></td><td>(1) Cybersex; (2) child pornography; (3) unsolicited commercial communications; (4) libel.</td></tr>
+</table>
+<h4>Other Offenses and Linking Provisions</h4>
+<table>
+<tr><th>Section</th><th>Rule</th></tr>
+<tr><td><b>Sec. 5(a)</b> Aiding or abetting</td><td>Anyone who <b>willfully abets or aids</b> in committing any enumerated offense is liable.</td></tr>
+<tr><td><b>Sec. 5(b)</b> Attempt</td><td>Anyone who <b>willfully attempts</b> to commit any enumerated offense is liable.</td></tr>
+<tr><td><b>Sec. 6</b></td><td>All crimes under the <b>Revised Penal Code and special laws</b>, if committed <b>by, through, and with the use of ICT</b>, are covered by the Act, and the penalty is <b>one (1) degree higher</b> than that provided by the RPC and special laws.</td></tr>
+<tr><td><b>Sec. 7</b> Liability under other laws</td><td>Prosecution under the Act is <b>without prejudice</b> to liability under the RPC or special laws.</td></tr>
+</table>
+<blockquote><b>Link to copyright:</b> copyright infringement is a crime under a <b>special law</b> (the IP Code). If it is committed through ICT, <b>Sec. 6</b> brings it under R.A. 10175 and raises the penalty one degree. <b>Sec. 7</b> allows the IP Code and E-Commerce Act charges to be filed too.</blockquote>
+<p><i>Outside the report (verify): in </i>Disini v. Secretary of Justice<i> the Supreme Court struck down or limited some provisions, including the unsolicited commercial communications offense, so check the current status before relying on the content-related list.</i></p>
+<h4>Cyber Infringement</h4>
+<p>A copyrighted work is infringed when, <b>without license or consent</b> of the owner, a person does or authorizes the doing of any act reserved to the owner, or uses it for profit, or makes for sale or hire, sells, distributes, or exhibits in public infringing copies for trade or to prejudice the owner or the public, unless covered by exceptions and limitations. In <b>cyberspace</b>, this includes unauthorized use, copying, or posting of an original literary, graphic, musical, software, film, artwork, or multimedia work (Pandey, 2022).</p>
+<table>
+<tr><th>Form</th><th>Meaning</th></tr>
+<tr><td><b>Digital piracy</b></td><td>Illegal <b>reproduction and distribution</b> of copyrighted content (software, e-books, movies, music, TV programs, video games, photos) through <b>electronic means for profit</b>.</td></tr>
+<tr><td><b>Freebooting</b></td><td>Unauthorized <b>posting or re-uploading</b> of another creator's original video for <b>views or monetization</b>.</td></tr>
+</table>
+<h4>Case Application: Tacloban Case (NBI Press Release, Aug. 4, 2025)</h4>
+<ul>
+<li><b>Facts:</b> the subject, Boanerges Ty Hidalgo, was distributing <b>video lectures and review materials</b> of the Jurists review center through a Facebook group (<i>Philippine Law Student Help Group</i>) <b>for money, without the owner's consent</b>. NBI-CCD agents ran a <b>test-buy</b>: he agreed to copy the materials to an external drive and to meet the poseur-client in Tacloban City.</li>
+<li><b>Charges for inquest:</b> (1) <b>Misuse of Devices</b>, Sec. 4(a)(5)(i)(aa) in relation to (5)(ii), R.A. 10175; (2) <b>Piracy</b>, Sec. 33(b), R.A. 8792, in relation to Sec. 6, R.A. 10175; (3) <b>Copyright infringement</b>, Sec. 217.1, R.A. 8293.</li>
+<li><b>Why it is cyber infringement:</b> (a) copyrightable work, (b) distribution without consent, (c) for commercial use, (d) in cyberspace.</li>
+</ul>
+<h4>Penalties: IP Code vs. Cybercrime Act</h4>
+<p>Penalties for IPC infringement are in <i>Remedies and Penalties</i>. Under Sec. 6 of R.A. 10175 each is raised <b>one degree</b>, per the report:</p>
+<table>
+<tr><th>Offense (R.A. 8293, Sec. 217)</th><th>Through ICT (R.A. 8293 + R.A. 10175)</th></tr>
+<tr><td>1 to 3 years + &#8369;50,000 to &#8369;150,000</td><td>3 to 6 years and increased fines</td></tr>
+<tr><td>3 years and 1 day to 6 years + &#8369;150,000 to &#8369;500,000</td><td>6 to 9 years and increased fines</td></tr>
+<tr><td>6 years and 1 day to 9 years + &#8369;500,000 to &#8369;1,500,000</td><td>9 to 12 years (or more) and increased fines</td></tr>
+</table>
+<h4>"Ctto" Is Not a Defense</h4>
+<p>Writing "credits to the owner" does not cure unauthorized use. Credit (attribution) is not the owner's <b>consent</b>. Liability is judged by the <b>fair use factors</b> (P-N-A-E, Sec. 185; see <i>Limitations and Fair Use</i>): the <b>purpose and character</b> of the use (commercial or non-profit educational), the <b>nature</b> of the work, the <b>amount and substantiality</b> used, and the <b>effect on the market</b> for the work.</p>` },
+      { title: "Case Index and Self-Test", content: `<h3>XVII. Case Index</h3>
 <table>
 <tr><th>Case</th><th>G.R. No. / Date</th><th>Topic</th><th>Lesson tab</th></tr>
 <tr><td>Kho v. CA</td><td>115758 &middot; Mar. 19, 2002</td><td>Copyright vs. trademark vs. patent</td><td>Copyright Basics</td></tr>
@@ -1061,8 +1442,9 @@ const SUBJECTS = [
 <tr><td>COSAC v. FILSCAP</td><td>222537 &middot; Feb. 28, 2023</td><td>Public performance for profit</td><td>Infringement Cases</td></tr>
 <tr><td>Del Rosario v. CA and Janito</td><td>115106 &middot; Mar. 15, 1996</td><td>Preliminary injunction</td><td>Remedies and Penalties</td></tr>
 <tr><td>Manly Sportswear v. Dadodette</td><td>165306 &middot; Sept. 20, 2005</td><td>Registration is only prima facie</td><td>Registration and Deposit</td></tr>
+<tr><td>Olaño v. Lim Eng Co</td><td>195835 &middot; Mar. 14, 2016</td><td>Useful articles; drawings vs. the articles depicted (Denicola test)</td><td>Olaño v. Lim Eng Co</td></tr>
 </table>
-<h3>XV. Self-Test</h3>
+<h3>XVIII. Self-Test</h3>
 <ol>
 <li>When does copyright protection begin? <i>At creation; registration is not required (Sec. 172.2).</i></li>
 <li>Can a derivative work extend the original author's copyright? <i>No (Sec. 173.2).</i></li>
@@ -1076,7 +1458,11 @@ const SUBJECTS = [
 <li>A painting first sold for &#8369;200,000 is resold for &#8369;1,000,000. What does the artist receive? <i>5% of gross proceeds = &#8369;50,000 (Sec. 200).</i></li>
 <li>Is a certificate of copyright registration conclusive proof of ownership? <i>No; prima facie only (Manly).</i></li>
 <li>Prescription periods? <i>Civil damages: 4 years; criminal: 3 years per the class report.</i></li>
-</ol>` }
+<li>LEC copyrighted its hatch-door drawings. Can it stop others from making the doors? <i>No; doors are useful articles, and a copyright in drawings gives no monopoly over making the item (Olaño v. Lim Eng Co).</i></li>
+<li>A person sells pirated review videos through a Facebook group. Which laws apply? <i>IP Code Sec. 217.1 (infringement); E-Commerce Act Sec. 33(b) (piracy); Cybercrime Act Sec. 4(a)(5) and Sec. 6 (penalty one degree higher).</i></li>
+<li>Is "ctto" a defense to infringement? <i>No; attribution is not consent. Apply the fair use factors.</i></li>
+</ol>` },
+      { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Law on Business Protection.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra1997/ra_8293_1997.html" target="_blank" rel="noopener">Intellectual Property Code (R.A. 8293)</a></td><td>Copyright, patents, trademarks</td></tr><tr><td><a href="https://lawphil.net/judjuris/juri2016/mar2016/gr_195835_2016.html" target="_blank" rel="noopener">Olaño v. Lim Eng Co (G.R. 195835)</a></td><td>Useful articles</td></tr><tr><td><a href="https://www.officialgazette.gov.ph/2000/06/14/republic-act-no-8792-s-2000/" target="_blank" rel="noopener">E-Commerce Act (R.A. 8792)</a></td><td>Secs. 5, 30-33</td></tr><tr><td><a href="https://nbi.gov.ph/press_releases/2025/08042025/8300/" target="_blank" rel="noopener">NBI Press Release (Aug. 4, 2025)</a></td><td>Tacloban case</td></tr><tr><td><a href="https://www.ipophil.gov.ph/" target="_blank" rel="noopener">Intellectual Property Office of the Philippines</a></td><td>Registries, rules, forms</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
     ]
   },
   {
@@ -1084,7 +1470,8 @@ const SUBJECTS = [
     sub: "",
     lessons: [
       { title: "Lesson 1", content: `<h3>Lesson 1</h3><p>Content coming soon.</p>` },
-      { title: "Lesson 2", content: `<h3>Lesson 2</h3><p>Content coming soon.</p>` }
+      { title: "Lesson 2", content: `<h3>Lesson 2</h3><p>Content coming soon.</p>` },
+      { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Philippine Constitution and Government.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/consti/cons1987.html" target="_blank" rel="noopener">1987 Constitution</a></td><td>Full text, Lawphil Project</td></tr><tr><td><a href="https://lawphil.net/consti/cons1935.html" target="_blank" rel="noopener">1935 Constitution</a></td><td>For comparison</td></tr><tr><td><a href="https://lawphil.net/consti/cons1973.html" target="_blank" rel="noopener">1973 Constitution</a></td><td>For comparison</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
     ]
   },
   {
@@ -1446,7 +1833,8 @@ const SUBJECTS = [
 </ul>
 <p>Whether its statements are true is a separate issue governed by relevance, hearsay rules, personal knowledge, and other evidentiary principles.</p>
 <h4>F. Burden of Proving Authenticity</h4>
-<p>The person seeking to introduce an electronic document has the burden of proving its authenticity. The same rule applies to screenshots and social-media evidence. A screenshot is not self-authenticating merely because it appears on a computer or mobile phone screen; the proponent must show its authenticity and due execution.</p>` }
+<p>The person seeking to introduce an electronic document has the burden of proving its authenticity. The same rule applies to screenshots and social-media evidence. A screenshot is not self-authenticating merely because it appears on a computer or mobile phone screen; the proponent must show its authenticity and due execution.</p>` },
+      { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Retail Trade Laws & Consumer Act with e-Commerce Law.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra1992/ra_7394_1992.html" target="_blank" rel="noopener">Consumer Act (R.A. 7394)</a></td><td>Consumer protection</td></tr><tr><td><a href="https://lawphil.net/statutes/repacts/ra2000/ra_8792_2000.html" target="_blank" rel="noopener">E-Commerce Act (R.A. 8792)</a></td><td>Electronic documents and signatures</td></tr><tr><td><a href="https://www.dti.gov.ph/" target="_blank" rel="noopener">Department of Trade and Industry</a></td><td>Consumer and trade regulations</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
     ]
   },
   {
@@ -1454,7 +1842,8 @@ const SUBJECTS = [
     sub: "",
     lessons: [
       { title: "Lesson 1", content: `<h3>Lesson 1</h3><p>Content coming soon.</p>` },
-      { title: "Lesson 2", content: `<h3>Lesson 2</h3><p>Content coming soon.</p>` }
+      { title: "Lesson 2", content: `<h3>Lesson 2</h3><p>Content coming soon.</p>` },
+      { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Labor Law.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html" target="_blank" rel="noopener">Labor Code (P.D. 442)</a></td><td>Renumbered Labor Code</td></tr><tr><td><a href="https://www.dole.gov.ph/" target="_blank" rel="noopener">Department of Labor and Employment</a></td><td>Orders, advisories, wage orders</td></tr><tr><td><a href="https://nlrc.dole.gov.ph/" target="_blank" rel="noopener">NLRC</a></td><td>Rules of procedure</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
     ]
   }
 ];
@@ -1545,4 +1934,29 @@ function render() {
     if (m[2] && SUBJECTS[subject].lessons[+m[2]]) lesson = +m[2];
   }
   render();
+})();
+
+/* ---------------- Light / dark mode ---------------- */
+(function theme() {
+  const root = document.documentElement, btn = $("themeToggle"), icon = $("themeIcon");
+  const mq = window.matchMedia("(prefers-color-scheme: dark)");
+  const isDark = () => {
+    const t = root.getAttribute("data-theme");
+    return t ? t === "dark" : mq.matches;
+  };
+  function sync() {
+    const dark = isDark();
+    icon.textContent = dark ? "\u2600" : "\u263E";
+    const label = dark ? "Switch to light mode" : "Switch to dark mode";
+    btn.setAttribute("aria-label", label);
+    btn.title = label;
+  }
+  btn.onclick = () => {
+    const next = isDark() ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("theme", next); } catch (e) {}
+    sync();
+  };
+  if (mq.addEventListener) mq.addEventListener("change", sync);
+  sync();
 })();
