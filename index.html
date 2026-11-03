@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Law Reviewer Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap">
+<script>
+/* apply a saved theme before first paint, so there is no flash */
+try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <button type="button" id="themeToggle" class="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode"><span id="themeIcon" aria-hidden="true">☾</span></button>
+  <h1>Law Reviewer Library</h1>
+  <p>Subjects and review materials</p>
+</header>
+
+<div class="layout">
+  <nav id="sidebar" aria-label="Subjects">
+    <button type="button" id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="nav">
+      <span id="navCurrent">Subjects</span><span class="arrow" aria-hidden="true">▾</span>
+    </button>
+    <h2>Subjects</h2>
+    <div id="nav"></div>
+  </nav>
+  <main>
+    <div class="subject-head">
+      <h2 id="title"></h2>
+      <p id="sub"></p>
+    </div>
+    <div id="tabs" class="tabs" role="tablist" aria-label="Lessons"></div>
+    <article id="lesson" class="lesson" role="tabpanel" tabindex="0"></article>
+  </main>
+</div>
+<footer><br>Law Reviewer Library <br><br>-Yours, Aaron.<br></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
