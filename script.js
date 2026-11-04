@@ -1686,11 +1686,448 @@ const SUBJECTS = [
     title: "Philippine Constitution and Government",
     sub: "",
     lessons: [
-      { title: "Lesson 1", content: `<h3>Lesson 1</h3><p>Content coming soon.</p>` },
+      { title: "Due Process", content: `<h3>The Philippine Bill of Rights (Article III, 1987 Constitution)</h3>
+<p><i>Prepared by Atty. Arjay P. Capitle.</i></p>
+<blockquote>&ldquo;Constitutional Law is the study of the maintenance of the proper balance between authority as represented by the three inherent powers of the State and liberty as guaranteed by the Bill of Rights.&rdquo; <br>&mdash; Justice Isagani Cruz</blockquote>
+
+<h4>Doctrine of Constitutional Supremacy</h4>
+<p>Introductory topic of the lecture.</p>
+
+<h4>Article III</h4>
+<p>Twenty-two (22) sections, half of which discuss the rights of the accused.</p>
+
+<h4>Definition, Bill of Rights</h4>
+<p>A set of prescriptions setting forth the fundamental civil and political rights of the individual, and imposing limitations on the powers of government as a means of securing the enjoyment of those rights.</p>
+
+<h4>Nature, Bill of Rights</h4>
+<p>The Bill of Rights guarantee governs the relationship between the individual and the State. Its concern is not the relation between private individuals. What it does is to declare some forbidden zones in the private sphere inaccessible to any power holder. <i>(People v. Marti, 1991)</i></p>
+
+<h3>Due Process of Law</h3>
+<blockquote>&ldquo;No person shall be deprived of life, liberty, or property without due process of law.&rdquo; <br>&mdash; Art. III, Sec. 1, 1987 Constitution</blockquote>
+<p><b>Due process = notice + hearing.</b></p>
+
+<h4>Aspects of Due Process</h4>
+<ol>
+<li>Procedural due process; and</li>
+<li>Substantive due process.</li>
+</ol>
+
+<h4>Substantive vs. Procedural Due Process</h4>
+<p>The Court reiterates that due process is a mandate of reason (anti-arbitrariness), and distinguishes <b>substantive due process</b> (intrinsic validity of the law/regulation interfering with life, liberty, or property) from <b>procedural due process</b> (primarily notice and hearing before an impartial tribunal).</p>
+
+<h4>Substantive Due Process</h4>
+<p>The means employed are reasonably necessary for the accomplishment of the purpose, and must not be unduly oppressive.</p>
+<ul>
+<li><b>Calalang v. Williams.</b> Social Justice is neither communism, nor despotism, nor atomism, nor anarchy but the humanization of laws and the equalization of social and economic forces by the State so that justice in its rational and objectively secular conception may at least be approximated. Social justice is based on the Latin maxim, <i>Salus populi est suprema lex</i>: &ldquo;The welfare of the people is the supreme law of the land.&rdquo;</li>
+<li><b>Department of Education v. San Diego.</b> The Court feels that it is not enough to simply invoke the right to quality education as a guarantee of the Constitution. One must prove that he is entitled to it because of his preparation and promise.</li>
+</ul>
+
+<h4>Procedural Due Process</h4>
+<p>Refers to the regular methods of procedure to be observed before one&rsquo;s life, liberty or property can be taken away from him. Simply stated, it means that the procedure to be observed must be fair.</p>
+<ul>
+<li><b>Villavicencio v. Lukban</b></li>
+<li><b>SPCMB Law Offices v. Court of Appeals</b></li>
+</ul>
+
+<h4>Publication Requirement</h4>
+<blockquote>&ldquo;Laws must come out in the open, in the clear light of the sun instead of skulking in the shadows with their dark, deep secrets. Mysterious pronouncements and rumored rules cannot be recognized as binding unless their existence and contents are confirmed by a valid publication intended to make full disclosure and give proper notice to the people. The furtive law is like a scabbarded saber that cannot feint, parry, or cut unless the naked blade is drawn.&rdquo;</blockquote>
+<p><b>Publication of law, Civil Code, Art. 2:</b> Laws shall take effect after fifteen days following the completion of their publication in the Official Gazette, unless it is otherwise provided. This Code shall take effect one year after such publication.</p>
+
+<h4>Void-for-Vagueness Doctrine</h4>
+<p>A statute or act suffers from the defect of vagueness when it lacks comprehensible standards that men of common intelligence must necessarily guess at its meaning and differ as to its application.</p>
+<ul>
+<li><b>Southern Hemisphere Engagement Network, Inc., et al. v. Anti-Terrorism Council</b></li>
+</ul>` },
+      { title: "Equal Protection", content: `<h3>Equal Protection of the Law</h3>
+<blockquote>&ldquo;Nor shall any person be denied equal protection of the law.&rdquo; <br>&mdash; Art. III, Sec. 1, 1987 Constitution</blockquote>
+<blockquote>What the Constitution requires is equality among equals.</blockquote>
+
+<h4>Requisites of a Valid Classification</h4>
+<ol>
+<li>Rest on substantial distinctions;</li>
+<li>Be germane to the purpose of the law;</li>
+<li>Not be limited to existing conditions only; and</li>
+<li>Apply equally to all members of the same class.</li>
+</ol>
+<p><i>(People v. Cayat, G.R. No. L-45987, May 5, 1939)</i></p>
+
+<h4>Cases</h4>
+<ul>
+<li><b>Garcia v. Drilon</b>, G.R. No. 179267, June 25, 2013</li>
+<li><b>Duncan v. Glaxo</b>, 438 SCRA 343</li>
+<li><b>Ormoc Sugar Company v. Treasurer of Ormoc City</b>, G.R. No. L-23794, February 17, 1968</li>
+<li><b>PASEI v. Drilon</b>, G.R. No. 81958, June 30, 1988</li>
+</ul>` },
+      { title: "Searches & Privacy", content: `<h3>Right Against Unreasonable Searches and Seizures</h3>
+<blockquote>The right of the people to be secure in their persons, houses, papers, and effects against unreasonable searches and seizures of whatever nature and for any purpose shall be inviolable, and no search warrant or warrant of arrest shall issue except upon probable cause to be determined personally by the judge after examination under oath or affirmation of the complainant and the witnesses he may produce, and particularly describing the place to be searched and the persons or things to be seized. <br>&mdash; Art. III, Sec. 2, 1987 Constitution</blockquote>
+<p>The purpose of this provision is to protect the privacy and sanctity of the person, and his house, and other possessions against arbitrary intrusions by State officers. As a general rule, State officers can validly intrude upon a person&rsquo;s house or search and seize things or person/s only under a valid warrant of arrest or search warrant as the case may be.</p>
+<p>This right applies to all persons, including foreigners, whether accused of a crime or not <i>(Moncado v. People&rsquo;s Court, 80 Phil. 1)</i>. It can only be invoked by the person entitled to it, and because of that, one who is not the owner of the house searched or intruded upon cannot challenge the validity of the search or seizure <i>(Stonehill v. Diokno, 20 SCRA 383)</i>.</p>
+
+<h4>Warrant of Arrest</h4>
+<p>A legal process issued by a competent authority, directing the arrest of a person or persons upon grounds stated therein. A court order, issued on a probable cause, authorizing a law enforcement officer to arrest an individual and present him or her before the court.</p>
+
+<h4>Requisites of a Valid Warrant</h4>
+<ul>
+<li>It must be based upon probable cause;</li>
+<li>Probable cause must be determined personally by the judge;</li>
+<li>The determination must be made after examination under oath of the complainant and the witnesses he may produce;</li>
+<li>It must particularly describe the place to be searched or the person or things to be seized.</li>
+</ul>
+
+<h4>Only a Judge Can Issue a Warrant</h4>
+<p><b>Salazar v. Achacoso, March 14, 2000.</b> Art. 38 of the Labor Code was declared unconstitutional as it authorized the Secretary to order the arrest, search and seizure of those committing the crime of illegal recruitment.</p>
+
+<h4>Probable Cause</h4>
+<p>Circumstances and facts which give rise to a reasonable belief that an accused is guilty of a crime. Probable cause is not a proof of guilt beyond a reasonable doubt, but indicates only that enough grounds exist to arrest the accused and put him or her to trial.</p>
+
+<h4>A Warrant of Arrest Is Not Necessary When</h4>
+<ol>
+<li>The penalty is a &ldquo;fine&rdquo; only;</li>
+<li>The accused is already in detention issued by the MTC;</li>
+<li>The case is covered by a summary procedure;</li>
+<li>The accused was arrested under a lawful arrest without warrant.</li>
+</ol>
+
+<h4>John Doe / Jane Doe Warrant</h4>
+<p>A warrant for the arrest of a person whose actual name is unidentified. Generally, this kind of warrant is void because it violates the constitutional provision requiring that warrants of arrest particularly describe the person or persons to be arrested. However, if there is sufficient description to identify the person to be arrested, the warrant is valid.</p>
+
+<h4>When Is a Warrantless Arrest Valid?</h4>
+<p><i>(Rule 113, Sec. 5, Rules of Court)</i></p>
+<ol>
+<li><i>In flagrante delicto</i></li>
+<li>Hot pursuit</li>
+<li>Escaped prisoner</li>
+</ol>
+
+<h4>Question and Answer</h4>
+<p><b>Question:</b> Jose saw Apolinario running from a cornfield. Jose continued to walk through the field, and he saw Yen, unconscious and naked. Jose, on the notion that Apolinario may be the culprit, looked for him for two days. On the second day of the search, Jose arrested Apolinario and brought him to the nearest police station. An action for rape was filed against Apolinario, who questioned the validity of the arrest because hot pursuit arrest is not valid. He was arrested two days after the commission of the offense. Is Apolinario&rsquo;s contention correct?</p>
+<p><b>Answer:</b> Yes. Hot pursuit arrest is one of the modes prescribed by the Rules of Court regarding warrantless arrest. However, hot pursuit arrest can only be executed within 24 hours after the commission of the alleged crime. Any warrantless arrest beyond the 24-hour limit is not legal. Any party who seeks redress for the crime shall now obtain a warrant of arrest duly issued by a judge based on a complaint duly filed with the court.</p>
+
+<h4>Search Warrant</h4>
+<p>An order in writing issued in the name of the People of the Philippines, signed by a judge and directed to a peace officer, commanding him to search for personal property described therein and bring it before the court.</p>
+
+<h4>When Is a Warrantless Search Valid?</h4>
+<p>There are instances when a search or seizure may be validly made notwithstanding noncompliance with the requisites mentioned above. Among them are:</p>
+<ul>
+<li>consented searches;</li>
+<li>search incident to a lawful arrest;</li>
+<li>searches of vessels and aircraft for violation of immigration laws;</li>
+<li>searches of moving vehicles;</li>
+<li>stop and frisk;</li>
+<li>plain view doctrine; and</li>
+<li>others.</li>
+</ul>
+
+<h3>Right to Privacy</h3>
+<blockquote>The privacy of communication and correspondence shall be inviolable except upon lawful order of the court, or when public safety or order requires otherwise as prescribed by law. Any evidence obtained in violation of this or the preceding section shall be inadmissible for any purpose in any proceeding. <br>&mdash; Art. III, Sec. 3, 1987 Constitution</blockquote>
+
+<h4>Can a Corporation Invoke the Right to Privacy?</h4>
+<p>No. The right to privacy belongs to the individual in his private capacity, and not to public and governmental agencies like the GSIS. <i>(Valmonte v. Belmonte, G.R. No. 74930, February 13, 1989)</i></p>
+
+<h4>Case</h4>
+<ul>
+<li><b>Zulueta v. Court of Appeals</b>, G.R. No. 107383, February 20, 1996</li>
+</ul>
+
+<h4>Anti-Wiretapping Law (R.A. No. 4200)</h4>
+<p>A special law prohibiting and punishing secret recording of conversations either through wire-tapping or tape recorders. It provides penalties for specific violations of private communication. Evidence obtained in violation of R.A. No. 4200 shall not be admissible.</p>
+
+<h4>Secrecy of Bank Deposits Law</h4>
+<p>Protects all deposits of whatever nature with banks or banking institutions in the Philippines, including investments in bonds issued by the Government of the Philippines, its political subdivisions and its instrumentalities.</p>
+<p>These accounts must be treated with &ldquo;absolute confidentiality&rdquo; and may not be inquired or looked into by any person, subject to the following exceptions:</p>
+<ol>
+<li>Upon written permission of the depositor;</li>
+<li>Upon order of a competent court in cases of bribery or dereliction of duty of public officials;</li>
+<li>In cases of impeachment; or</li>
+<li>In cases where the money deposited or invested is the subject matter of the litigation.</li>
+</ol>
+
+<h4>Data Privacy Law</h4>
+<p>Protects the privacy of persons while safeguarding the free flow of information to promote innovation and development. The law also regulates the collection, organization, recording, storage, updating or modification, retrieval, consultation, use, consolidation, blocking, erasure, or destruction of personal data. Ultimately, the law ensures that the Philippines conforms to international standards set for data protection through the National Privacy Commission (NPC).</p>
+<p><b>Sensitive personal information</b> refers to personal information:</p>
+<ol type="a">
+<li>About an individual&rsquo;s race, ethnic origin, marital status, age, color, and religious, philosophical or political affiliations;</li>
+<li>About an individual&rsquo;s health, education, genetic or sexual life of a person, or to any proceeding for any offense committed or alleged to have been committed by such person, the disposal of such proceedings, or the sentence of any court in such proceedings;</li>
+<li>Issued by government agencies peculiar to an individual which includes, but not limited to, social security numbers, previous or current health records, licenses or its denials, suspension or revocation, and tax returns; and</li>
+<li>Specifically established by an executive order or an act of Congress to be kept classified.</li>
+</ol>` },
+      { title: "Freedom of Expression", content: `<h3>Freedom of Speech, Expression and the Press</h3>
+<blockquote>No law shall be passed abridging the freedom of speech, of expression, or of the press, or the right of the people peaceably to assemble and petition the government for redress of grievances. <br>&mdash; Art. III, Sec. 4, 1987 Constitution</blockquote>
+<blockquote>&ldquo;I may not agree with what you say, but I will defend to death your right to say it.&rdquo; <br>&mdash; Voltaire</blockquote>
+
+<h4>Other Rights Covered by This Guarantee</h4>
+<ol>
+<li>Freedom of the press;</li>
+<li>Freedom of petition;</li>
+<li>Freedom of religion;</li>
+<li>Freedom of assembly;</li>
+<li>Right to form association;</li>
+<li>Right to be free and not be detained solely because of one&rsquo;s political beliefs and ideas; and</li>
+<li>Right to access to information.</li>
+</ol>
+
+<h4>Coverage</h4>
+<p>The freedom to express embraces the right to be silent. The right, however, is not demandable against those reluctant to listen, who may not be herded by the government into a captive audience. As Socrates said, this liberty was intended not only to defend the minority who want to talk but also to benefit the majority who refuse to listen.</p>
+<p>Freedom of expression is usually used through language, oral, and written. Representations may also be used, like the bended knee, the clenched fist, the salute to the flag, the flag itself, and others <i>(Diocese of Bacolod v. COMELEC, G.R. No. 205728)</i>.</p>
+<p>It includes movies and what is known as figurative speech, such as the wearing of an armband as a representation of dissent.</p>
+
+<h4>Freedom from Prior Restraint vs. Freedom from Subsequent Punishment</h4>
+<table>
+<tr><th>Freedom from Prior Restraint</th><th>Freedom from Subsequent Punishment</th></tr>
+<tr>
+<td>Prior restraint refers to the official government constraints on the media or other forms of expression before actual publication, broadcast, or dissemination. This is also known as &ldquo;censorship.&rdquo;</td>
+<td>This prohibition of the free speech and press clause prohibits schemes of subsequent punishment, which have the consequence of excessively curtailing expression.<br><br>The people must speak without the fear of being prosecuted for repressive laws that curtail the right to express. Without this assurance, the individual would refuse to speak for fear that he might be held accountable for his speech, or that he might be provoking the revenge of the criticized public officials.</td>
+</tr>
+<tr>
+<td>As a rule, the government cannot merely censor any form of expression. It will curtail the right guaranteed by the Constitution. However, this general rule has exceptions:
+<ol>
+<li>Publication of pornography is not allowed as it will pollute the minds of the youth;</li>
+<li>Misleading advertisement;</li>
+<li>Advocacy and promotion of imminent illegal actions (like sedition);</li>
+<li>Danger to national security;</li>
+<li>Confidential military matters, especially during war times.</li>
+</ol></td>
+<td>The State may validly impose sanctions in the following:
+<ol>
+<li><b>Libel:</b> defined under Article 353 of the Revised Penal Code.</li>
+<li><b>Obscenity:</b> Accordingly, the Supreme Court and other lower courts assumed responsibility of determining what is obscene. <i>(Pita v. Court of Appeals, G.R. No. 80806)</i></li>
+<li><b>Criticism of official conduct:</b> as a rule, a public official must not be too onion-skinned with the criticism of the public against his conduct as an official. However, if malice is proven to discredit a public official beyond the limitations prescribed by the law, the critic can be held liable.</li>
+</ol></td>
+</tr>
+</table>
+
+<h4>Relative Obscenity</h4>
+<p>Relative obscenity (sometimes discussed as variable/relative &ldquo;community standards&rdquo; obscenity) means that whether material is &ldquo;obscene&rdquo; is not judged by the most sensitive or most permissive viewer, but by the contemporary standards of the relevant community/average Filipino, considering the work as a whole. In Philippine prosecutions under Article 201 of the Revised Penal Code (RPC), the Supreme Court recognizes a community standards approach and (in modern cases) aligns the inquiry with the <i>Miller</i> test framework.</p>
+
+<h4>Overbreadth Doctrine</h4>
+<p>The overbreadth doctrine decrees that a governmental purpose to control or prevent activities constitutionally subject to state regulations may not be achieved by means which sweep unnecessarily broadly and thereby invade the area of protected freedoms <i>(Southern Hemisphere Engagement Network, Inc. v. Anti-Terrorism Council, G.R. No. 178552, October 5, 2010)</i>.</p>
+
+<h4>Diocese of Bacolod v. COMELEC</h4>
+<p>Respondents cite the Constitution, laws, and jurisprudence to support their position that they had the power to regulate the tarpaulin. However, all of these provisions pertain to candidates and political parties. Petitioners are not candidates. Neither do they belong to any political party. COMELEC does not have the authority to regulate the enjoyment of the preferred right to freedom of expression exercised by a non-candidate in this case.</p>` },
+      { title: "Freedom of Religion", content: `<h3>Freedom of Religion and Worship</h3>
+<blockquote>No law shall be made respecting an establishment of religion, or prohibiting the free exercise thereof. The free exercise and enjoyment of religious profession and worship, without discrimination or preference, shall forever be allowed. No religious test shall be required for the exercise of civil or political rights. <br>&mdash; Art. III, Sec. 5, 1987 Constitution</blockquote>
+
+<h4>Religion, Defined</h4>
+<p>Religion is any complicated system of belief, worship, or conduct, often involving a code of ethics and a philosophy <i>(Webster&rsquo;s New World Dictionary, p. 1228)</i>. It is a profession of faith to an active power that binds and elevates man to his Creator <i>(Aglipay v. Ruiz, G.R. No. L-45459)</i>.</p>
+<p>The existence of a Great Creator is not necessarily an element in religion. In Buddhism, for example, followers merely espouse a way of proper living without any recognition of an Almighty God. According to Cruz (2015), the Constitution includes the rejection of religion in the definition of religion. The constitutional concept of religion includes the idea of agnosticism and atheism.</p>
+
+<h4>Aspects of the Clause</h4>
+<ul>
+<li>Non-establishment Clause</li>
+<li>Free Exercise Clause</li>
+</ul>
+
+<h4>Separation of Church and State</h4>
+<p>In <i>Aglipay v. Ruiz</i> the Supreme Court stated that &ldquo;In so far as it (religion) instills into the mind the purest principles of morality, the influence of religion is deeply felt and highly appreciated.&rdquo;</p>
+
+<h4>Doctrine of Accommodation</h4>
+<p>Accommodation is a recognition of the reality that some governmental procedures may not be enforced on a certain portion of the people because these measures are disagreeing with their religious dogmas. As long as it can be shown that the exercise of the right does not harm the public welfare, the attempt of the State to regulate or forbid such right would be an unconstitutional encroachment <i>(Re: Letter of Tony Q. Valenciano, Holding of Religious Rituals at the Hall of Justice Building in Quezon City, A.M. No. 10-4-19-SC)</i>.</p>
+
+<h4>Ecclesiastical Affairs</h4>
+<p>An ecclesiastical affair is one that concerns doctrine, creed or form of worship of the church or the adoption and enforcement within a religious organization of needful laws and regulations for the government of the membership, and the power of excluding from such associations those deemed unworthy of membership.</p>
+
+<h4>Non-establishment Clause: Cases</h4>
+<ul>
+<li><b>Garces v. Estenzo</b>, G.R. No. L-53487, May 25, 1981</li>
+<li><b>Aglipay v. Ruiz</b>, G.R. No. L-45459, March 13, 1937</li>
+</ul>
+
+<h4>Lemon Test</h4>
+<p>There is a &ldquo;test&rdquo; to determine whether an act of the government violates the non-establishment clause. This is called the &ldquo;Lemon test&rdquo; <i>(Lemon v. Kurtzman, 403 U.S. 602)</i>. To pass the Lemon test, a government act or policy must:</p>
+<ol>
+<li>Have a secular or non-religious purpose;</li>
+<li>Neither support nor favor any set of religious beliefs or religion generally; and</li>
+<li>Not get the government too closely involved (&ldquo;entangled&rdquo;) with religion.</li>
+</ol>
+
+<h4>Free Exercise Clause</h4>
+<p>Aspects: freedom to believe; and freedom to act on one&rsquo;s belief.</p>
+<table>
+<tr><th>Freedom to Believe</th><th>Freedom to Act on One&rsquo;s Belief</th></tr>
+<tr>
+<td>A person is free to believe or disbelieve as he pleases. Religion is a matter of faith. &ldquo;Men may believe what they cannot prove.&rdquo;<br><br>Freedom to believe is <b>absolute</b>.</td>
+<td>If the individual externalizes his belief, it is now considered as an action based on his belief.<br><br>Freedom to act on one&rsquo;s belief is <b>not absolute</b> because a faithful&rsquo;s action may affect the public.</td>
+</tr>
+</table>
+
+<h4>Free Exercise Clause: Cases</h4>
+<ul>
+<li><b>Gerona v. Secretary of Education</b>, 106 Phil. 2</li>
+<li><b>Ebralinag v. Division Superintendent of Schools of Cebu</b>, 219 SCRA 256 [1993]</li>
+</ul>` },
+      { title: "Other Rights", content: `<h3>Other Constitutionally-Guaranteed Rights</h3>
+
+<h4>Liberty of Abode</h4>
+<blockquote>The liberty of abode and of changing the same within the limits prescribed by law shall not be impaired except upon lawful order of the court. Neither shall the right to travel be impaired except in the interest of national security, public safety, or public health, as may be provided by law. <br>&mdash; Art. III, Sec. 6, 1987 Constitution</blockquote>
+
+<h4>Right to Information</h4>
+<blockquote>The right of the people to information on matters of public concern shall be recognized. Access to official records, and to documents, and papers pertaining to official acts, transactions, or decisions, as well as to government research data used as basis for policy development, shall be afforded the citizen, subject to such limitations as may be provided by law. <br>&mdash; Art. III, Sec. 7, 1987 Constitution</blockquote>
+
+<h4>Right to the Payment of Just Compensation</h4>
+<blockquote>Private property shall not be taken for public use without just compensation. <br>&mdash; Art. III, Sec. 9, 1987 Constitution</blockquote>
+<p>Related doctrine: <b>Regalian Doctrine.</b></p>` },
+      { title: "Rights of the Accused", content: `<h3>Rights of an Accused</h3>
+
+<h4>Criminal Due Process</h4>
+<p>Criminal due process requires that the accused be tried by an impartial and competent court in accordance with the procedure prescribed by law and with proper observance of all the rights accorded him under the Constitution and the applicable statutes. Accordingly, to illustrate, denial from him of the right to preliminary investigation, as required by law, will constitute a denial of due process. <i>(Patanao v. Enage, 121 SCRA 228)</i></p>
+
+<h4>Right Against Self-Incrimination</h4>
+<blockquote>No person shall be compelled to be a witness against himself. <br>&mdash; Art. III, Sec. 17, 1987 Constitution</blockquote>
+<p><b>Is this right available also in civil and administrative proceedings?</b><br>Yes. As long as the question will tend to incriminate, the witness is entitled to the privilege.</p>
+<p><b>May a person be compelled to submit to a physical examination of his body to determine his involvement in an offense of which he is accused?</b><br>Yes. The right against self-incrimination covers testimonial evidence only.</p>
+<p>The prohibition of compelling a man in a criminal court to be a witness against himself is a prohibition of the use of physical or moral compulsion to extort communications from him, not an exclusion of his body as evidence when it may be material.</p>
+<p>The right against self-incrimination may be waived, either directly or by a failure to invoke it, provided the waiver is certain and unequivocal and intelligently, understandingly and willingly made. Accordingly, when a person fails to invoke this right &ldquo;at the appropriate time&rdquo; or when, for instance, he is asked to provide samples of his signature, he is deemed to have waived the same.</p>
+
+<h4>Miranda Right</h4>
+<blockquote>Any person under investigation for the commission of an offense shall have the right to be informed of his right to remain silent and to have competent and independent counsel preferably of his own choice. If the person cannot afford the services of counsel, he must be provided with one. These rights cannot be waived except in writing and in the presence of counsel. <br>&mdash; Art. III, Sec. 12, 1987 Constitution</blockquote>
+
+<h4>Custodial Investigation</h4>
+<ul>
+<li>Any questioning initiated by law enforcement officers after a person has been taken into custody or otherwise deprived of his freedom of action in any significant way. <i>(Miranda v. Arizona)</i></li>
+<li>It begins when there is no longer a general inquiry into an unsolved crime and the investigation has started to focus on a particular person as a suspect, i.e., when the police investigator starts interrogating or exacting a confession from the suspect in connection with an alleged offense.</li>
+<li>It includes the practice of issuing an &ldquo;invitation&rdquo; to a person who is investigated in connection with an offense he is suspected to have committed. A &ldquo;request for appearance&rdquo; issued by law enforcers to a person identified as a suspect is akin to an &ldquo;invitation.&rdquo; Any evidence obtained from the &ldquo;invitation&rdquo; without the assistance of counsel is inadmissible in evidence.</li>
+</ul>
+<table>
+<tr><th>Question</th><th>Answer</th></tr>
+<tr><td>May the right to counsel for custodial investigation not be invoked by resource persons in the public hearings conducted by Congress?</td><td><b>Yes.</b> <i>Philcomsat Holdings v. Senate.</i> The right strictly applies to criminal proceedings; there is no such requirement in administrative proceedings.</td></tr>
+<tr><td>Is the Miranda right applicable to suspects who voluntarily surrender to the police and are subjected to questioning?</td><td><b>Yes.</b> <i>People v. Chavez.</i></td></tr>
+<tr><td>Is roadside questioning of a motorist detained pursuant to a routine stop considered custodial investigation?</td><td><b>No.</b> <i>Perez v. People.</i></td></tr>
+</table>
+<p><b>People v. Andan, 269 SCRA 95.</b> While in custody, the accused made an admission to the news reporter and the media. The admission is admissible.</p>
+
+<h4>Extrajudicial Confession</h4>
+<p>Requisites <i>(People v. Hernandez, 327 SCRA 650)</i>:</p>
+<ol>
+<li>Must be voluntary;</li>
+<li>With assistance of counsel;</li>
+<li>In writing; and</li>
+<li>Express.</li>
+</ol>
+<p><b>People v. Buscato, 74 SCRA 30.</b> The accused were convicted on the basis of extrajudicial confessions extracted through their maltreatment during their custodial investigation from January 15 to 18, 1973. <i>Is their conviction valid?</i></p>
+
+<h4>Right to Counsel</h4>
+<blockquote>Any person under investigation for the commission of an offense shall have the right to be informed of his right to remain silent and to have competent and independent counsel preferably of his own choice. If the person cannot afford the services of counsel, he must be provided with one. These rights cannot be waived except in writing and in the presence of counsel. <br>&mdash; Art. III, Sec. 12, 1987 Constitution</blockquote>
+<ul>
+<li><b>Sibal v. People (G.R. No. 161070).</b> In criminal cases, the right of an accused person to be assisted by a member of the bar is immutable; otherwise, there would be a grave denial of due process.</li>
+<li><b>Inacay v. People (2016).</b> Accused is denied due process when during trial, he was represented by a sham lawyer and he was convicted.</li>
+</ul>` },
+      { title: "Bail & Speedy Trial", content: `<h3>Right to Bail</h3>
+<blockquote>All persons, except those charged with offenses punishable by reclusion perpetua when evidence of guilt is strong, shall, before conviction, be bailable by sufficient sureties, or be released on recognizance as may be provided by law. The right to bail shall not be impaired even when the privilege of the writ of habeas corpus is suspended. Excessive bail shall not be required. <br>&mdash; Art. III, Sec. 13, 1987 Constitution</blockquote>
+<p>Bail is the security given for the release of a person in custody of the law, furnished by him or a bondsman, to guarantee his appearance before any court as required under the conditions hereinafter specified. <i>(Pantilo v. Canoy, 2011)</i></p>
+
+<h4>When Is the Right to Bail Available?</h4>
+<table>
+<tr><th>Situation</th><th>Available?</th></tr>
+<tr><td>Indicted with a crime not punishable by reclusion perpetua</td><td><b>YES</b></td></tr>
+<tr><td>Indicted with a crime punishable by reclusion perpetua but evidence of guilt is not strong</td><td><b>YES</b></td></tr>
+<tr><td>Indicted with a crime punishable by reclusion perpetua and evidence of guilt is strong</td><td><b>NO</b></td></tr>
+<tr><td>Indicted with a crime initially punishable by reclusion perpetua but later on reduced to a lesser offense upon presentation of evidence by the prosecution</td><td><b>YES</b></td></tr>
+</table>
+
+<h4>Bail as a Matter of Right</h4>
+<p>Section 4 of Rule 114 states that all persons in custody shall be admitted to bail as a matter of right:</p>
+<ul>
+<li>Before or after conviction by the Metropolitan Trial Court, Municipal Trial Court, Municipal Trial Court in Cities, or Municipal Circuit Trial Court;</li>
+<li>Before conviction by the Regional Trial Court of an offense not punishable by death, reclusion perpetua, or life imprisonment; and</li>
+<li>Before judgment of conviction by the RTC of an offense punishable by death, reclusion perpetua or life imprisonment and evidence of guilt is not strong.</li>
+</ul>
+
+<h4>Bail as a Matter of Discretion</h4>
+<p>Bail becomes a matter of discretion if the offense charged is punishable by death, reclusion perpetua, or life imprisonment; that is, bail will be denied if the evidence of guilt is strong.</p>
+<ul>
+<li>Before judgment of conviction by the RTC of an offense punishable by death, reclusion perpetua or life imprisonment, and the evidence of guilt is strong;</li>
+<li>After judgment of conviction by the RTC of an offense punishable by death, reclusion perpetua or life imprisonment;</li>
+<li>After judgment of conviction by the RTC and the penalty imposed is imprisonment exceeding 6 years but less than death, reclusion perpetua or life imprisonment, and any of the following bail-negating circumstances is present:
+<ul>
+<li>That he is a recidivist, quasi-recidivist, or habitual delinquent, or has committed the crime aggravated by the circumstance of reiteration;</li>
+<li>That he has previously escaped from legal confinement, evaded sentence, or violated the conditions of his bail without valid justification;</li>
+<li>That he committed the offense while under probation, parole, or conditional pardon;</li>
+<li>That the circumstances of his case indicate the probability of flight if released on bail; or</li>
+<li>That there is undue risk that he may commit another crime during the pendency of the appeal.</li>
+</ul></li>
+</ul>
+<p><b>May bail be granted upon mere ex parte motion by the accused?</b> No. Hearing is required. <i>(Caneda v. Alaan)</i></p>
+
+<h3>Right to a Speedy Disposition of Cases</h3>
+<blockquote>All persons shall have the right to a speedy disposition of their cases before all judicial, quasi-judicial, or administrative bodies. <br>&mdash; Art. III, Sec. 16, 1987 Constitution</blockquote>
+<blockquote>&ldquo;Justice delayed is justice denied.&rdquo;</blockquote>
+
+<h4>Speedy Disposition of Cases vs. Right to Speedy Trial</h4>
+<p>The right to speedy disposition of cases is different from the right to speedy trial. While the rationale for both rights is the same, the right to speedy trial may only be invoked in criminal prosecutions against courts of law. The right to speedy disposition of cases, however, may be invoked before any tribunal, whether judicial or quasi-judicial. What is important is that the accused may already be prejudiced by the proceeding for the right to speedy disposition of cases to be invoked. <i>(Cagang v. Sandiganbayan)</i></p>
+<p><b>May the Ombudsman be compelled through mandamus to resolve both administrative and criminal cases which had remained pending before it for almost eight years?</b> Yes. <i>People v. Estrada.</i></p>
+
+<h3>Right Against Double Jeopardy</h3>
+<blockquote>No person shall be twice put in jeopardy of punishment for the same offense. If an act is punished by a law and an ordinance, conviction or acquittal under either shall constitute a bar to another prosecution for the same act. <br>&mdash; Art. III, Sec. 21, 1987 Constitution</blockquote>
+<p>Under the foregoing provisions of law, a defendant in a criminal prosecution is in legal jeopardy when placed on trial under the following conditions:</p>
+<ol>
+<li>In a court of competent jurisdiction;</li>
+<li>Upon a valid complaint or information;</li>
+<li>After he has been arraigned; and</li>
+<li>After he has pleaded to the complaint or information.</li>
+</ol>` },
+      { title: "Habeas Corpus & Amparo", content: `<h3>Writ of Habeas Corpus vs. Writ of Amparo</h3>
+<table>
+<tr><th></th><th>Writ of Habeas Corpus</th><th>Writ of Amparo</th></tr>
+<tr>
+<td><b>Natures and Functions of the Writs</b></td>
+<td>Special proceeding.<br><br>May be availed of in case of illegal confinement or the rightful custody of any person is withheld from the person entitled thereto.</td>
+<td>Some courts denominate it as a special proceeding.<br><br>May be availed in case of violations or threats of violations of the constitutional rights to life, liberty and security.</td>
+</tr>
+<tr>
+<td><b>Exhaustion of Remedies</b></td>
+<td colspan="2">As a rule, the writs may not be availed of if there is an available remedy in the ordinary course of law. However, an EXCEPTION is when there is an exceptional circumstance to warrant otherwise.</td>
+</tr>
+<tr>
+<td><b>Coverage of Rights</b></td>
+<td>Right to liberty</td>
+<td>Right to life, liberty and security</td>
+</tr>
+<tr>
+<td><b>Locus Standi</b></td>
+<td colspan="2">The ordinary rules on locus standi do not apply to both habeas corpus and amparo, which are governed by the liberal rules.</td>
+</tr>
+<tr>
+<td></td>
+<td>May be instituted by the party whose relief it is intended or by any person on his behalf; may be in the nature of a class suit.</td>
+<td>May be instituted by the aggrieved party or by any qualified person or entity in the following order:</td>
+</tr>
+<tr>
+<td></td>
+<td>Jurisprudence shows that the following may file a petition for habeas corpus:
+<ol type="a">
+<li>immediate relatives;</li>
+<li>board mate;</li>
+<li>sweetheart;</li>
+<li>fianc&eacute;e;</li>
+<li>common-law spouse</li>
+</ol></td>
+<td><ol type="a">
+<li>Any member of the immediate family, namely the spouse, children and parents of the aggrieved party;</li>
+<li>Any ascendant, descendant or collateral relative of the aggrieved party within the 4th civil degree of consanguinity or affinity, in default of those mentioned in the preceding paragraph;</li>
+<li>Any concerned citizen, organization, association or institution, if there is no known member of the immediate family or relative of the aggrieved party.</li>
+</ol></td>
+</tr>
+<tr>
+<td><b>Contents</b></td>
+<td>The petition should allege the following:
+<ol>
+<li>The person in whose behalf the action is filed;</li>
+<li>The officer or name of the person detaining him/her if known, or if unknown he/she may be described by an assumed appellation and the person who is served with the writ shall be deemed the person intended;</li>
+<li>The place where the person is detained;</li>
+<li>Copy of the commitment or the cause of his detention, if it can be procured without impairing the efficiency of the remedy; or if the detention is without any legal authority, such fact shall appear.</li>
+</ol></td>
+<td>The petition should aver the following:
+<ol>
+<li>The personal circumstances of the petitioner;</li>
+<li>The name and personal circumstances of the respondent responsible for the threat, act or omission, or if the name is unknown or uncertain, the respondent may be described by an assumed appellation;</li>
+<li>The right to life, liberty and security of the aggrieved party violated or threatened with violation by unlawful act or omission of the respondent, and how such threat or violation is committed with the attendant circumstances detailed in supporting affidavits;</li>
+<li>The investigation conducted, if any, specifying the names, personal circumstances and addresses of the investigating authority or individuals, as well as the manner and conduct of the investigation together with any report.</li>
+</ol></td>
+</tr>
+</table>` },
       { title: "List of Cases", content: `<h3>PCG 307: List of Cases (2026)</h3>
 <p>Updated list of cases for Introduction to Constitutional Law, with the 1987 Constitution provisions for each topic and a references section. Entries marked &#8224; need a citation check (see Notes on Citations at the end of the PDF).</p>
 <div class="pdf-box" data-pdf="pcg" data-name="PCG_307_List_of_Cases_2026.pdf"><p class="empty">Loading PDF&#8230;</p></div>` },
-      { title: "Lesson 2", content: `<h3>Lesson 2</h3><p>Content coming soon.</p>` },
       { title: "References & Laws", content: `<h3>References and Laws</h3><p>Primary sources and official references for Philippine Constitution and Government.</p><table><tr><th>Law / Reference</th><th>Note</th></tr><tr><td><a href="https://lawphil.net/consti/cons1987.html" target="_blank" rel="noopener">1987 Constitution</a></td><td>Full text, Lawphil Project</td></tr><tr><td><a href="https://lawphil.net/consti/cons1935.html" target="_blank" rel="noopener">1935 Constitution</a></td><td>For comparison</td></tr><tr><td><a href="https://lawphil.net/consti/cons1973.html" target="_blank" rel="noopener">1973 Constitution</a></td><td>For comparison</td></tr><tr><td><a href="https://elibrary.judiciary.gov.ph/" target="_blank" rel="noopener">Supreme Court E-Library</a></td><td>Decisions, resolutions, rules</td></tr><tr><td><a href="https://lawphil.net/judjuris/judjuris.html" target="_blank" rel="noopener">Lawphil: Jurisprudence</a></td><td>Supreme Court decisions by year</td></tr><tr><td><a href="https://ldr.senate.gov.ph/" target="_blank" rel="noopener">Senate Legislative Digital Repository</a></td><td>Acts, Republic Acts, issuances</td></tr></table><p><i>Links open external sites in a new tab. Always cite the latest amended text.</i></p>` }
     ]
   },
